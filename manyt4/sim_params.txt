@@ -1,2 +1,3 @@
 dt=1
-n_steps=10000
+n_steps=5000
+_BOX_LEN_PM=18000;
