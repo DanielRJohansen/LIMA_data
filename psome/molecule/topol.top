@@ -1,0 +1,128 @@
+;
+;	File 'topol.top' was generated
+;	By user: lima (1000)
+;	On host: lima-ms7d08
+;	At date: Fri Sep 22 12:41:34 2023
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                  :-) GROMACS - gmx pdb2gmx, 2023.2-dev (-:
+;	
+;	Executable:   /usr/bin/gmx
+;	Data prefix:  /usr
+;	Working dir:  /home/lima/Desktop/atp
+;	Command line:
+;	  gmx pdb2gmx -f 3dy4.pdb
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "charmm27.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Protein_chain_C.itp"
+#include "topol_Protein_chain_D.itp"
+#include "topol_Protein_chain_E.itp"
+#include "topol_Protein_chain_F.itp"
+#include "topol_Protein_chain_G.itp"
+#include "topol_Protein_chain_H.itp"
+#include "topol_Protein_chain_I.itp"
+#include "topol_Protein_chain_J.itp"
+#include "topol_Protein_chain_K.itp"
+#include "topol_Protein_chain_L.itp"
+#include "topol_Protein_chain_M.itp"
+#include "topol_Protein_chain_N.itp"
+#include "topol_Protein_chain_O.itp"
+#include "topol_Protein_chain_P.itp"
+#include "topol_Protein_chain_Q.itp"
+#include "topol_Protein_chain_R.itp"
+#include "topol_Protein_chain_S.itp"
+#include "topol_Protein_chain_T.itp"
+#include "topol_Protein_chain_U.itp"
+#include "topol_Protein_chain_V.itp"
+#include "topol_Protein_chain_W.itp"
+#include "topol_Protein_chain_X.itp"
+#include "topol_Protein_chain_Y.itp"
+#include "topol_Protein_chain_Z.itp"
+#include "topol_Protein_chain_1.itp"
+#include "topol_Protein_chain_2.itp"
+
+; Include water topology
+#include "charmm27.ff/spc.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "charmm27.ff/ions.itp"
+
+[ system ]
+; Name
+PROTEASOME COMPONENT Y7; 5 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT Y7; PROTEASOME COMPONENT Y13; 12 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT Y13; PROTEASOME COMPONENT PRE6; 19 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PRE6; PROTEASOME COMPONENT PUP2; 26 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PUP2; PROTEASOME COMPONENT PRE5; 32 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PRE5; PROTEASOME COMPONENT C1; 39 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT C1; PROTEASOME COMPONENT C7-ALPHA; 46 MULTICATALYTIC ENDOPEPTIDASE COMPLEX C7, PROTEASOME COMPONENT Y8,; 47 SCL1 SUPPRESSOR PROTEIN; PROTEASOME COMPONENT PUP1; 54 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PUP1; PROTEASOME COMPONENT PUP3; 60 SUBUNIT PUP3; PROTEASOME COMPONENT C11; 66 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT C11; PROTEASOME COMPONENT PRE2; 73 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PRE2; PROTEASOME COMPONENT C5; PROTEASOME COMPONENT PRE4; 86 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PRE4; PROTEASOME COMPONENT PRE3; 93 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT PRE3 in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_D     1
+Protein_chain_E     1
+Protein_chain_F     1
+Protein_chain_G     1
+Protein_chain_H     1
+Protein_chain_I     1
+Protein_chain_J     1
+Protein_chain_K     1
+Protein_chain_L     1
+Protein_chain_M     1
+Protein_chain_N     1
+Protein_chain_O     1
+Protein_chain_P     1
+Protein_chain_Q     1
+Protein_chain_R     1
+Protein_chain_S     1
+Protein_chain_T     1
+Protein_chain_U     1
+Protein_chain_V     1
+Protein_chain_W     1
+Protein_chain_X     1
+Protein_chain_Y     1
+Protein_chain_Z     1
+Protein_chain_1     1
+Protein_chain_2     1
+SOL                38
+SOL                26
+SOL                30
+SOL                28
+SOL                17
+SOL                41
+SOL                45
+SOL                36
+SOL                48
+SOL                33
+SOL                27
+SOL                41
+SOL                54
+SOL                45
+SOL                25
+SOL                19
+SOL                18
+SOL                21
+SOL                15
+SOL                30
+SOL                50
+SOL                36
+SOL                46
+SOL                36
+SOL                26
+SOL                34
+SOL                58
+SOL                57
+SOL             246165
