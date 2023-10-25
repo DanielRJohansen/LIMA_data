@@ -401,3 +401,12 @@ FodyWeavers.xsd
 
 # Lima files
 *.lff
+
+# Gromacs files
+*#
+*.itp
+*.edr
+*.xtc
+*.cpt
+*.trr
+*.tpr
