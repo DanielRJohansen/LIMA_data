@@ -404,7 +404,7 @@ FodyWeavers.xsd
 
 # Gromacs files
 *#
-*.itp
+*posre*.itp
 *.edr
 *.xtc
 *.cpt
