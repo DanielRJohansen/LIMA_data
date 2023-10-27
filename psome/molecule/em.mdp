@@ -10,7 +10,7 @@ define         = -DPOSRES
 integrator            = steep          ; can be cg or l-bfgs
 emtol                 = 500            ; Energy minimization tolerance (kJ/mol)
 emstep                = 0.01           ; Energy minimization step size
-nsteps                = 5000           ; Number of minimization steps
+nsteps                = 10000           ; Number of minimization steps
 nstcgsteep            = 100            ; Frequency of steepest decent step (for CG)
 
 nstcomm               = 1              ; Center of mass motion removal interval (timesteps)
