@@ -1,0 +1,100 @@
+;
+;	File 'topol.top' was generated
+;	By user: lima (1000)
+;	On host: lima-ms7d08
+;	At date: Fri Oct 27 14:41:09 2023
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2022.6 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /home/lima/Downloads/LIMA_data/psome/molecule
+;	Command line:
+;	  gmx pdb2gmx -f 5l5a.pdb
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "charmm27.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Protein_chain_C.itp"
+#include "topol_Protein_chain_D.itp"
+#include "topol_Protein_chain_E.itp"
+#include "topol_Protein_chain_F.itp"
+#include "topol_Protein_chain_G.itp"
+#include "topol_Protein_chain_H.itp"
+#include "topol_Protein_chain_I.itp"
+#include "topol_Protein_chain_J.itp"
+#include "topol_Protein_chain_K.itp"
+#include "topol_Protein_chain_L.itp"
+#include "topol_Protein_chain_M.itp"
+#include "topol_Protein_chain_N.itp"
+#include "topol_Protein_chain_O.itp"
+#include "topol_Protein_chain_P.itp"
+#include "topol_Protein_chain_Q.itp"
+#include "topol_Protein_chain_R.itp"
+#include "topol_Protein_chain_S.itp"
+#include "topol_Protein_chain_T.itp"
+#include "topol_Protein_chain_U.itp"
+#include "topol_Protein_chain_V.itp"
+#include "topol_Protein_chain_W.itp"
+#include "topol_Protein_chain_X.itp"
+#include "topol_Protein_chain_Y.itp"
+#include "topol_Protein_chain_Z.itp"
+#include "topol_Protein_chain_a.itp"
+#include "topol_Protein_chain_b.itp"
+
+; Include water topology
+#include "charmm27.ff/spc.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "charmm27.ff/ions.itp"
+
+[ system ]
+; Name
+PROTEASOME SUBUNIT ALPHA TYPE-2; 5 SUBUNIT Y7,PROTEASOME COMPONENT Y7,PROTEINASE YSCE SUBUNIT 7; PROTEASOME SUBUNIT ALPHA TYPE-3; 12 SUBUNIT Y13,PROTEASOME COMPONENT Y13,PROTEINASE YSCE SUBUNIT 13; PROTEASOME SUBUNIT ALPHA TYPE-4; 19 SUBUNIT PRE6,PROTEASOME COMPONENT PRE6,PROTEINASE YSCE SUBUNIT PRE6; ; PROTEASOME SUBUNIT ALPHA TYPE-5; 26 SUBUNIT PUP2,PROTEASOME COMPONENT PUP2,PROTEINASE YSCE SUBUNIT PUP2; ; PROTEASOME SUBUNIT ALPHA TYPE-6; 33 SUBUNIT PRE5,PROTEASOME COMPONENT PRE5,PROTEINASE YSCE SUBUNIT PRE5; ; PROBABLE PROTEASOME SUBUNIT ALPHA TYPE-7; 40 SUBUNIT C1,PROTEASOME COMPONENT C1,PROTEINASE YSCE SUBUNIT 1; PROTEASOME SUBUNIT ALPHA TYPE-1; 47 COMPLEX C7,PROTEASOME COMPONENT C7-ALPHA,PROTEASOME COMPONENT Y8,; 48 PROTEINASE YSCE SUBUNIT 7,SCL1 SUPPRESSOR PROTEIN; PROTEASOME SUBUNIT BETA TYPE-2; 55 SUBUNIT PUP1,PROTEASOME COMPONENT PUP1,PROTEINASE YSCE SUBUNIT PUP1; ; PROTEASOME SUBUNIT BETA TYPE-3; 62 SUBUNIT PUP3,PROTEASOME COMPONENT PUP3; PROTEASOME SUBUNIT BETA TYPE-4; 69 SUBUNIT C11,PROTEASOME COMPONENT C11,PROTEINASE YSCE SUBUNIT 11; PROTEASOME SUBUNIT BETA TYPE-8,PROTEASOME SUBUNIT BETA; 74 TYPE-5; 77 MULTICATALYTIC ENDOPEPTIDASE COMPLEX SUBUNIT C13,PROTEASOME COMPONENT; 78 C13,PROTEASOME SUBUNIT BETA-5I,REALLY INTERESTING NEW GENE 10; 79 PROTEIN,MACROPAIN SUBUNIT PRE2,MULTICATALYTIC ENDOPEPTIDASE COMPLEX  ; 80 SUBUNIT PRE2,PROTEASOME COMPONENT PRE2,PROTEINASE YSCE SUBUNIT PRE2; ; PROTEASOME SUBUNIT BETA TYPE-6; 87 COMPONENT C5; PROTEASOME SUBUNIT BETA TYPE-7; 94 SUBUNIT PRE4,PROTEASOME COMPONENT PRE4,PROTEINASE YSCE SUBUNIT PRE4; ; PROTEASOME SUBUNIT BETA TYPE-1; 101 SUBUNIT PRE3,PROTEASOME COMPONENT PRE3,PROTEINASE YSCE SUBUNIT PRE3; in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_D     1
+Protein_chain_E     1
+Protein_chain_F     1
+Protein_chain_G     1
+Protein_chain_H     1
+Protein_chain_I     1
+Protein_chain_J     1
+Protein_chain_K     1
+Protein_chain_L     1
+Protein_chain_M     1
+Protein_chain_N     1
+Protein_chain_O     1
+Protein_chain_P     1
+Protein_chain_Q     1
+Protein_chain_R     1
+Protein_chain_S     1
+Protein_chain_T     1
+Protein_chain_U     1
+Protein_chain_V     1
+Protein_chain_W     1
+Protein_chain_X     1
+Protein_chain_Y     1
+Protein_chain_Z     1
+Protein_chain_a     1
+Protein_chain_b     1
+SOL             231903

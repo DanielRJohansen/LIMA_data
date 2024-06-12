@@ -27,11 +27,11 @@ Protein_chain_A     3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
 ; residue   1 MET rtp MET  q +1.0
-     5        CT1      1    MET     CA      5       0.21     12.011
-    18          C      1    MET      C     18       0.51     12.011
-    19          O      1    MET      O     19      -0.51     15.999   ; qtot 1    
+     5        CT1      1    XXX     CA      5       0.21     12.011
+    18          C      1    XXX      C     18       0.51     12.011
+    19          O      1    XXX      O     19      -0.51     15.999   ; qtot 1    
 ; residue   2 ASN rtp ASN  q  0.0
-    20        NH1      2    ASN      N     20      -0.47     14.007
+    20        NH1      2    XXX      N     20      -0.47     14.007
 
 [ bonds ]
 ;  ai    aj funct            c0            c1            c2            c3

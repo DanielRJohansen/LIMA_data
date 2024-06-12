@@ -45,7 +45,6 @@ Protein_chain_A     3
     1     2     3     5 
     2     3     4     5 
     3     4     5     5 
-    
 
 [ dihedrals ]
 ;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5

@@ -1,0 +1,3476 @@
+ElectroStatic Field Test
+
+[ atoms ]
+;        nr      type     resnr   residue      atom      cgnr    charge      mass
+;residue_X
+         1         C         1       XXX       lxx         0     -0.00    10.000
+;residue_X
+         2         C         2       XXX       lxx         0     -0.50    10.000
+;residue_X
+         3         C         3       XXX       lxx         0     -0.00    10.000
+;residue_X
+         4         C         4       XXX       lxx         0     -0.00    10.000
+;residue_X
+         5         C         5       XXX       lxx         0     -0.50    10.000
+;residue_X
+         6         C         6       XXX       lxx         0      0.50    10.000
+;residue_X
+         7         C         7       XXX       lxx         0      0.50    10.000
+;residue_X
+         8         C         8       XXX       lxx         0      1.00    10.000
+;residue_X
+         9         C         9       XXX       lxx         0     -0.00    10.000
+;residue_X
+        10         C        10       XXX       lxx         0     -0.00    10.000
+;residue_X
+        11         C        11       XXX       lxx         0     -0.50    10.000
+;residue_X
+        12         C        12       XXX       lxx         0     -0.00    10.000
+;residue_X
+        13         C        13       XXX       lxx         0     -0.00    10.000
+;residue_X
+        14         C        14       XXX       lxx         0     -0.50    10.000
+;residue_X
+        15         C        15       XXX       lxx         0     -0.50    10.000
+;residue_X
+        16         C        16       XXX       lxx         0     -1.00    10.000
+;residue_X
+        17         C        17       XXX       lxx         0     -1.00    10.000
+;residue_X
+        18         C        18       XXX       lxx         0     -1.00    10.000
+;residue_X
+        19         C        19       XXX       lxx         0      0.50    10.000
+;residue_X
+        20         C        20       XXX       lxx         0     -0.00    10.000
+;residue_X
+        21         C        21       XXX       lxx         0     -0.50    10.000
+;residue_X
+        22         C        22       XXX       lxx         0      1.00    10.000
+;residue_X
+        23         C        23       XXX       lxx         0     -0.00    10.000
+;residue_X
+        24         C        24       XXX       lxx         0      0.50    10.000
+;residue_X
+        25         C        25       XXX       lxx         0     -0.00    10.000
+;residue_X
+        26         C        26       XXX       lxx         0     -0.00    10.000
+;residue_X
+        27         C        27       XXX       lxx         0     -0.00    10.000
+;residue_X
+        28         C        28       XXX       lxx         0     -0.00    10.000
+;residue_X
+        29         C        29       XXX       lxx         0      1.00    10.000
+;residue_X
+        30         C        30       XXX       lxx         0      1.00    10.000
+;residue_X
+        31         C        31       XXX       lxx         0      1.00    10.000
+;residue_X
+        32         C        32       XXX       lxx         0     -0.00    10.000
+;residue_X
+        33         C        33       XXX       lxx         0     -0.00    10.000
+;residue_X
+        34         C        34       XXX       lxx         0     -1.00    10.000
+;residue_X
+        35         C        35       XXX       lxx         0     -0.50    10.000
+;residue_X
+        36         C        36       XXX       lxx         0     -0.50    10.000
+;residue_X
+        37         C        37       XXX       lxx         0      1.00    10.000
+;residue_X
+        38         C        38       XXX       lxx         0     -1.00    10.000
+;residue_X
+        39         C        39       XXX       lxx         0     -0.00    10.000
+;residue_X
+        40         C        40       XXX       lxx         0     -1.00    10.000
+;residue_X
+        41         C        41       XXX       lxx         0     -0.00    10.000
+;residue_X
+        42         C        42       XXX       lxx         0     -0.50    10.000
+;residue_X
+        43         C        43       XXX       lxx         0     -0.00    10.000
+;residue_X
+        44         C        44       XXX       lxx         0     -0.00    10.000
+;residue_X
+        45         C        45       XXX       lxx         0     -0.00    10.000
+;residue_X
+        46         C        46       XXX       lxx         0     -0.00    10.000
+;residue_X
+        47         C        47       XXX       lxx         0     -0.00    10.000
+;residue_X
+        48         C        48       XXX       lxx         0     -1.00    10.000
+;residue_X
+        49         C        49       XXX       lxx         0      0.50    10.000
+;residue_X
+        50         C        50       XXX       lxx         0     -0.50    10.000
+;residue_X
+        51         C        51       XXX       lxx         0     -1.00    10.000
+;residue_X
+        52         C        52       XXX       lxx         0      0.50    10.000
+;residue_X
+        53         C        53       XXX       lxx         0     -0.00    10.000
+;residue_X
+        54         C        54       XXX       lxx         0     -0.00    10.000
+;residue_X
+        55         C        55       XXX       lxx         0     -0.00    10.000
+;residue_X
+        56         C        56       XXX       lxx         0     -0.00    10.000
+;residue_X
+        57         C        57       XXX       lxx         0     -1.00    10.000
+;residue_X
+        58         C        58       XXX       lxx         0     -0.00    10.000
+;residue_X
+        59         C        59       XXX       lxx         0     -1.00    10.000
+;residue_X
+        60         C        60       XXX       lxx         0     -0.00    10.000
+;residue_X
+        61         C        61       XXX       lxx         0     -0.00    10.000
+;residue_X
+        62         C        62       XXX       lxx         0     -0.00    10.000
+;residue_X
+        63         C        63       XXX       lxx         0      1.00    10.000
+;residue_X
+        64         C        64       XXX       lxx         0      0.50    10.000
+;residue_X
+        65         C        65       XXX       lxx         0     -0.00    10.000
+;residue_X
+        66         C        66       XXX       lxx         0     -0.50    10.000
+;residue_X
+        67         C        67       XXX       lxx         0     -0.00    10.000
+;residue_X
+        68         C        68       XXX       lxx         0     -0.00    10.000
+;residue_X
+        69         C        69       XXX       lxx         0      1.00    10.000
+;residue_X
+        70         C        70       XXX       lxx         0      0.50    10.000
+;residue_X
+        71         C        71       XXX       lxx         0     -1.00    10.000
+;residue_X
+        72         C        72       XXX       lxx         0     -0.50    10.000
+;residue_X
+        73         C        73       XXX       lxx         0     -0.50    10.000
+;residue_X
+        74         C        74       XXX       lxx         0     -0.00    10.000
+;residue_X
+        75         C        75       XXX       lxx         0     -0.00    10.000
+;residue_X
+        76         C        76       XXX       lxx         0      0.50    10.000
+;residue_X
+        77         C        77       XXX       lxx         0     -0.50    10.000
+;residue_X
+        78         C        78       XXX       lxx         0      1.00    10.000
+;residue_X
+        79         C        79       XXX       lxx         0      1.00    10.000
+;residue_X
+        80         C        80       XXX       lxx         0      0.50    10.000
+;residue_X
+        81         C        81       XXX       lxx         0     -1.00    10.000
+;residue_X
+        82         C        82       XXX       lxx         0     -0.50    10.000
+;residue_X
+        83         C        83       XXX       lxx         0      0.50    10.000
+;residue_X
+        84         C        84       XXX       lxx         0     -0.00    10.000
+;residue_X
+        85         C        85       XXX       lxx         0      1.00    10.000
+;residue_X
+        86         C        86       XXX       lxx         0      1.00    10.000
+;residue_X
+        87         C        87       XXX       lxx         0      0.50    10.000
+;residue_X
+        88         C        88       XXX       lxx         0      1.00    10.000
+;residue_X
+        89         C        89       XXX       lxx         0     -0.00    10.000
+;residue_X
+        90         C        90       XXX       lxx         0     -0.00    10.000
+;residue_X
+        91         C        91       XXX       lxx         0      0.50    10.000
+;residue_X
+        92         C        92       XXX       lxx         0      0.50    10.000
+;residue_X
+        93         C        93       XXX       lxx         0     -1.00    10.000
+;residue_X
+        94         C        94       XXX       lxx         0     -0.00    10.000
+;residue_X
+        95         C        95       XXX       lxx         0     -1.00    10.000
+;residue_X
+        96         C        96       XXX       lxx         0      1.00    10.000
+;residue_X
+        97         C        97       XXX       lxx         0     -0.00    10.000
+;residue_X
+        98         C        98       XXX       lxx         0     -0.00    10.000
+;residue_X
+        99         C        99       XXX       lxx         0     -0.00    10.000
+;residue_X
+       100         C       100       XXX       lxx         0      1.00    10.000
+;residue_X
+       101         C       101       XXX       lxx         0     -1.00    10.000
+;residue_X
+       102         C       102       XXX       lxx         0      1.00    10.000
+;residue_X
+       103         C       103       XXX       lxx         0      1.00    10.000
+;residue_X
+       104         C       104       XXX       lxx         0      0.50    10.000
+;residue_X
+       105         C       105       XXX       lxx         0     -0.00    10.000
+;residue_X
+       106         C       106       XXX       lxx         0     -0.00    10.000
+;residue_X
+       107         C       107       XXX       lxx         0     -0.50    10.000
+;residue_X
+       108         C       108       XXX       lxx         0     -0.50    10.000
+;residue_X
+       109         C       109       XXX       lxx         0     -1.00    10.000
+;residue_X
+       110         C       110       XXX       lxx         0     -0.00    10.000
+;residue_X
+       111         C       111       XXX       lxx         0     -1.00    10.000
+;residue_X
+       112         C       112       XXX       lxx         0     -0.50    10.000
+;residue_X
+       113         C       113       XXX       lxx         0     -1.00    10.000
+;residue_X
+       114         C       114       XXX       lxx         0     -0.00    10.000
+;residue_X
+       115         C       115       XXX       lxx         0      1.00    10.000
+;residue_X
+       116         C       116       XXX       lxx         0      0.50    10.000
+;residue_X
+       117         C       117       XXX       lxx         0     -0.00    10.000
+;residue_X
+       118         C       118       XXX       lxx         0      0.50    10.000
+;residue_X
+       119         C       119       XXX       lxx         0     -0.00    10.000
+;residue_X
+       120         C       120       XXX       lxx         0      0.50    10.000
+;residue_X
+       121         C       121       XXX       lxx         0     -0.00    10.000
+;residue_X
+       122         C       122       XXX       lxx         0     -1.00    10.000
+;residue_X
+       123         C       123       XXX       lxx         0     -0.00    10.000
+;residue_X
+       124         C       124       XXX       lxx         0     -0.50    10.000
+;residue_X
+       125         C       125       XXX       lxx         0      0.50    10.000
+;residue_X
+       126         C       126       XXX       lxx         0     -0.00    10.000
+;residue_X
+       127         C       127       XXX       lxx         0     -0.00    10.000
+;residue_X
+       128         C       128       XXX       lxx         0     -0.00    10.000
+;residue_X
+       129         C       129       XXX       lxx         0     -0.00    10.000
+;residue_X
+       130         C       130       XXX       lxx         0     -0.00    10.000
+;residue_X
+       131         C       131       XXX       lxx         0     -0.50    10.000
+;residue_X
+       132         C       132       XXX       lxx         0      0.50    10.000
+;residue_X
+       133         C       133       XXX       lxx         0     -1.00    10.000
+;residue_X
+       134         C       134       XXX       lxx         0     -0.00    10.000
+;residue_X
+       135         C       135       XXX       lxx         0      1.00    10.000
+;residue_X
+       136         C       136       XXX       lxx         0      0.50    10.000
+;residue_X
+       137         C       137       XXX       lxx         0     -0.00    10.000
+;residue_X
+       138         C       138       XXX       lxx         0     -0.50    10.000
+;residue_X
+       139         C       139       XXX       lxx         0     -0.00    10.000
+;residue_X
+       140         C       140       XXX       lxx         0      0.50    10.000
+;residue_X
+       141         C       141       XXX       lxx         0     -1.00    10.000
+;residue_X
+       142         C       142       XXX       lxx         0     -0.00    10.000
+;residue_X
+       143         C       143       XXX       lxx         0      1.00    10.000
+;residue_X
+       144         C       144       XXX       lxx         0      0.50    10.000
+;residue_X
+       145         C       145       XXX       lxx         0      1.00    10.000
+;residue_X
+       146         C       146       XXX       lxx         0     -0.50    10.000
+;residue_X
+       147         C       147       XXX       lxx         0      1.00    10.000
+;residue_X
+       148         C       148       XXX       lxx         0     -0.50    10.000
+;residue_X
+       149         C       149       XXX       lxx         0     -0.00    10.000
+;residue_X
+       150         C       150       XXX       lxx         0     -0.00    10.000
+;residue_X
+       151         C       151       XXX       lxx         0     -0.50    10.000
+;residue_X
+       152         C       152       XXX       lxx         0      1.00    10.000
+;residue_X
+       153         C       153       XXX       lxx         0     -0.50    10.000
+;residue_X
+       154         C       154       XXX       lxx         0     -0.00    10.000
+;residue_X
+       155         C       155       XXX       lxx         0     -1.00    10.000
+;residue_X
+       156         C       156       XXX       lxx         0      1.00    10.000
+;residue_X
+       157         C       157       XXX       lxx         0     -1.00    10.000
+;residue_X
+       158         C       158       XXX       lxx         0     -0.00    10.000
+;residue_X
+       159         C       159       XXX       lxx         0     -0.00    10.000
+;residue_X
+       160         C       160       XXX       lxx         0     -0.00    10.000
+;residue_X
+       161         C       161       XXX       lxx         0     -0.50    10.000
+;residue_X
+       162         C       162       XXX       lxx         0     -0.00    10.000
+;residue_X
+       163         C       163       XXX       lxx         0     -1.00    10.000
+;residue_X
+       164         C       164       XXX       lxx         0     -0.00    10.000
+;residue_X
+       165         C       165       XXX       lxx         0     -0.50    10.000
+;residue_X
+       166         C       166       XXX       lxx         0     -0.00    10.000
+;residue_X
+       167         C       167       XXX       lxx         0     -0.00    10.000
+;residue_X
+       168         C       168       XXX       lxx         0      0.50    10.000
+;residue_X
+       169         C       169       XXX       lxx         0      0.50    10.000
+;residue_X
+       170         C       170       XXX       lxx         0      1.00    10.000
+;residue_X
+       171         C       171       XXX       lxx         0      0.50    10.000
+;residue_X
+       172         C       172       XXX       lxx         0     -0.00    10.000
+;residue_X
+       173         C       173       XXX       lxx         0      0.50    10.000
+;residue_X
+       174         C       174       XXX       lxx         0      1.00    10.000
+;residue_X
+       175         C       175       XXX       lxx         0      1.00    10.000
+;residue_X
+       176         C       176       XXX       lxx         0     -0.50    10.000
+;residue_X
+       177         C       177       XXX       lxx         0     -1.00    10.000
+;residue_X
+       178         C       178       XXX       lxx         0     -1.00    10.000
+;residue_X
+       179         C       179       XXX       lxx         0     -0.00    10.000
+;residue_X
+       180         C       180       XXX       lxx         0      0.50    10.000
+;residue_X
+       181         C       181       XXX       lxx         0     -0.00    10.000
+;residue_X
+       182         C       182       XXX       lxx         0     -0.00    10.000
+;residue_X
+       183         C       183       XXX       lxx         0     -0.00    10.000
+;residue_X
+       184         C       184       XXX       lxx         0     -1.00    10.000
+;residue_X
+       185         C       185       XXX       lxx         0     -0.00    10.000
+;residue_X
+       186         C       186       XXX       lxx         0     -0.00    10.000
+;residue_X
+       187         C       187       XXX       lxx         0     -0.00    10.000
+;residue_X
+       188         C       188       XXX       lxx         0      0.50    10.000
+;residue_X
+       189         C       189       XXX       lxx         0     -1.00    10.000
+;residue_X
+       190         C       190       XXX       lxx         0     -0.00    10.000
+;residue_X
+       191         C       191       XXX       lxx         0     -0.00    10.000
+;residue_X
+       192         C       192       XXX       lxx         0     -0.50    10.000
+;residue_X
+       193         C       193       XXX       lxx         0     -1.00    10.000
+;residue_X
+       194         C       194       XXX       lxx         0     -1.00    10.000
+;residue_X
+       195         C       195       XXX       lxx         0     -0.00    10.000
+;residue_X
+       196         C       196       XXX       lxx         0      0.50    10.000
+;residue_X
+       197         C       197       XXX       lxx         0     -0.50    10.000
+;residue_X
+       198         C       198       XXX       lxx         0     -0.00    10.000
+;residue_X
+       199         C       199       XXX       lxx         0      1.00    10.000
+;residue_X
+       200         C       200       XXX       lxx         0     -0.00    10.000
+;residue_X
+       201         C       201       XXX       lxx         0     -0.00    10.000
+;residue_X
+       202         C       202       XXX       lxx         0     -1.00    10.000
+;residue_X
+       203         C       203       XXX       lxx         0     -0.00    10.000
+;residue_X
+       204         C       204       XXX       lxx         0     -0.00    10.000
+;residue_X
+       205         C       205       XXX       lxx         0      1.00    10.000
+;residue_X
+       206         C       206       XXX       lxx         0     -0.00    10.000
+;residue_X
+       207         C       207       XXX       lxx         0     -0.00    10.000
+;residue_X
+       208         C       208       XXX       lxx         0     -0.50    10.000
+;residue_X
+       209         C       209       XXX       lxx         0     -0.50    10.000
+;residue_X
+       210         C       210       XXX       lxx         0     -0.00    10.000
+;residue_X
+       211         C       211       XXX       lxx         0     -0.00    10.000
+;residue_X
+       212         C       212       XXX       lxx         0      0.50    10.000
+;residue_X
+       213         C       213       XXX       lxx         0      0.50    10.000
+;residue_X
+       214         C       214       XXX       lxx         0     -1.00    10.000
+;residue_X
+       215         C       215       XXX       lxx         0      1.00    10.000
+;residue_X
+       216         C       216       XXX       lxx         0      0.50    10.000
+;residue_X
+       217         C       217       XXX       lxx         0     -0.00    10.000
+;residue_X
+       218         C       218       XXX       lxx         0     -0.00    10.000
+;residue_X
+       219         C       219       XXX       lxx         0     -0.00    10.000
+;residue_X
+       220         C       220       XXX       lxx         0     -0.50    10.000
+;residue_X
+       221         C       221       XXX       lxx         0     -0.00    10.000
+;residue_X
+       222         C       222       XXX       lxx         0     -0.00    10.000
+;residue_X
+       223         C       223       XXX       lxx         0     -0.00    10.000
+;residue_X
+       224         C       224       XXX       lxx         0     -0.00    10.000
+;residue_X
+       225         C       225       XXX       lxx         0     -1.00    10.000
+;residue_X
+       226         C       226       XXX       lxx         0      0.50    10.000
+;residue_X
+       227         C       227       XXX       lxx         0     -0.50    10.000
+;residue_X
+       228         C       228       XXX       lxx         0     -0.50    10.000
+;residue_X
+       229         C       229       XXX       lxx         0     -0.50    10.000
+;residue_X
+       230         C       230       XXX       lxx         0     -0.00    10.000
+;residue_X
+       231         C       231       XXX       lxx         0      1.00    10.000
+;residue_X
+       232         C       232       XXX       lxx         0      1.00    10.000
+;residue_X
+       233         C       233       XXX       lxx         0     -0.00    10.000
+;residue_X
+       234         C       234       XXX       lxx         0     -1.00    10.000
+;residue_X
+       235         C       235       XXX       lxx         0     -1.00    10.000
+;residue_X
+       236         C       236       XXX       lxx         0     -0.50    10.000
+;residue_X
+       237         C       237       XXX       lxx         0     -0.50    10.000
+;residue_X
+       238         C       238       XXX       lxx         0      1.00    10.000
+;residue_X
+       239         C       239       XXX       lxx         0      1.00    10.000
+;residue_X
+       240         C       240       XXX       lxx         0     -0.00    10.000
+;residue_X
+       241         C       241       XXX       lxx         0     -0.00    10.000
+;residue_X
+       242         C       242       XXX       lxx         0     -0.50    10.000
+;residue_X
+       243         C       243       XXX       lxx         0     -1.00    10.000
+;residue_X
+       244         C       244       XXX       lxx         0      0.50    10.000
+;residue_X
+       245         C       245       XXX       lxx         0      0.50    10.000
+;residue_X
+       246         C       246       XXX       lxx         0      1.00    10.000
+;residue_X
+       247         C       247       XXX       lxx         0     -1.00    10.000
+;residue_X
+       248         C       248       XXX       lxx         0     -0.00    10.000
+;residue_X
+       249         C       249       XXX       lxx         0     -1.00    10.000
+;residue_X
+       250         C       250       XXX       lxx         0     -1.00    10.000
+;residue_X
+       251         C       251       XXX       lxx         0      1.00    10.000
+;residue_X
+       252         C       252       XXX       lxx         0      0.50    10.000
+;residue_X
+       253         C       253       XXX       lxx         0      1.00    10.000
+;residue_X
+       254         C       254       XXX       lxx         0     -0.00    10.000
+;residue_X
+       255         C       255       XXX       lxx         0      0.50    10.000
+;residue_X
+       256         C       256       XXX       lxx         0      1.00    10.000
+;residue_X
+       257         C       257       XXX       lxx         0      0.50    10.000
+;residue_X
+       258         C       258       XXX       lxx         0     -0.00    10.000
+;residue_X
+       259         C       259       XXX       lxx         0     -1.00    10.000
+;residue_X
+       260         C       260       XXX       lxx         0     -0.50    10.000
+;residue_X
+       261         C       261       XXX       lxx         0     -1.00    10.000
+;residue_X
+       262         C       262       XXX       lxx         0     -0.00    10.000
+;residue_X
+       263         C       263       XXX       lxx         0     -0.00    10.000
+;residue_X
+       264         C       264       XXX       lxx         0      0.50    10.000
+;residue_X
+       265         C       265       XXX       lxx         0     -0.50    10.000
+;residue_X
+       266         C       266       XXX       lxx         0     -0.00    10.000
+;residue_X
+       267         C       267       XXX       lxx         0     -0.00    10.000
+;residue_X
+       268         C       268       XXX       lxx         0      1.00    10.000
+;residue_X
+       269         C       269       XXX       lxx         0     -0.50    10.000
+;residue_X
+       270         C       270       XXX       lxx         0      0.50    10.000
+;residue_X
+       271         C       271       XXX       lxx         0     -0.00    10.000
+;residue_X
+       272         C       272       XXX       lxx         0      1.00    10.000
+;residue_X
+       273         C       273       XXX       lxx         0      0.50    10.000
+;residue_X
+       274         C       274       XXX       lxx         0     -0.00    10.000
+;residue_X
+       275         C       275       XXX       lxx         0     -0.00    10.000
+;residue_X
+       276         C       276       XXX       lxx         0     -0.00    10.000
+;residue_X
+       277         C       277       XXX       lxx         0      0.50    10.000
+;residue_X
+       278         C       278       XXX       lxx         0     -1.00    10.000
+;residue_X
+       279         C       279       XXX       lxx         0     -0.00    10.000
+;residue_X
+       280         C       280       XXX       lxx         0      1.00    10.000
+;residue_X
+       281         C       281       XXX       lxx         0     -0.00    10.000
+;residue_X
+       282         C       282       XXX       lxx         0     -0.00    10.000
+;residue_X
+       283         C       283       XXX       lxx         0     -0.00    10.000
+;residue_X
+       284         C       284       XXX       lxx         0     -1.00    10.000
+;residue_X
+       285         C       285       XXX       lxx         0      0.50    10.000
+;residue_X
+       286         C       286       XXX       lxx         0     -0.50    10.000
+;residue_X
+       287         C       287       XXX       lxx         0     -0.00    10.000
+;residue_X
+       288         C       288       XXX       lxx         0     -0.00    10.000
+;residue_X
+       289         C       289       XXX       lxx         0     -0.50    10.000
+;residue_X
+       290         C       290       XXX       lxx         0     -0.00    10.000
+;residue_X
+       291         C       291       XXX       lxx         0     -1.00    10.000
+;residue_X
+       292         C       292       XXX       lxx         0     -1.00    10.000
+;residue_X
+       293         C       293       XXX       lxx         0      1.00    10.000
+;residue_X
+       294         C       294       XXX       lxx         0      0.50    10.000
+;residue_X
+       295         C       295       XXX       lxx         0     -1.00    10.000
+;residue_X
+       296         C       296       XXX       lxx         0      1.00    10.000
+;residue_X
+       297         C       297       XXX       lxx         0      1.00    10.000
+;residue_X
+       298         C       298       XXX       lxx         0     -0.00    10.000
+;residue_X
+       299         C       299       XXX       lxx         0     -0.00    10.000
+;residue_X
+       300         C       300       XXX       lxx         0     -0.00    10.000
+;residue_X
+       301         C       301       XXX       lxx         0     -0.00    10.000
+;residue_X
+       302         C       302       XXX       lxx         0      0.50    10.000
+;residue_X
+       303         C       303       XXX       lxx         0     -0.50    10.000
+;residue_X
+       304         C       304       XXX       lxx         0     -1.00    10.000
+;residue_X
+       305         C       305       XXX       lxx         0     -0.00    10.000
+;residue_X
+       306         C       306       XXX       lxx         0     -0.50    10.000
+;residue_X
+       307         C       307       XXX       lxx         0     -0.00    10.000
+;residue_X
+       308         C       308       XXX       lxx         0      1.00    10.000
+;residue_X
+       309         C       309       XXX       lxx         0     -0.50    10.000
+;residue_X
+       310         C       310       XXX       lxx         0     -0.00    10.000
+;residue_X
+       311         C       311       XXX       lxx         0      0.50    10.000
+;residue_X
+       312         C       312       XXX       lxx         0      0.50    10.000
+;residue_X
+       313         C       313       XXX       lxx         0     -0.00    10.000
+;residue_X
+       314         C       314       XXX       lxx         0     -0.00    10.000
+;residue_X
+       315         C       315       XXX       lxx         0     -0.50    10.000
+;residue_X
+       316         C       316       XXX       lxx         0      1.00    10.000
+;residue_X
+       317         C       317       XXX       lxx         0     -0.00    10.000
+;residue_X
+       318         C       318       XXX       lxx         0     -0.00    10.000
+;residue_X
+       319         C       319       XXX       lxx         0     -0.00    10.000
+;residue_X
+       320         C       320       XXX       lxx         0     -0.00    10.000
+;residue_X
+       321         C       321       XXX       lxx         0      1.00    10.000
+;residue_X
+       322         C       322       XXX       lxx         0      0.50    10.000
+;residue_X
+       323         C       323       XXX       lxx         0     -1.00    10.000
+;residue_X
+       324         C       324       XXX       lxx         0      0.50    10.000
+;residue_X
+       325         C       325       XXX       lxx         0     -0.00    10.000
+;residue_X
+       326         C       326       XXX       lxx         0      0.50    10.000
+;residue_X
+       327         C       327       XXX       lxx         0     -1.00    10.000
+;residue_X
+       328         C       328       XXX       lxx         0      0.50    10.000
+;residue_X
+       329         C       329       XXX       lxx         0      0.50    10.000
+;residue_X
+       330         C       330       XXX       lxx         0     -0.00    10.000
+;residue_X
+       331         C       331       XXX       lxx         0     -0.00    10.000
+;residue_X
+       332         C       332       XXX       lxx         0     -0.00    10.000
+;residue_X
+       333         C       333       XXX       lxx         0     -1.00    10.000
+;residue_X
+       334         C       334       XXX       lxx         0     -0.50    10.000
+;residue_X
+       335         C       335       XXX       lxx         0     -0.00    10.000
+;residue_X
+       336         C       336       XXX       lxx         0     -0.00    10.000
+;residue_X
+       337         C       337       XXX       lxx         0     -0.00    10.000
+;residue_X
+       338         C       338       XXX       lxx         0     -0.00    10.000
+;residue_X
+       339         C       339       XXX       lxx         0     -0.50    10.000
+;residue_X
+       340         C       340       XXX       lxx         0      1.00    10.000
+;residue_X
+       341         C       341       XXX       lxx         0     -1.00    10.000
+;residue_X
+       342         C       342       XXX       lxx         0     -0.00    10.000
+;residue_X
+       343         C       343       XXX       lxx         0      1.00    10.000
+;residue_X
+       344         C       344       XXX       lxx         0     -0.00    10.000
+;residue_X
+       345         C       345       XXX       lxx         0     -0.00    10.000
+;residue_X
+       346         C       346       XXX       lxx         0     -0.00    10.000
+;residue_X
+       347         C       347       XXX       lxx         0      0.50    10.000
+;residue_X
+       348         C       348       XXX       lxx         0     -0.00    10.000
+;residue_X
+       349         C       349       XXX       lxx         0      1.00    10.000
+;residue_X
+       350         C       350       XXX       lxx         0     -0.50    10.000
+;residue_X
+       351         C       351       XXX       lxx         0     -0.50    10.000
+;residue_X
+       352         C       352       XXX       lxx         0      1.00    10.000
+;residue_X
+       353         C       353       XXX       lxx         0     -1.00    10.000
+;residue_X
+       354         C       354       XXX       lxx         0     -1.00    10.000
+;residue_X
+       355         C       355       XXX       lxx         0     -0.50    10.000
+;residue_X
+       356         C       356       XXX       lxx         0     -0.00    10.000
+;residue_X
+       357         C       357       XXX       lxx         0     -1.00    10.000
+;residue_X
+       358         C       358       XXX       lxx         0     -0.00    10.000
+;residue_X
+       359         C       359       XXX       lxx         0     -0.50    10.000
+;residue_X
+       360         C       360       XXX       lxx         0      0.50    10.000
+;residue_X
+       361         C       361       XXX       lxx         0     -1.00    10.000
+;residue_X
+       362         C       362       XXX       lxx         0     -0.00    10.000
+;residue_X
+       363         C       363       XXX       lxx         0     -0.00    10.000
+;residue_X
+       364         C       364       XXX       lxx         0      1.00    10.000
+;residue_X
+       365         C       365       XXX       lxx         0      0.50    10.000
+;residue_X
+       366         C       366       XXX       lxx         0      0.50    10.000
+;residue_X
+       367         C       367       XXX       lxx         0     -0.00    10.000
+;residue_X
+       368         C       368       XXX       lxx         0     -0.50    10.000
+;residue_X
+       369         C       369       XXX       lxx         0      1.00    10.000
+;residue_X
+       370         C       370       XXX       lxx         0     -0.50    10.000
+;residue_X
+       371         C       371       XXX       lxx         0     -0.00    10.000
+;residue_X
+       372         C       372       XXX       lxx         0     -0.00    10.000
+;residue_X
+       373         C       373       XXX       lxx         0      0.50    10.000
+;residue_X
+       374         C       374       XXX       lxx         0     -0.00    10.000
+;residue_X
+       375         C       375       XXX       lxx         0     -1.00    10.000
+;residue_X
+       376         C       376       XXX       lxx         0     -0.00    10.000
+;residue_X
+       377         C       377       XXX       lxx         0     -1.00    10.000
+;residue_X
+       378         C       378       XXX       lxx         0     -1.00    10.000
+;residue_X
+       379         C       379       XXX       lxx         0     -0.50    10.000
+;residue_X
+       380         C       380       XXX       lxx         0      1.00    10.000
+;residue_X
+       381         C       381       XXX       lxx         0      1.00    10.000
+;residue_X
+       382         C       382       XXX       lxx         0     -0.00    10.000
+;residue_X
+       383         C       383       XXX       lxx         0     -0.50    10.000
+;residue_X
+       384         C       384       XXX       lxx         0     -1.00    10.000
+;residue_X
+       385         C       385       XXX       lxx         0     -0.50    10.000
+;residue_X
+       386         C       386       XXX       lxx         0     -0.00    10.000
+;residue_X
+       387         C       387       XXX       lxx         0     -0.00    10.000
+;residue_X
+       388         C       388       XXX       lxx         0     -0.00    10.000
+;residue_X
+       389         C       389       XXX       lxx         0     -0.50    10.000
+;residue_X
+       390         C       390       XXX       lxx         0      1.00    10.000
+;residue_X
+       391         C       391       XXX       lxx         0     -0.00    10.000
+;residue_X
+       392         C       392       XXX       lxx         0     -0.00    10.000
+;residue_X
+       393         C       393       XXX       lxx         0     -0.00    10.000
+;residue_X
+       394         C       394       XXX       lxx         0      1.00    10.000
+;residue_X
+       395         C       395       XXX       lxx         0     -0.00    10.000
+;residue_X
+       396         C       396       XXX       lxx         0     -0.00    10.000
+;residue_X
+       397         C       397       XXX       lxx         0     -0.00    10.000
+;residue_X
+       398         C       398       XXX       lxx         0     -1.00    10.000
+;residue_X
+       399         C       399       XXX       lxx         0     -0.00    10.000
+;residue_X
+       400         C       400       XXX       lxx         0     -0.50    10.000
+;residue_X
+       401         C       401       XXX       lxx         0     -0.50    10.000
+;residue_X
+       402         C       402       XXX       lxx         0      0.50    10.000
+;residue_X
+       403         C       403       XXX       lxx         0      0.50    10.000
+;residue_X
+       404         C       404       XXX       lxx         0     -0.00    10.000
+;residue_X
+       405         C       405       XXX       lxx         0      1.00    10.000
+;residue_X
+       406         C       406       XXX       lxx         0     -0.50    10.000
+;residue_X
+       407         C       407       XXX       lxx         0     -1.00    10.000
+;residue_X
+       408         C       408       XXX       lxx         0     -0.00    10.000
+;residue_X
+       409         C       409       XXX       lxx         0     -0.00    10.000
+;residue_X
+       410         C       410       XXX       lxx         0     -0.00    10.000
+;residue_X
+       411         C       411       XXX       lxx         0      0.50    10.000
+;residue_X
+       412         C       412       XXX       lxx         0     -1.00    10.000
+;residue_X
+       413         C       413       XXX       lxx         0     -0.00    10.000
+;residue_X
+       414         C       414       XXX       lxx         0      1.00    10.000
+;residue_X
+       415         C       415       XXX       lxx         0     -0.00    10.000
+;residue_X
+       416         C       416       XXX       lxx         0     -0.00    10.000
+;residue_X
+       417         C       417       XXX       lxx         0     -1.00    10.000
+;residue_X
+       418         C       418       XXX       lxx         0     -0.50    10.000
+;residue_X
+       419         C       419       XXX       lxx         0     -1.00    10.000
+;residue_X
+       420         C       420       XXX       lxx         0     -0.00    10.000
+;residue_X
+       421         C       421       XXX       lxx         0      1.00    10.000
+;residue_X
+       422         C       422       XXX       lxx         0     -1.00    10.000
+;residue_X
+       423         C       423       XXX       lxx         0     -0.50    10.000
+;residue_X
+       424         C       424       XXX       lxx         0     -0.00    10.000
+;residue_X
+       425         C       425       XXX       lxx         0      0.50    10.000
+;residue_X
+       426         C       426       XXX       lxx         0     -1.00    10.000
+;residue_X
+       427         C       427       XXX       lxx         0     -1.00    10.000
+;residue_X
+       428         C       428       XXX       lxx         0      0.50    10.000
+;residue_X
+       429         C       429       XXX       lxx         0     -0.00    10.000
+;residue_X
+       430         C       430       XXX       lxx         0      0.50    10.000
+;residue_X
+       431         C       431       XXX       lxx         0     -0.50    10.000
+;residue_X
+       432         C       432       XXX       lxx         0     -0.00    10.000
+;residue_X
+       433         C       433       XXX       lxx         0      1.00    10.000
+;residue_X
+       434         C       434       XXX       lxx         0      0.50    10.000
+;residue_X
+       435         C       435       XXX       lxx         0     -0.50    10.000
+;residue_X
+       436         C       436       XXX       lxx         0      0.50    10.000
+;residue_X
+       437         C       437       XXX       lxx         0      0.50    10.000
+;residue_X
+       438         C       438       XXX       lxx         0     -0.00    10.000
+;residue_X
+       439         C       439       XXX       lxx         0     -0.00    10.000
+;residue_X
+       440         C       440       XXX       lxx         0     -0.00    10.000
+;residue_X
+       441         C       441       XXX       lxx         0     -0.00    10.000
+;residue_X
+       442         C       442       XXX       lxx         0      1.00    10.000
+;residue_X
+       443         C       443       XXX       lxx         0      0.50    10.000
+;residue_X
+       444         C       444       XXX       lxx         0     -0.00    10.000
+;residue_X
+       445         C       445       XXX       lxx         0     -0.00    10.000
+;residue_X
+       446         C       446       XXX       lxx         0     -0.00    10.000
+;residue_X
+       447         C       447       XXX       lxx         0      1.00    10.000
+;residue_X
+       448         C       448       XXX       lxx         0     -0.00    10.000
+;residue_X
+       449         C       449       XXX       lxx         0     -0.50    10.000
+;residue_X
+       450         C       450       XXX       lxx         0      1.00    10.000
+;residue_X
+       451         C       451       XXX       lxx         0     -0.00    10.000
+;residue_X
+       452         C       452       XXX       lxx         0     -0.00    10.000
+;residue_X
+       453         C       453       XXX       lxx         0     -1.00    10.000
+;residue_X
+       454         C       454       XXX       lxx         0     -0.00    10.000
+;residue_X
+       455         C       455       XXX       lxx         0     -0.00    10.000
+;residue_X
+       456         C       456       XXX       lxx         0     -1.00    10.000
+;residue_X
+       457         C       457       XXX       lxx         0     -0.00    10.000
+;residue_X
+       458         C       458       XXX       lxx         0     -1.00    10.000
+;residue_X
+       459         C       459       XXX       lxx         0     -0.00    10.000
+;residue_X
+       460         C       460       XXX       lxx         0      0.50    10.000
+;residue_X
+       461         C       461       XXX       lxx         0     -0.50    10.000
+;residue_X
+       462         C       462       XXX       lxx         0     -1.00    10.000
+;residue_X
+       463         C       463       XXX       lxx         0     -0.00    10.000
+;residue_X
+       464         C       464       XXX       lxx         0     -0.50    10.000
+;residue_X
+       465         C       465       XXX       lxx         0      1.00    10.000
+;residue_X
+       466         C       466       XXX       lxx         0     -0.00    10.000
+;residue_X
+       467         C       467       XXX       lxx         0     -0.00    10.000
+;residue_X
+       468         C       468       XXX       lxx         0     -0.00    10.000
+;residue_X
+       469         C       469       XXX       lxx         0     -0.50    10.000
+;residue_X
+       470         C       470       XXX       lxx         0      0.50    10.000
+;residue_X
+       471         C       471       XXX       lxx         0     -0.50    10.000
+;residue_X
+       472         C       472       XXX       lxx         0      1.00    10.000
+;residue_X
+       473         C       473       XXX       lxx         0      1.00    10.000
+;residue_X
+       474         C       474       XXX       lxx         0      1.00    10.000
+;residue_X
+       475         C       475       XXX       lxx         0      1.00    10.000
+;residue_X
+       476         C       476       XXX       lxx         0      0.50    10.000
+;residue_X
+       477         C       477       XXX       lxx         0     -1.00    10.000
+;residue_X
+       478         C       478       XXX       lxx         0     -0.00    10.000
+;residue_X
+       479         C       479       XXX       lxx         0      1.00    10.000
+;residue_X
+       480         C       480       XXX       lxx         0     -0.50    10.000
+;residue_X
+       481         C       481       XXX       lxx         0     -0.00    10.000
+;residue_X
+       482         C       482       XXX       lxx         0     -1.00    10.000
+;residue_X
+       483         C       483       XXX       lxx         0     -0.00    10.000
+;residue_X
+       484         C       484       XXX       lxx         0     -0.50    10.000
+;residue_X
+       485         C       485       XXX       lxx         0     -1.00    10.000
+;residue_X
+       486         C       486       XXX       lxx         0      1.00    10.000
+;residue_X
+       487         C       487       XXX       lxx         0     -0.00    10.000
+;residue_X
+       488         C       488       XXX       lxx         0     -0.00    10.000
+;residue_X
+       489         C       489       XXX       lxx         0     -0.00    10.000
+;residue_X
+       490         C       490       XXX       lxx         0     -0.50    10.000
+;residue_X
+       491         C       491       XXX       lxx         0     -0.00    10.000
+;residue_X
+       492         C       492       XXX       lxx         0     -0.50    10.000
+;residue_X
+       493         C       493       XXX       lxx         0     -0.00    10.000
+;residue_X
+       494         C       494       XXX       lxx         0      0.50    10.000
+;residue_X
+       495         C       495       XXX       lxx         0     -0.50    10.000
+;residue_X
+       496         C       496       XXX       lxx         0      0.50    10.000
+;residue_X
+       497         C       497       XXX       lxx         0     -0.00    10.000
+;residue_X
+       498         C       498       XXX       lxx         0     -0.00    10.000
+;residue_X
+       499         C       499       XXX       lxx         0     -1.00    10.000
+;residue_X
+       500         C       500       XXX       lxx         0     -0.00    10.000
+;residue_X
+       501         C       501       XXX       lxx         0     -0.00    10.000
+;residue_X
+       502         C       502       XXX       lxx         0      1.00    10.000
+;residue_X
+       503         C       503       XXX       lxx         0      1.00    10.000
+;residue_X
+       504         C       504       XXX       lxx         0      0.50    10.000
+;residue_X
+       505         C       505       XXX       lxx         0      1.00    10.000
+;residue_X
+       506         C       506       XXX       lxx         0     -0.50    10.000
+;residue_X
+       507         C       507       XXX       lxx         0     -1.00    10.000
+;residue_X
+       508         C       508       XXX       lxx         0      0.50    10.000
+;residue_X
+       509         C       509       XXX       lxx         0     -1.00    10.000
+;residue_X
+       510         C       510       XXX       lxx         0     -0.00    10.000
+;residue_X
+       511         C       511       XXX       lxx         0     -0.00    10.000
+;residue_X
+       512         C       512       XXX       lxx         0     -1.00    10.000
+;residue_X
+       513         C       513       XXX       lxx         0     -0.50    10.000
+;residue_X
+       514         C       514       XXX       lxx         0      1.00    10.000
+;residue_X
+       515         C       515       XXX       lxx         0     -1.00    10.000
+;residue_X
+       516         C       516       XXX       lxx         0     -0.00    10.000
+;residue_X
+       517         C       517       XXX       lxx         0     -0.50    10.000
+;residue_X
+       518         C       518       XXX       lxx         0     -0.00    10.000
+;residue_X
+       519         C       519       XXX       lxx         0     -0.00    10.000
+;residue_X
+       520         C       520       XXX       lxx         0      1.00    10.000
+;residue_X
+       521         C       521       XXX       lxx         0      1.00    10.000
+;residue_X
+       522         C       522       XXX       lxx         0     -1.00    10.000
+;residue_X
+       523         C       523       XXX       lxx         0     -1.00    10.000
+;residue_X
+       524         C       524       XXX       lxx         0     -1.00    10.000
+;residue_X
+       525         C       525       XXX       lxx         0     -0.00    10.000
+;residue_X
+       526         C       526       XXX       lxx         0     -0.00    10.000
+;residue_X
+       527         C       527       XXX       lxx         0     -0.00    10.000
+;residue_X
+       528         C       528       XXX       lxx         0      0.50    10.000
+;residue_X
+       529         C       529       XXX       lxx         0     -0.50    10.000
+;residue_X
+       530         C       530       XXX       lxx         0     -1.00    10.000
+;residue_X
+       531         C       531       XXX       lxx         0      1.00    10.000
+;residue_X
+       532         C       532       XXX       lxx         0     -0.50    10.000
+;residue_X
+       533         C       533       XXX       lxx         0     -0.00    10.000
+;residue_X
+       534         C       534       XXX       lxx         0     -0.00    10.000
+;residue_X
+       535         C       535       XXX       lxx         0     -0.50    10.000
+;residue_X
+       536         C       536       XXX       lxx         0      1.00    10.000
+;residue_X
+       537         C       537       XXX       lxx         0     -0.00    10.000
+;residue_X
+       538         C       538       XXX       lxx         0      0.50    10.000
+;residue_X
+       539         C       539       XXX       lxx         0     -0.50    10.000
+;residue_X
+       540         C       540       XXX       lxx         0     -0.00    10.000
+;residue_X
+       541         C       541       XXX       lxx         0     -0.00    10.000
+;residue_X
+       542         C       542       XXX       lxx         0     -0.00    10.000
+;residue_X
+       543         C       543       XXX       lxx         0      0.50    10.000
+;residue_X
+       544         C       544       XXX       lxx         0     -0.00    10.000
+;residue_X
+       545         C       545       XXX       lxx         0     -1.00    10.000
+;residue_X
+       546         C       546       XXX       lxx         0     -0.50    10.000
+;residue_X
+       547         C       547       XXX       lxx         0     -0.00    10.000
+;residue_X
+       548         C       548       XXX       lxx         0     -0.00    10.000
+;residue_X
+       549         C       549       XXX       lxx         0      1.00    10.000
+;residue_X
+       550         C       550       XXX       lxx         0     -0.50    10.000
+;residue_X
+       551         C       551       XXX       lxx         0      1.00    10.000
+;residue_X
+       552         C       552       XXX       lxx         0     -0.50    10.000
+;residue_X
+       553         C       553       XXX       lxx         0      1.00    10.000
+;residue_X
+       554         C       554       XXX       lxx         0     -0.00    10.000
+;residue_X
+       555         C       555       XXX       lxx         0     -0.00    10.000
+;residue_X
+       556         C       556       XXX       lxx         0     -0.00    10.000
+;residue_X
+       557         C       557       XXX       lxx         0     -1.00    10.000
+;residue_X
+       558         C       558       XXX       lxx         0      0.50    10.000
+;residue_X
+       559         C       559       XXX       lxx         0     -0.00    10.000
+;residue_X
+       560         C       560       XXX       lxx         0     -1.00    10.000
+;residue_X
+       561         C       561       XXX       lxx         0      1.00    10.000
+;residue_X
+       562         C       562       XXX       lxx         0     -0.00    10.000
+;residue_X
+       563         C       563       XXX       lxx         0      0.50    10.000
+;residue_X
+       564         C       564       XXX       lxx         0     -0.00    10.000
+;residue_X
+       565         C       565       XXX       lxx         0     -0.00    10.000
+;residue_X
+       566         C       566       XXX       lxx         0      0.50    10.000
+;residue_X
+       567         C       567       XXX       lxx         0      0.50    10.000
+;residue_X
+       568         C       568       XXX       lxx         0      0.50    10.000
+;residue_X
+       569         C       569       XXX       lxx         0     -0.00    10.000
+;residue_X
+       570         C       570       XXX       lxx         0      1.00    10.000
+;residue_X
+       571         C       571       XXX       lxx         0      0.50    10.000
+;residue_X
+       572         C       572       XXX       lxx         0      0.50    10.000
+;residue_X
+       573         C       573       XXX       lxx         0     -0.00    10.000
+;residue_X
+       574         C       574       XXX       lxx         0     -0.00    10.000
+;residue_X
+       575         C       575       XXX       lxx         0     -0.00    10.000
+;residue_X
+       576         C       576       XXX       lxx         0      1.00    10.000
+;residue_X
+       577         C       577       XXX       lxx         0     -1.00    10.000
+;residue_X
+       578         C       578       XXX       lxx         0     -0.00    10.000
+;residue_X
+       579         C       579       XXX       lxx         0     -0.00    10.000
+;residue_X
+       580         C       580       XXX       lxx         0      1.00    10.000
+;residue_X
+       581         C       581       XXX       lxx         0     -1.00    10.000
+;residue_X
+       582         C       582       XXX       lxx         0      0.50    10.000
+;residue_X
+       583         C       583       XXX       lxx         0     -0.00    10.000
+;residue_X
+       584         C       584       XXX       lxx         0      1.00    10.000
+;residue_X
+       585         C       585       XXX       lxx         0     -0.00    10.000
+;residue_X
+       586         C       586       XXX       lxx         0     -0.50    10.000
+;residue_X
+       587         C       587       XXX       lxx         0     -0.50    10.000
+;residue_X
+       588         C       588       XXX       lxx         0     -0.00    10.000
+;residue_X
+       589         C       589       XXX       lxx         0     -0.00    10.000
+;residue_X
+       590         C       590       XXX       lxx         0     -0.00    10.000
+;residue_X
+       591         C       591       XXX       lxx         0      0.50    10.000
+;residue_X
+       592         C       592       XXX       lxx         0     -0.00    10.000
+;residue_X
+       593         C       593       XXX       lxx         0      0.50    10.000
+;residue_X
+       594         C       594       XXX       lxx         0      0.50    10.000
+;residue_X
+       595         C       595       XXX       lxx         0     -0.50    10.000
+;residue_X
+       596         C       596       XXX       lxx         0     -0.00    10.000
+;residue_X
+       597         C       597       XXX       lxx         0     -0.50    10.000
+;residue_X
+       598         C       598       XXX       lxx         0     -1.00    10.000
+;residue_X
+       599         C       599       XXX       lxx         0      1.00    10.000
+;residue_X
+       600         C       600       XXX       lxx         0     -1.00    10.000
+;residue_X
+       601         C       601       XXX       lxx         0     -0.00    10.000
+;residue_X
+       602         C       602       XXX       lxx         0     -0.00    10.000
+;residue_X
+       603         C       603       XXX       lxx         0      1.00    10.000
+;residue_X
+       604         C       604       XXX       lxx         0      0.50    10.000
+;residue_X
+       605         C       605       XXX       lxx         0     -0.00    10.000
+;residue_X
+       606         C       606       XXX       lxx         0     -0.00    10.000
+;residue_X
+       607         C       607       XXX       lxx         0     -0.50    10.000
+;residue_X
+       608         C       608       XXX       lxx         0     -0.00    10.000
+;residue_X
+       609         C       609       XXX       lxx         0     -0.00    10.000
+;residue_X
+       610         C       610       XXX       lxx         0     -0.00    10.000
+;residue_X
+       611         C       611       XXX       lxx         0     -0.50    10.000
+;residue_X
+       612         C       612       XXX       lxx         0     -1.00    10.000
+;residue_X
+       613         C       613       XXX       lxx         0      1.00    10.000
+;residue_X
+       614         C       614       XXX       lxx         0     -1.00    10.000
+;residue_X
+       615         C       615       XXX       lxx         0     -0.00    10.000
+;residue_X
+       616         C       616       XXX       lxx         0     -0.00    10.000
+;residue_X
+       617         C       617       XXX       lxx         0     -0.00    10.000
+;residue_X
+       618         C       618       XXX       lxx         0     -0.00    10.000
+;residue_X
+       619         C       619       XXX       lxx         0      1.00    10.000
+;residue_X
+       620         C       620       XXX       lxx         0     -0.50    10.000
+;residue_X
+       621         C       621       XXX       lxx         0     -0.00    10.000
+;residue_X
+       622         C       622       XXX       lxx         0     -1.00    10.000
+;residue_X
+       623         C       623       XXX       lxx         0      1.00    10.000
+;residue_X
+       624         C       624       XXX       lxx         0     -0.00    10.000
+;residue_X
+       625         C       625       XXX       lxx         0     -0.50    10.000
+;residue_X
+       626         C       626       XXX       lxx         0     -0.00    10.000
+;residue_X
+       627         C       627       XXX       lxx         0     -1.00    10.000
+;residue_X
+       628         C       628       XXX       lxx         0     -0.50    10.000
+;residue_X
+       629         C       629       XXX       lxx         0     -0.50    10.000
+;residue_X
+       630         C       630       XXX       lxx         0     -0.00    10.000
+;residue_X
+       631         C       631       XXX       lxx         0     -0.00    10.000
+;residue_X
+       632         C       632       XXX       lxx         0     -0.00    10.000
+;residue_X
+       633         C       633       XXX       lxx         0     -1.00    10.000
+;residue_X
+       634         C       634       XXX       lxx         0     -1.00    10.000
+;residue_X
+       635         C       635       XXX       lxx         0      1.00    10.000
+;residue_X
+       636         C       636       XXX       lxx         0      0.50    10.000
+;residue_X
+       637         C       637       XXX       lxx         0      0.50    10.000
+;residue_X
+       638         C       638       XXX       lxx         0     -0.00    10.000
+;residue_X
+       639         C       639       XXX       lxx         0     -0.00    10.000
+;residue_X
+       640         C       640       XXX       lxx         0     -1.00    10.000
+;residue_X
+       641         C       641       XXX       lxx         0     -0.50    10.000
+;residue_X
+       642         C       642       XXX       lxx         0     -0.50    10.000
+;residue_X
+       643         C       643       XXX       lxx         0     -0.50    10.000
+;residue_X
+       644         C       644       XXX       lxx         0     -0.00    10.000
+;residue_X
+       645         C       645       XXX       lxx         0     -1.00    10.000
+;residue_X
+       646         C       646       XXX       lxx         0     -1.00    10.000
+;residue_X
+       647         C       647       XXX       lxx         0     -0.00    10.000
+;residue_X
+       648         C       648       XXX       lxx         0     -0.50    10.000
+;residue_X
+       649         C       649       XXX       lxx         0      1.00    10.000
+;residue_X
+       650         C       650       XXX       lxx         0     -0.00    10.000
+;residue_X
+       651         C       651       XXX       lxx         0      0.50    10.000
+;residue_X
+       652         C       652       XXX       lxx         0      0.50    10.000
+;residue_X
+       653         C       653       XXX       lxx         0      0.50    10.000
+;residue_X
+       654         C       654       XXX       lxx         0     -0.00    10.000
+;residue_X
+       655         C       655       XXX       lxx         0     -1.00    10.000
+;residue_X
+       656         C       656       XXX       lxx         0     -0.00    10.000
+;residue_X
+       657         C       657       XXX       lxx         0     -0.00    10.000
+;residue_X
+       658         C       658       XXX       lxx         0      1.00    10.000
+;residue_X
+       659         C       659       XXX       lxx         0      0.50    10.000
+;residue_X
+       660         C       660       XXX       lxx         0      0.50    10.000
+;residue_X
+       661         C       661       XXX       lxx         0     -0.00    10.000
+;residue_X
+       662         C       662       XXX       lxx         0      0.50    10.000
+;residue_X
+       663         C       663       XXX       lxx         0      0.50    10.000
+;residue_X
+       664         C       664       XXX       lxx         0     -0.50    10.000
+;residue_X
+       665         C       665       XXX       lxx         0     -0.00    10.000
+;residue_X
+       666         C       666       XXX       lxx         0     -0.00    10.000
+;residue_X
+       667         C       667       XXX       lxx         0      0.50    10.000
+;residue_X
+       668         C       668       XXX       lxx         0      1.00    10.000
+;residue_X
+       669         C       669       XXX       lxx         0      1.00    10.000
+;residue_X
+       670         C       670       XXX       lxx         0     -1.00    10.000
+;residue_X
+       671         C       671       XXX       lxx         0      1.00    10.000
+;residue_X
+       672         C       672       XXX       lxx         0     -1.00    10.000
+;residue_X
+       673         C       673       XXX       lxx         0     -0.50    10.000
+;residue_X
+       674         C       674       XXX       lxx         0     -0.00    10.000
+;residue_X
+       675         C       675       XXX       lxx         0     -1.00    10.000
+;residue_X
+       676         C       676       XXX       lxx         0     -0.00    10.000
+;residue_X
+       677         C       677       XXX       lxx         0     -0.00    10.000
+;residue_X
+       678         C       678       XXX       lxx         0     -0.00    10.000
+;residue_X
+       679         C       679       XXX       lxx         0     -0.00    10.000
+;residue_X
+       680         C       680       XXX       lxx         0      1.00    10.000
+;residue_X
+       681         C       681       XXX       lxx         0     -0.00    10.000
+;residue_X
+       682         C       682       XXX       lxx         0      0.50    10.000
+;residue_X
+       683         C       683       XXX       lxx         0      1.00    10.000
+;residue_X
+       684         C       684       XXX       lxx         0     -0.00    10.000
+;residue_X
+       685         C       685       XXX       lxx         0     -0.00    10.000
+;residue_X
+       686         C       686       XXX       lxx         0      1.00    10.000
+;residue_X
+       687         C       687       XXX       lxx         0     -0.00    10.000
+;residue_X
+       688         C       688       XXX       lxx         0     -1.00    10.000
+;residue_X
+       689         C       689       XXX       lxx         0     -0.50    10.000
+;residue_X
+       690         C       690       XXX       lxx         0      0.50    10.000
+;residue_X
+       691         C       691       XXX       lxx         0     -1.00    10.000
+;residue_X
+       692         C       692       XXX       lxx         0      0.50    10.000
+;residue_X
+       693         C       693       XXX       lxx         0     -1.00    10.000
+;residue_X
+       694         C       694       XXX       lxx         0     -1.00    10.000
+;residue_X
+       695         C       695       XXX       lxx         0     -0.00    10.000
+;residue_X
+       696         C       696       XXX       lxx         0      0.50    10.000
+;residue_X
+       697         C       697       XXX       lxx         0      1.00    10.000
+;residue_X
+       698         C       698       XXX       lxx         0     -0.50    10.000
+;residue_X
+       699         C       699       XXX       lxx         0     -1.00    10.000
+;residue_X
+       700         C       700       XXX       lxx         0      1.00    10.000
+;residue_X
+       701         C       701       XXX       lxx         0      1.00    10.000
+;residue_X
+       702         C       702       XXX       lxx         0      0.50    10.000
+;residue_X
+       703         C       703       XXX       lxx         0      0.50    10.000
+;residue_X
+       704         C       704       XXX       lxx         0     -0.00    10.000
+;residue_X
+       705         C       705       XXX       lxx         0      1.00    10.000
+;residue_X
+       706         C       706       XXX       lxx         0      0.50    10.000
+;residue_X
+       707         C       707       XXX       lxx         0     -0.50    10.000
+;residue_X
+       708         C       708       XXX       lxx         0      1.00    10.000
+;residue_X
+       709         C       709       XXX       lxx         0     -0.00    10.000
+;residue_X
+       710         C       710       XXX       lxx         0     -0.00    10.000
+;residue_X
+       711         C       711       XXX       lxx         0      1.00    10.000
+;residue_X
+       712         C       712       XXX       lxx         0     -0.50    10.000
+;residue_X
+       713         C       713       XXX       lxx         0     -1.00    10.000
+;residue_X
+       714         C       714       XXX       lxx         0     -0.00    10.000
+;residue_X
+       715         C       715       XXX       lxx         0      0.50    10.000
+;residue_X
+       716         C       716       XXX       lxx         0     -0.50    10.000
+;residue_X
+       717         C       717       XXX       lxx         0     -1.00    10.000
+;residue_X
+       718         C       718       XXX       lxx         0      1.00    10.000
+;residue_X
+       719         C       719       XXX       lxx         0     -0.00    10.000
+;residue_X
+       720         C       720       XXX       lxx         0     -0.00    10.000
+;residue_X
+       721         C       721       XXX       lxx         0     -0.00    10.000
+;residue_X
+       722         C       722       XXX       lxx         0     -0.50    10.000
+;residue_X
+       723         C       723       XXX       lxx         0     -0.00    10.000
+;residue_X
+       724         C       724       XXX       lxx         0     -1.00    10.000
+;residue_X
+       725         C       725       XXX       lxx         0      1.00    10.000
+;residue_X
+       726         C       726       XXX       lxx         0      0.50    10.000
+;residue_X
+       727         C       727       XXX       lxx         0     -0.50    10.000
+;residue_X
+       728         C       728       XXX       lxx         0      1.00    10.000
+;residue_X
+       729         C       729       XXX       lxx         0      0.50    10.000
+;residue_X
+       730         C       730       XXX       lxx         0     -0.00    10.000
+;residue_X
+       731         C       731       XXX       lxx         0     -0.00    10.000
+;residue_X
+       732         C       732       XXX       lxx         0     -1.00    10.000
+;residue_X
+       733         C       733       XXX       lxx         0      1.00    10.000
+;residue_X
+       734         C       734       XXX       lxx         0     -0.00    10.000
+;residue_X
+       735         C       735       XXX       lxx         0      1.00    10.000
+;residue_X
+       736         C       736       XXX       lxx         0     -1.00    10.000
+;residue_X
+       737         C       737       XXX       lxx         0     -0.00    10.000
+;residue_X
+       738         C       738       XXX       lxx         0      0.50    10.000
+;residue_X
+       739         C       739       XXX       lxx         0     -0.00    10.000
+;residue_X
+       740         C       740       XXX       lxx         0     -0.00    10.000
+;residue_X
+       741         C       741       XXX       lxx         0     -1.00    10.000
+;residue_X
+       742         C       742       XXX       lxx         0     -0.00    10.000
+;residue_X
+       743         C       743       XXX       lxx         0     -0.50    10.000
+;residue_X
+       744         C       744       XXX       lxx         0     -0.50    10.000
+;residue_X
+       745         C       745       XXX       lxx         0     -0.00    10.000
+;residue_X
+       746         C       746       XXX       lxx         0     -0.00    10.000
+;residue_X
+       747         C       747       XXX       lxx         0      0.50    10.000
+;residue_X
+       748         C       748       XXX       lxx         0     -0.00    10.000
+;residue_X
+       749         C       749       XXX       lxx         0     -1.00    10.000
+;residue_X
+       750         C       750       XXX       lxx         0     -0.00    10.000
+;residue_X
+       751         C       751       XXX       lxx         0     -0.00    10.000
+;residue_X
+       752         C       752       XXX       lxx         0     -0.50    10.000
+;residue_X
+       753         C       753       XXX       lxx         0     -0.50    10.000
+;residue_X
+       754         C       754       XXX       lxx         0      0.50    10.000
+;residue_X
+       755         C       755       XXX       lxx         0     -0.00    10.000
+;residue_X
+       756         C       756       XXX       lxx         0     -0.00    10.000
+;residue_X
+       757         C       757       XXX       lxx         0     -0.50    10.000
+;residue_X
+       758         C       758       XXX       lxx         0      1.00    10.000
+;residue_X
+       759         C       759       XXX       lxx         0     -0.00    10.000
+;residue_X
+       760         C       760       XXX       lxx         0     -0.00    10.000
+;residue_X
+       761         C       761       XXX       lxx         0     -0.00    10.000
+;residue_X
+       762         C       762       XXX       lxx         0     -1.00    10.000
+;residue_X
+       763         C       763       XXX       lxx         0      0.50    10.000
+;residue_X
+       764         C       764       XXX       lxx         0     -0.50    10.000
+;residue_X
+       765         C       765       XXX       lxx         0     -0.00    10.000
+;residue_X
+       766         C       766       XXX       lxx         0     -0.50    10.000
+;residue_X
+       767         C       767       XXX       lxx         0     -0.00    10.000
+;residue_X
+       768         C       768       XXX       lxx         0     -0.00    10.000
+;residue_X
+       769         C       769       XXX       lxx         0     -0.50    10.000
+;residue_X
+       770         C       770       XXX       lxx         0     -0.00    10.000
+;residue_X
+       771         C       771       XXX       lxx         0     -1.00    10.000
+;residue_X
+       772         C       772       XXX       lxx         0      0.50    10.000
+;residue_X
+       773         C       773       XXX       lxx         0     -0.00    10.000
+;residue_X
+       774         C       774       XXX       lxx         0     -0.00    10.000
+;residue_X
+       775         C       775       XXX       lxx         0     -0.00    10.000
+;residue_X
+       776         C       776       XXX       lxx         0      1.00    10.000
+;residue_X
+       777         C       777       XXX       lxx         0      0.50    10.000
+;residue_X
+       778         C       778       XXX       lxx         0     -0.50    10.000
+;residue_X
+       779         C       779       XXX       lxx         0     -0.00    10.000
+;residue_X
+       780         C       780       XXX       lxx         0     -0.00    10.000
+;residue_X
+       781         C       781       XXX       lxx         0     -0.50    10.000
+;residue_X
+       782         C       782       XXX       lxx         0     -1.00    10.000
+;residue_X
+       783         C       783       XXX       lxx         0     -0.00    10.000
+;residue_X
+       784         C       784       XXX       lxx         0     -1.00    10.000
+;residue_X
+       785         C       785       XXX       lxx         0      0.50    10.000
+;residue_X
+       786         C       786       XXX       lxx         0     -1.00    10.000
+;residue_X
+       787         C       787       XXX       lxx         0     -0.00    10.000
+;residue_X
+       788         C       788       XXX       lxx         0     -0.00    10.000
+;residue_X
+       789         C       789       XXX       lxx         0     -0.00    10.000
+;residue_X
+       790         C       790       XXX       lxx         0     -0.00    10.000
+;residue_X
+       791         C       791       XXX       lxx         0      0.50    10.000
+;residue_X
+       792         C       792       XXX       lxx         0     -1.00    10.000
+;residue_X
+       793         C       793       XXX       lxx         0     -0.00    10.000
+;residue_X
+       794         C       794       XXX       lxx         0      1.00    10.000
+;residue_X
+       795         C       795       XXX       lxx         0      0.50    10.000
+;residue_X
+       796         C       796       XXX       lxx         0      1.00    10.000
+;residue_X
+       797         C       797       XXX       lxx         0     -0.50    10.000
+;residue_X
+       798         C       798       XXX       lxx         0     -0.00    10.000
+;residue_X
+       799         C       799       XXX       lxx         0     -0.00    10.000
+;residue_X
+       800         C       800       XXX       lxx         0      0.50    10.000
+;residue_X
+       801         C       801       XXX       lxx         0     -0.00    10.000
+;residue_X
+       802         C       802       XXX       lxx         0      1.00    10.000
+;residue_X
+       803         C       803       XXX       lxx         0     -0.00    10.000
+;residue_X
+       804         C       804       XXX       lxx         0      1.00    10.000
+;residue_X
+       805         C       805       XXX       lxx         0      0.50    10.000
+;residue_X
+       806         C       806       XXX       lxx         0     -0.00    10.000
+;residue_X
+       807         C       807       XXX       lxx         0     -1.00    10.000
+;residue_X
+       808         C       808       XXX       lxx         0      1.00    10.000
+;residue_X
+       809         C       809       XXX       lxx         0     -0.00    10.000
+;residue_X
+       810         C       810       XXX       lxx         0     -1.00    10.000
+;residue_X
+       811         C       811       XXX       lxx         0      1.00    10.000
+;residue_X
+       812         C       812       XXX       lxx         0     -0.50    10.000
+;residue_X
+       813         C       813       XXX       lxx         0     -0.50    10.000
+;residue_X
+       814         C       814       XXX       lxx         0     -0.00    10.000
+;residue_X
+       815         C       815       XXX       lxx         0     -1.00    10.000
+;residue_X
+       816         C       816       XXX       lxx         0     -1.00    10.000
+;residue_X
+       817         C       817       XXX       lxx         0     -0.00    10.000
+;residue_X
+       818         C       818       XXX       lxx         0     -0.00    10.000
+;residue_X
+       819         C       819       XXX       lxx         0     -0.00    10.000
+;residue_X
+       820         C       820       XXX       lxx         0     -0.50    10.000
+;residue_X
+       821         C       821       XXX       lxx         0      1.00    10.000
+;residue_X
+       822         C       822       XXX       lxx         0     -0.50    10.000
+;residue_X
+       823         C       823       XXX       lxx         0      1.00    10.000
+;residue_X
+       824         C       824       XXX       lxx         0      0.50    10.000
+;residue_X
+       825         C       825       XXX       lxx         0     -0.00    10.000
+;residue_X
+       826         C       826       XXX       lxx         0     -0.00    10.000
+;residue_X
+       827         C       827       XXX       lxx         0     -0.00    10.000
+;residue_X
+       828         C       828       XXX       lxx         0     -1.00    10.000
+;residue_X
+       829         C       829       XXX       lxx         0     -0.00    10.000
+;residue_X
+       830         C       830       XXX       lxx         0      0.50    10.000
+;residue_X
+       831         C       831       XXX       lxx         0     -0.50    10.000
+;residue_X
+       832         C       832       XXX       lxx         0      0.50    10.000
+;residue_X
+       833         C       833       XXX       lxx         0     -0.50    10.000
+;residue_X
+       834         C       834       XXX       lxx         0     -0.00    10.000
+;residue_X
+       835         C       835       XXX       lxx         0      1.00    10.000
+;residue_X
+       836         C       836       XXX       lxx         0     -0.00    10.000
+;residue_X
+       837         C       837       XXX       lxx         0      0.50    10.000
+;residue_X
+       838         C       838       XXX       lxx         0      0.50    10.000
+;residue_X
+       839         C       839       XXX       lxx         0      0.50    10.000
+;residue_X
+       840         C       840       XXX       lxx         0      1.00    10.000
+;residue_X
+       841         C       841       XXX       lxx         0     -0.00    10.000
+;residue_X
+       842         C       842       XXX       lxx         0     -0.50    10.000
+;residue_X
+       843         C       843       XXX       lxx         0      1.00    10.000
+;residue_X
+       844         C       844       XXX       lxx         0     -0.00    10.000
+;residue_X
+       845         C       845       XXX       lxx         0      1.00    10.000
+;residue_X
+       846         C       846       XXX       lxx         0      1.00    10.000
+;residue_X
+       847         C       847       XXX       lxx         0     -1.00    10.000
+;residue_X
+       848         C       848       XXX       lxx         0     -0.00    10.000
+;residue_X
+       849         C       849       XXX       lxx         0      1.00    10.000
+;residue_X
+       850         C       850       XXX       lxx         0     -0.00    10.000
+;residue_X
+       851         C       851       XXX       lxx         0     -0.00    10.000
+;residue_X
+       852         C       852       XXX       lxx         0     -1.00    10.000
+;residue_X
+       853         C       853       XXX       lxx         0     -1.00    10.000
+;residue_X
+       854         C       854       XXX       lxx         0     -0.00    10.000
+;residue_X
+       855         C       855       XXX       lxx         0     -0.00    10.000
+;residue_X
+       856         C       856       XXX       lxx         0     -1.00    10.000
+;residue_X
+       857         C       857       XXX       lxx         0     -0.50    10.000
+;residue_X
+       858         C       858       XXX       lxx         0     -0.00    10.000
+;residue_X
+       859         C       859       XXX       lxx         0     -1.00    10.000
+;residue_X
+       860         C       860       XXX       lxx         0     -0.00    10.000
+;residue_X
+       861         C       861       XXX       lxx         0     -1.00    10.000
+;residue_X
+       862         C       862       XXX       lxx         0     -1.00    10.000
+;residue_X
+       863         C       863       XXX       lxx         0     -0.50    10.000
+;residue_X
+       864         C       864       XXX       lxx         0      0.50    10.000
+;residue_X
+       865         C       865       XXX       lxx         0     -0.50    10.000
+;residue_X
+       866         C       866       XXX       lxx         0      0.50    10.000
+;residue_X
+       867         C       867       XXX       lxx         0      1.00    10.000
+;residue_X
+       868         C       868       XXX       lxx         0     -0.50    10.000
+;residue_X
+       869         C       869       XXX       lxx         0     -0.50    10.000
+;residue_X
+       870         C       870       XXX       lxx         0     -0.00    10.000
+;residue_X
+       871         C       871       XXX       lxx         0      1.00    10.000
+;residue_X
+       872         C       872       XXX       lxx         0     -0.00    10.000
+;residue_X
+       873         C       873       XXX       lxx         0     -0.00    10.000
+;residue_X
+       874         C       874       XXX       lxx         0     -0.00    10.000
+;residue_X
+       875         C       875       XXX       lxx         0     -0.00    10.000
+;residue_X
+       876         C       876       XXX       lxx         0     -0.00    10.000
+;residue_X
+       877         C       877       XXX       lxx         0     -0.00    10.000
+;residue_X
+       878         C       878       XXX       lxx         0     -0.50    10.000
+;residue_X
+       879         C       879       XXX       lxx         0     -0.00    10.000
+;residue_X
+       880         C       880       XXX       lxx         0     -0.00    10.000
+;residue_X
+       881         C       881       XXX       lxx         0     -1.00    10.000
+;residue_X
+       882         C       882       XXX       lxx         0      0.50    10.000
+;residue_X
+       883         C       883       XXX       lxx         0     -0.00    10.000
+;residue_X
+       884         C       884       XXX       lxx         0     -0.50    10.000
+;residue_X
+       885         C       885       XXX       lxx         0     -0.00    10.000
+;residue_X
+       886         C       886       XXX       lxx         0      0.50    10.000
+;residue_X
+       887         C       887       XXX       lxx         0     -0.00    10.000
+;residue_X
+       888         C       888       XXX       lxx         0     -1.00    10.000
+;residue_X
+       889         C       889       XXX       lxx         0     -0.50    10.000
+;residue_X
+       890         C       890       XXX       lxx         0     -1.00    10.000
+;residue_X
+       891         C       891       XXX       lxx         0     -0.00    10.000
+;residue_X
+       892         C       892       XXX       lxx         0      1.00    10.000
+;residue_X
+       893         C       893       XXX       lxx         0     -0.00    10.000
+;residue_X
+       894         C       894       XXX       lxx         0     -0.50    10.000
+;residue_X
+       895         C       895       XXX       lxx         0     -1.00    10.000
+;residue_X
+       896         C       896       XXX       lxx         0     -0.00    10.000
+;residue_X
+       897         C       897       XXX       lxx         0      1.00    10.000
+;residue_X
+       898         C       898       XXX       lxx         0     -1.00    10.000
+;residue_X
+       899         C       899       XXX       lxx         0     -0.00    10.000
+;residue_X
+       900         C       900       XXX       lxx         0     -0.50    10.000
+;residue_X
+       901         C       901       XXX       lxx         0     -0.00    10.000
+;residue_X
+       902         C       902       XXX       lxx         0     -0.50    10.000
+;residue_X
+       903         C       903       XXX       lxx         0      1.00    10.000
+;residue_X
+       904         C       904       XXX       lxx         0     -0.00    10.000
+;residue_X
+       905         C       905       XXX       lxx         0     -0.00    10.000
+;residue_X
+       906         C       906       XXX       lxx         0     -0.50    10.000
+;residue_X
+       907         C       907       XXX       lxx         0      0.50    10.000
+;residue_X
+       908         C       908       XXX       lxx         0      1.00    10.000
+;residue_X
+       909         C       909       XXX       lxx         0      0.50    10.000
+;residue_X
+       910         C       910       XXX       lxx         0      0.50    10.000
+;residue_X
+       911         C       911       XXX       lxx         0     -1.00    10.000
+;residue_X
+       912         C       912       XXX       lxx         0     -1.00    10.000
+;residue_X
+       913         C       913       XXX       lxx         0     -0.00    10.000
+;residue_X
+       914         C       914       XXX       lxx         0     -1.00    10.000
+;residue_X
+       915         C       915       XXX       lxx         0     -0.00    10.000
+;residue_X
+       916         C       916       XXX       lxx         0     -0.00    10.000
+;residue_X
+       917         C       917       XXX       lxx         0     -1.00    10.000
+;residue_X
+       918         C       918       XXX       lxx         0     -0.50    10.000
+;residue_X
+       919         C       919       XXX       lxx         0     -0.00    10.000
+;residue_X
+       920         C       920       XXX       lxx         0      1.00    10.000
+;residue_X
+       921         C       921       XXX       lxx         0     -1.00    10.000
+;residue_X
+       922         C       922       XXX       lxx         0      0.50    10.000
+;residue_X
+       923         C       923       XXX       lxx         0      0.50    10.000
+;residue_X
+       924         C       924       XXX       lxx         0     -0.00    10.000
+;residue_X
+       925         C       925       XXX       lxx         0     -1.00    10.000
+;residue_X
+       926         C       926       XXX       lxx         0      1.00    10.000
+;residue_X
+       927         C       927       XXX       lxx         0     -0.50    10.000
+;residue_X
+       928         C       928       XXX       lxx         0     -1.00    10.000
+;residue_X
+       929         C       929       XXX       lxx         0      0.50    10.000
+;residue_X
+       930         C       930       XXX       lxx         0     -0.00    10.000
+;residue_X
+       931         C       931       XXX       lxx         0      0.50    10.000
+;residue_X
+       932         C       932       XXX       lxx         0      1.00    10.000
+;residue_X
+       933         C       933       XXX       lxx         0     -0.00    10.000
+;residue_X
+       934         C       934       XXX       lxx         0     -0.00    10.000
+;residue_X
+       935         C       935       XXX       lxx         0     -0.00    10.000
+;residue_X
+       936         C       936       XXX       lxx         0     -0.50    10.000
+;residue_X
+       937         C       937       XXX       lxx         0     -0.00    10.000
+;residue_X
+       938         C       938       XXX       lxx         0      1.00    10.000
+;residue_X
+       939         C       939       XXX       lxx         0     -0.00    10.000
+;residue_X
+       940         C       940       XXX       lxx         0     -0.00    10.000
+;residue_X
+       941         C       941       XXX       lxx         0      1.00    10.000
+;residue_X
+       942         C       942       XXX       lxx         0      0.50    10.000
+;residue_X
+       943         C       943       XXX       lxx         0     -0.00    10.000
+;residue_X
+       944         C       944       XXX       lxx         0      0.50    10.000
+;residue_X
+       945         C       945       XXX       lxx         0     -0.00    10.000
+;residue_X
+       946         C       946       XXX       lxx         0      1.00    10.000
+;residue_X
+       947         C       947       XXX       lxx         0     -0.00    10.000
+;residue_X
+       948         C       948       XXX       lxx         0     -0.50    10.000
+;residue_X
+       949         C       949       XXX       lxx         0      0.50    10.000
+;residue_X
+       950         C       950       XXX       lxx         0     -0.00    10.000
+;residue_X
+       951         C       951       XXX       lxx         0     -0.00    10.000
+;residue_X
+       952         C       952       XXX       lxx         0      0.50    10.000
+;residue_X
+       953         C       953       XXX       lxx         0     -0.00    10.000
+;residue_X
+       954         C       954       XXX       lxx         0     -0.00    10.000
+;residue_X
+       955         C       955       XXX       lxx         0     -0.00    10.000
+;residue_X
+       956         C       956       XXX       lxx         0      1.00    10.000
+;residue_X
+       957         C       957       XXX       lxx         0      1.00    10.000
+;residue_X
+       958         C       958       XXX       lxx         0      1.00    10.000
+;residue_X
+       959         C       959       XXX       lxx         0     -0.00    10.000
+;residue_X
+       960         C       960       XXX       lxx         0     -0.50    10.000
+;residue_X
+       961         C       961       XXX       lxx         0     -0.00    10.000
+;residue_X
+       962         C       962       XXX       lxx         0      0.50    10.000
+;residue_X
+       963         C       963       XXX       lxx         0     -1.00    10.000
+;residue_X
+       964         C       964       XXX       lxx         0      0.50    10.000
+;residue_X
+       965         C       965       XXX       lxx         0      1.00    10.000
+;residue_X
+       966         C       966       XXX       lxx         0     -0.00    10.000
+;residue_X
+       967         C       967       XXX       lxx         0      1.00    10.000
+;residue_X
+       968         C       968       XXX       lxx         0     -0.00    10.000
+;residue_X
+       969         C       969       XXX       lxx         0     -0.00    10.000
+;residue_X
+       970         C       970       XXX       lxx         0     -0.00    10.000
+;residue_X
+       971         C       971       XXX       lxx         0     -0.50    10.000
+;residue_X
+       972         C       972       XXX       lxx         0     -0.00    10.000
+;residue_X
+       973         C       973       XXX       lxx         0     -0.00    10.000
+;residue_X
+       974         C       974       XXX       lxx         0     -0.00    10.000
+;residue_X
+       975         C       975       XXX       lxx         0     -0.00    10.000
+;residue_X
+       976         C       976       XXX       lxx         0     -1.00    10.000
+;residue_X
+       977         C       977       XXX       lxx         0     -0.00    10.000
+;residue_X
+       978         C       978       XXX       lxx         0     -0.50    10.000
+;residue_X
+       979         C       979       XXX       lxx         0      1.00    10.000
+;residue_X
+       980         C       980       XXX       lxx         0     -0.50    10.000
+;residue_X
+       981         C       981       XXX       lxx         0     -0.00    10.000
+;residue_X
+       982         C       982       XXX       lxx         0     -0.00    10.000
+;residue_X
+       983         C       983       XXX       lxx         0     -1.00    10.000
+;residue_X
+       984         C       984       XXX       lxx         0      0.50    10.000
+;residue_X
+       985         C       985       XXX       lxx         0     -1.00    10.000
+;residue_X
+       986         C       986       XXX       lxx         0     -1.00    10.000
+;residue_X
+       987         C       987       XXX       lxx         0     -0.00    10.000
+;residue_X
+       988         C       988       XXX       lxx         0     -0.50    10.000
+;residue_X
+       989         C       989       XXX       lxx         0     -0.50    10.000
+;residue_X
+       990         C       990       XXX       lxx         0     -0.00    10.000
+;residue_X
+       991         C       991       XXX       lxx         0     -0.00    10.000
+;residue_X
+       992         C       992       XXX       lxx         0     -0.00    10.000
+;residue_X
+       993         C       993       XXX       lxx         0     -1.00    10.000
+;residue_X
+       994         C       994       XXX       lxx         0     -1.00    10.000
+;residue_X
+       995         C       995       XXX       lxx         0      0.50    10.000
+;residue_X
+       996         C       996       XXX       lxx         0      1.00    10.000
+;residue_X
+       997         C       997       XXX       lxx         0      0.50    10.000
+;residue_X
+       998         C       998       XXX       lxx         0     -0.00    10.000
+;residue_X
+       999         C       999       XXX       lxx         0      1.00    10.000
+;residue_X
+      1000         C      1000       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1001         C      1001       XXX       lxx         0      0.50    10.000
+;residue_X
+      1002         C      1002       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1003         C      1003       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1004         C      1004       XXX       lxx         0      1.00    10.000
+;residue_X
+      1005         C      1005       XXX       lxx         0      1.00    10.000
+;residue_X
+      1006         C      1006       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1007         C      1007       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1008         C      1008       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1009         C      1009       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1010         C      1010       XXX       lxx         0      1.00    10.000
+;residue_X
+      1011         C      1011       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1012         C      1012       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1013         C      1013       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1014         C      1014       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1015         C      1015       XXX       lxx         0      1.00    10.000
+;residue_X
+      1016         C      1016       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1017         C      1017       XXX       lxx         0      0.50    10.000
+;residue_X
+      1018         C      1018       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1019         C      1019       XXX       lxx         0      0.50    10.000
+;residue_X
+      1020         C      1020       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1021         C      1021       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1022         C      1022       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1023         C      1023       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1024         C      1024       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1025         C      1025       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1026         C      1026       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1027         C      1027       XXX       lxx         0      1.00    10.000
+;residue_X
+      1028         C      1028       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1029         C      1029       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1030         C      1030       XXX       lxx         0      0.50    10.000
+;residue_X
+      1031         C      1031       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1032         C      1032       XXX       lxx         0      1.00    10.000
+;residue_X
+      1033         C      1033       XXX       lxx         0      0.50    10.000
+;residue_X
+      1034         C      1034       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1035         C      1035       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1036         C      1036       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1037         C      1037       XXX       lxx         0      1.00    10.000
+;residue_X
+      1038         C      1038       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1039         C      1039       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1040         C      1040       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1041         C      1041       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1042         C      1042       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1043         C      1043       XXX       lxx         0      0.50    10.000
+;residue_X
+      1044         C      1044       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1045         C      1045       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1046         C      1046       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1047         C      1047       XXX       lxx         0      1.00    10.000
+;residue_X
+      1048         C      1048       XXX       lxx         0      0.50    10.000
+;residue_X
+      1049         C      1049       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1050         C      1050       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1051         C      1051       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1052         C      1052       XXX       lxx         0      0.50    10.000
+;residue_X
+      1053         C      1053       XXX       lxx         0      0.50    10.000
+;residue_X
+      1054         C      1054       XXX       lxx         0      0.50    10.000
+;residue_X
+      1055         C      1055       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1056         C      1056       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1057         C      1057       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1058         C      1058       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1059         C      1059       XXX       lxx         0      1.00    10.000
+;residue_X
+      1060         C      1060       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1061         C      1061       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1062         C      1062       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1063         C      1063       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1064         C      1064       XXX       lxx         0      0.50    10.000
+;residue_X
+      1065         C      1065       XXX       lxx         0      0.50    10.000
+;residue_X
+      1066         C      1066       XXX       lxx         0      0.50    10.000
+;residue_X
+      1067         C      1067       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1068         C      1068       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1069         C      1069       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1070         C      1070       XXX       lxx         0      0.50    10.000
+;residue_X
+      1071         C      1071       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1072         C      1072       XXX       lxx         0      1.00    10.000
+;residue_X
+      1073         C      1073       XXX       lxx         0      1.00    10.000
+;residue_X
+      1074         C      1074       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1075         C      1075       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1076         C      1076       XXX       lxx         0      0.50    10.000
+;residue_X
+      1077         C      1077       XXX       lxx         0      1.00    10.000
+;residue_X
+      1078         C      1078       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1079         C      1079       XXX       lxx         0      0.50    10.000
+;residue_X
+      1080         C      1080       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1081         C      1081       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1082         C      1082       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1083         C      1083       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1084         C      1084       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1085         C      1085       XXX       lxx         0      1.00    10.000
+;residue_X
+      1086         C      1086       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1087         C      1087       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1088         C      1088       XXX       lxx         0      1.00    10.000
+;residue_X
+      1089         C      1089       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1090         C      1090       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1091         C      1091       XXX       lxx         0      1.00    10.000
+;residue_X
+      1092         C      1092       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1093         C      1093       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1094         C      1094       XXX       lxx         0      0.50    10.000
+;residue_X
+      1095         C      1095       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1096         C      1096       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1097         C      1097       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1098         C      1098       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1099         C      1099       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1100         C      1100       XXX       lxx         0      0.50    10.000
+;residue_X
+      1101         C      1101       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1102         C      1102       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1103         C      1103       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1104         C      1104       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1105         C      1105       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1106         C      1106       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1107         C      1107       XXX       lxx         0      0.50    10.000
+;residue_X
+      1108         C      1108       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1109         C      1109       XXX       lxx         0      0.50    10.000
+;residue_X
+      1110         C      1110       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1111         C      1111       XXX       lxx         0      0.50    10.000
+;residue_X
+      1112         C      1112       XXX       lxx         0      1.00    10.000
+;residue_X
+      1113         C      1113       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1114         C      1114       XXX       lxx         0      1.00    10.000
+;residue_X
+      1115         C      1115       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1116         C      1116       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1117         C      1117       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1118         C      1118       XXX       lxx         0      1.00    10.000
+;residue_X
+      1119         C      1119       XXX       lxx         0      0.50    10.000
+;residue_X
+      1120         C      1120       XXX       lxx         0      1.00    10.000
+;residue_X
+      1121         C      1121       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1122         C      1122       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1123         C      1123       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1124         C      1124       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1125         C      1125       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1126         C      1126       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1127         C      1127       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1128         C      1128       XXX       lxx         0      1.00    10.000
+;residue_X
+      1129         C      1129       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1130         C      1130       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1131         C      1131       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1132         C      1132       XXX       lxx         0      1.00    10.000
+;residue_X
+      1133         C      1133       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1134         C      1134       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1135         C      1135       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1136         C      1136       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1137         C      1137       XXX       lxx         0      1.00    10.000
+;residue_X
+      1138         C      1138       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1139         C      1139       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1140         C      1140       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1141         C      1141       XXX       lxx         0      0.50    10.000
+;residue_X
+      1142         C      1142       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1143         C      1143       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1144         C      1144       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1145         C      1145       XXX       lxx         0      0.50    10.000
+;residue_X
+      1146         C      1146       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1147         C      1147       XXX       lxx         0      1.00    10.000
+;residue_X
+      1148         C      1148       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1149         C      1149       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1150         C      1150       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1151         C      1151       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1152         C      1152       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1153         C      1153       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1154         C      1154       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1155         C      1155       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1156         C      1156       XXX       lxx         0      1.00    10.000
+;residue_X
+      1157         C      1157       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1158         C      1158       XXX       lxx         0      0.50    10.000
+;residue_X
+      1159         C      1159       XXX       lxx         0      0.50    10.000
+;residue_X
+      1160         C      1160       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1161         C      1161       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1162         C      1162       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1163         C      1163       XXX       lxx         0      1.00    10.000
+;residue_X
+      1164         C      1164       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1165         C      1165       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1166         C      1166       XXX       lxx         0      1.00    10.000
+;residue_X
+      1167         C      1167       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1168         C      1168       XXX       lxx         0      1.00    10.000
+;residue_X
+      1169         C      1169       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1170         C      1170       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1171         C      1171       XXX       lxx         0      1.00    10.000
+;residue_X
+      1172         C      1172       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1173         C      1173       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1174         C      1174       XXX       lxx         0      1.00    10.000
+;residue_X
+      1175         C      1175       XXX       lxx         0      0.50    10.000
+;residue_X
+      1176         C      1176       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1177         C      1177       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1178         C      1178       XXX       lxx         0      0.50    10.000
+;residue_X
+      1179         C      1179       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1180         C      1180       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1181         C      1181       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1182         C      1182       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1183         C      1183       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1184         C      1184       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1185         C      1185       XXX       lxx         0      0.50    10.000
+;residue_X
+      1186         C      1186       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1187         C      1187       XXX       lxx         0      1.00    10.000
+;residue_X
+      1188         C      1188       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1189         C      1189       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1190         C      1190       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1191         C      1191       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1192         C      1192       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1193         C      1193       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1194         C      1194       XXX       lxx         0      0.50    10.000
+;residue_X
+      1195         C      1195       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1196         C      1196       XXX       lxx         0      1.00    10.000
+;residue_X
+      1197         C      1197       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1198         C      1198       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1199         C      1199       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1200         C      1200       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1201         C      1201       XXX       lxx         0      0.50    10.000
+;residue_X
+      1202         C      1202       XXX       lxx         0      0.50    10.000
+;residue_X
+      1203         C      1203       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1204         C      1204       XXX       lxx         0      1.00    10.000
+;residue_X
+      1205         C      1205       XXX       lxx         0      0.50    10.000
+;residue_X
+      1206         C      1206       XXX       lxx         0      1.00    10.000
+;residue_X
+      1207         C      1207       XXX       lxx         0      0.50    10.000
+;residue_X
+      1208         C      1208       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1209         C      1209       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1210         C      1210       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1211         C      1211       XXX       lxx         0      1.00    10.000
+;residue_X
+      1212         C      1212       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1213         C      1213       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1214         C      1214       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1215         C      1215       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1216         C      1216       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1217         C      1217       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1218         C      1218       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1219         C      1219       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1220         C      1220       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1221         C      1221       XXX       lxx         0      1.00    10.000
+;residue_X
+      1222         C      1222       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1223         C      1223       XXX       lxx         0      0.50    10.000
+;residue_X
+      1224         C      1224       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1225         C      1225       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1226         C      1226       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1227         C      1227       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1228         C      1228       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1229         C      1229       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1230         C      1230       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1231         C      1231       XXX       lxx         0      1.00    10.000
+;residue_X
+      1232         C      1232       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1233         C      1233       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1234         C      1234       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1235         C      1235       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1236         C      1236       XXX       lxx         0      0.50    10.000
+;residue_X
+      1237         C      1237       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1238         C      1238       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1239         C      1239       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1240         C      1240       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1241         C      1241       XXX       lxx         0      0.50    10.000
+;residue_X
+      1242         C      1242       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1243         C      1243       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1244         C      1244       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1245         C      1245       XXX       lxx         0      1.00    10.000
+;residue_X
+      1246         C      1246       XXX       lxx         0      0.50    10.000
+;residue_X
+      1247         C      1247       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1248         C      1248       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1249         C      1249       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1250         C      1250       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1251         C      1251       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1252         C      1252       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1253         C      1253       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1254         C      1254       XXX       lxx         0      0.50    10.000
+;residue_X
+      1255         C      1255       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1256         C      1256       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1257         C      1257       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1258         C      1258       XXX       lxx         0      1.00    10.000
+;residue_X
+      1259         C      1259       XXX       lxx         0      1.00    10.000
+;residue_X
+      1260         C      1260       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1261         C      1261       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1262         C      1262       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1263         C      1263       XXX       lxx         0      0.50    10.000
+;residue_X
+      1264         C      1264       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1265         C      1265       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1266         C      1266       XXX       lxx         0      1.00    10.000
+;residue_X
+      1267         C      1267       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1268         C      1268       XXX       lxx         0      0.50    10.000
+;residue_X
+      1269         C      1269       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1270         C      1270       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1271         C      1271       XXX       lxx         0      0.50    10.000
+;residue_X
+      1272         C      1272       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1273         C      1273       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1274         C      1274       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1275         C      1275       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1276         C      1276       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1277         C      1277       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1278         C      1278       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1279         C      1279       XXX       lxx         0      1.00    10.000
+;residue_X
+      1280         C      1280       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1281         C      1281       XXX       lxx         0      1.00    10.000
+;residue_X
+      1282         C      1282       XXX       lxx         0      0.50    10.000
+;residue_X
+      1283         C      1283       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1284         C      1284       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1285         C      1285       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1286         C      1286       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1287         C      1287       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1288         C      1288       XXX       lxx         0      1.00    10.000
+;residue_X
+      1289         C      1289       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1290         C      1290       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1291         C      1291       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1292         C      1292       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1293         C      1293       XXX       lxx         0      1.00    10.000
+;residue_X
+      1294         C      1294       XXX       lxx         0      1.00    10.000
+;residue_X
+      1295         C      1295       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1296         C      1296       XXX       lxx         0      1.00    10.000
+;residue_X
+      1297         C      1297       XXX       lxx         0      0.50    10.000
+;residue_X
+      1298         C      1298       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1299         C      1299       XXX       lxx         0      1.00    10.000
+;residue_X
+      1300         C      1300       XXX       lxx         0      0.50    10.000
+;residue_X
+      1301         C      1301       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1302         C      1302       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1303         C      1303       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1304         C      1304       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1305         C      1305       XXX       lxx         0      1.00    10.000
+;residue_X
+      1306         C      1306       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1307         C      1307       XXX       lxx         0      0.50    10.000
+;residue_X
+      1308         C      1308       XXX       lxx         0      0.50    10.000
+;residue_X
+      1309         C      1309       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1310         C      1310       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1311         C      1311       XXX       lxx         0      1.00    10.000
+;residue_X
+      1312         C      1312       XXX       lxx         0      0.50    10.000
+;residue_X
+      1313         C      1313       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1314         C      1314       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1315         C      1315       XXX       lxx         0      0.50    10.000
+;residue_X
+      1316         C      1316       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1317         C      1317       XXX       lxx         0      0.50    10.000
+;residue_X
+      1318         C      1318       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1319         C      1319       XXX       lxx         0      0.50    10.000
+;residue_X
+      1320         C      1320       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1321         C      1321       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1322         C      1322       XXX       lxx         0      1.00    10.000
+;residue_X
+      1323         C      1323       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1324         C      1324       XXX       lxx         0      0.50    10.000
+;residue_X
+      1325         C      1325       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1326         C      1326       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1327         C      1327       XXX       lxx         0      1.00    10.000
+;residue_X
+      1328         C      1328       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1329         C      1329       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1330         C      1330       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1331         C      1331       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1332         C      1332       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1333         C      1333       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1334         C      1334       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1335         C      1335       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1336         C      1336       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1337         C      1337       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1338         C      1338       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1339         C      1339       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1340         C      1340       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1341         C      1341       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1342         C      1342       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1343         C      1343       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1344         C      1344       XXX       lxx         0      1.00    10.000
+;residue_X
+      1345         C      1345       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1346         C      1346       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1347         C      1347       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1348         C      1348       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1349         C      1349       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1350         C      1350       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1351         C      1351       XXX       lxx         0      1.00    10.000
+;residue_X
+      1352         C      1352       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1353         C      1353       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1354         C      1354       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1355         C      1355       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1356         C      1356       XXX       lxx         0      1.00    10.000
+;residue_X
+      1357         C      1357       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1358         C      1358       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1359         C      1359       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1360         C      1360       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1361         C      1361       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1362         C      1362       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1363         C      1363       XXX       lxx         0      1.00    10.000
+;residue_X
+      1364         C      1364       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1365         C      1365       XXX       lxx         0      1.00    10.000
+;residue_X
+      1366         C      1366       XXX       lxx         0      0.50    10.000
+;residue_X
+      1367         C      1367       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1368         C      1368       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1369         C      1369       XXX       lxx         0      0.50    10.000
+;residue_X
+      1370         C      1370       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1371         C      1371       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1372         C      1372       XXX       lxx         0      0.50    10.000
+;residue_X
+      1373         C      1373       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1374         C      1374       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1375         C      1375       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1376         C      1376       XXX       lxx         0      0.50    10.000
+;residue_X
+      1377         C      1377       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1378         C      1378       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1379         C      1379       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1380         C      1380       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1381         C      1381       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1382         C      1382       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1383         C      1383       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1384         C      1384       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1385         C      1385       XXX       lxx         0      0.50    10.000
+;residue_X
+      1386         C      1386       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1387         C      1387       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1388         C      1388       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1389         C      1389       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1390         C      1390       XXX       lxx         0      1.00    10.000
+;residue_X
+      1391         C      1391       XXX       lxx         0      1.00    10.000
+;residue_X
+      1392         C      1392       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1393         C      1393       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1394         C      1394       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1395         C      1395       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1396         C      1396       XXX       lxx         0      1.00    10.000
+;residue_X
+      1397         C      1397       XXX       lxx         0      0.50    10.000
+;residue_X
+      1398         C      1398       XXX       lxx         0      0.50    10.000
+;residue_X
+      1399         C      1399       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1400         C      1400       XXX       lxx         0      0.50    10.000
+;residue_X
+      1401         C      1401       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1402         C      1402       XXX       lxx         0      0.50    10.000
+;residue_X
+      1403         C      1403       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1404         C      1404       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1405         C      1405       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1406         C      1406       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1407         C      1407       XXX       lxx         0      1.00    10.000
+;residue_X
+      1408         C      1408       XXX       lxx         0      1.00    10.000
+;residue_X
+      1409         C      1409       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1410         C      1410       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1411         C      1411       XXX       lxx         0      0.50    10.000
+;residue_X
+      1412         C      1412       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1413         C      1413       XXX       lxx         0      0.50    10.000
+;residue_X
+      1414         C      1414       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1415         C      1415       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1416         C      1416       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1417         C      1417       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1418         C      1418       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1419         C      1419       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1420         C      1420       XXX       lxx         0      1.00    10.000
+;residue_X
+      1421         C      1421       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1422         C      1422       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1423         C      1423       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1424         C      1424       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1425         C      1425       XXX       lxx         0      0.50    10.000
+;residue_X
+      1426         C      1426       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1427         C      1427       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1428         C      1428       XXX       lxx         0      0.50    10.000
+;residue_X
+      1429         C      1429       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1430         C      1430       XXX       lxx         0      0.50    10.000
+;residue_X
+      1431         C      1431       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1432         C      1432       XXX       lxx         0      1.00    10.000
+;residue_X
+      1433         C      1433       XXX       lxx         0      0.50    10.000
+;residue_X
+      1434         C      1434       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1435         C      1435       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1436         C      1436       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1437         C      1437       XXX       lxx         0      1.00    10.000
+;residue_X
+      1438         C      1438       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1439         C      1439       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1440         C      1440       XXX       lxx         0      1.00    10.000
+;residue_X
+      1441         C      1441       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1442         C      1442       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1443         C      1443       XXX       lxx         0      1.00    10.000
+;residue_X
+      1444         C      1444       XXX       lxx         0      1.00    10.000
+;residue_X
+      1445         C      1445       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1446         C      1446       XXX       lxx         0      1.00    10.000
+;residue_X
+      1447         C      1447       XXX       lxx         0      1.00    10.000
+;residue_X
+      1448         C      1448       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1449         C      1449       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1450         C      1450       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1451         C      1451       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1452         C      1452       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1453         C      1453       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1454         C      1454       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1455         C      1455       XXX       lxx         0      0.50    10.000
+;residue_X
+      1456         C      1456       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1457         C      1457       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1458         C      1458       XXX       lxx         0      1.00    10.000
+;residue_X
+      1459         C      1459       XXX       lxx         0      0.50    10.000
+;residue_X
+      1460         C      1460       XXX       lxx         0      0.50    10.000
+;residue_X
+      1461         C      1461       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1462         C      1462       XXX       lxx         0      1.00    10.000
+;residue_X
+      1463         C      1463       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1464         C      1464       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1465         C      1465       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1466         C      1466       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1467         C      1467       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1468         C      1468       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1469         C      1469       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1470         C      1470       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1471         C      1471       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1472         C      1472       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1473         C      1473       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1474         C      1474       XXX       lxx         0      1.00    10.000
+;residue_X
+      1475         C      1475       XXX       lxx         0      0.50    10.000
+;residue_X
+      1476         C      1476       XXX       lxx         0      1.00    10.000
+;residue_X
+      1477         C      1477       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1478         C      1478       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1479         C      1479       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1480         C      1480       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1481         C      1481       XXX       lxx         0      0.50    10.000
+;residue_X
+      1482         C      1482       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1483         C      1483       XXX       lxx         0      0.50    10.000
+;residue_X
+      1484         C      1484       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1485         C      1485       XXX       lxx         0      0.50    10.000
+;residue_X
+      1486         C      1486       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1487         C      1487       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1488         C      1488       XXX       lxx         0      1.00    10.000
+;residue_X
+      1489         C      1489       XXX       lxx         0      0.50    10.000
+;residue_X
+      1490         C      1490       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1491         C      1491       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1492         C      1492       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1493         C      1493       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1494         C      1494       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1495         C      1495       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1496         C      1496       XXX       lxx         0      0.50    10.000
+;residue_X
+      1497         C      1497       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1498         C      1498       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1499         C      1499       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1500         C      1500       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1501         C      1501       XXX       lxx         0      1.00    10.000
+;residue_X
+      1502         C      1502       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1503         C      1503       XXX       lxx         0      0.50    10.000
+;residue_X
+      1504         C      1504       XXX       lxx         0      0.50    10.000
+;residue_X
+      1505         C      1505       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1506         C      1506       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1507         C      1507       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1508         C      1508       XXX       lxx         0      1.00    10.000
+;residue_X
+      1509         C      1509       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1510         C      1510       XXX       lxx         0      1.00    10.000
+;residue_X
+      1511         C      1511       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1512         C      1512       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1513         C      1513       XXX       lxx         0      0.50    10.000
+;residue_X
+      1514         C      1514       XXX       lxx         0      1.00    10.000
+;residue_X
+      1515         C      1515       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1516         C      1516       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1517         C      1517       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1518         C      1518       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1519         C      1519       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1520         C      1520       XXX       lxx         0      1.00    10.000
+;residue_X
+      1521         C      1521       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1522         C      1522       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1523         C      1523       XXX       lxx         0      0.50    10.000
+;residue_X
+      1524         C      1524       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1525         C      1525       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1526         C      1526       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1527         C      1527       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1528         C      1528       XXX       lxx         0      1.00    10.000
+;residue_X
+      1529         C      1529       XXX       lxx         0      1.00    10.000
+;residue_X
+      1530         C      1530       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1531         C      1531       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1532         C      1532       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1533         C      1533       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1534         C      1534       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1535         C      1535       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1536         C      1536       XXX       lxx         0      0.50    10.000
+;residue_X
+      1537         C      1537       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1538         C      1538       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1539         C      1539       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1540         C      1540       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1541         C      1541       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1542         C      1542       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1543         C      1543       XXX       lxx         0      0.50    10.000
+;residue_X
+      1544         C      1544       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1545         C      1545       XXX       lxx         0      0.50    10.000
+;residue_X
+      1546         C      1546       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1547         C      1547       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1548         C      1548       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1549         C      1549       XXX       lxx         0      0.50    10.000
+;residue_X
+      1550         C      1550       XXX       lxx         0      0.50    10.000
+;residue_X
+      1551         C      1551       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1552         C      1552       XXX       lxx         0      1.00    10.000
+;residue_X
+      1553         C      1553       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1554         C      1554       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1555         C      1555       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1556         C      1556       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1557         C      1557       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1558         C      1558       XXX       lxx         0      0.50    10.000
+;residue_X
+      1559         C      1559       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1560         C      1560       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1561         C      1561       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1562         C      1562       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1563         C      1563       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1564         C      1564       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1565         C      1565       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1566         C      1566       XXX       lxx         0      1.00    10.000
+;residue_X
+      1567         C      1567       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1568         C      1568       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1569         C      1569       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1570         C      1570       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1571         C      1571       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1572         C      1572       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1573         C      1573       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1574         C      1574       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1575         C      1575       XXX       lxx         0      0.50    10.000
+;residue_X
+      1576         C      1576       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1577         C      1577       XXX       lxx         0      1.00    10.000
+;residue_X
+      1578         C      1578       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1579         C      1579       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1580         C      1580       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1581         C      1581       XXX       lxx         0      1.00    10.000
+;residue_X
+      1582         C      1582       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1583         C      1583       XXX       lxx         0      1.00    10.000
+;residue_X
+      1584         C      1584       XXX       lxx         0      1.00    10.000
+;residue_X
+      1585         C      1585       XXX       lxx         0      1.00    10.000
+;residue_X
+      1586         C      1586       XXX       lxx         0      0.50    10.000
+;residue_X
+      1587         C      1587       XXX       lxx         0      1.00    10.000
+;residue_X
+      1588         C      1588       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1589         C      1589       XXX       lxx         0      1.00    10.000
+;residue_X
+      1590         C      1590       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1591         C      1591       XXX       lxx         0      0.50    10.000
+;residue_X
+      1592         C      1592       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1593         C      1593       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1594         C      1594       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1595         C      1595       XXX       lxx         0      0.50    10.000
+;residue_X
+      1596         C      1596       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1597         C      1597       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1598         C      1598       XXX       lxx         0      1.00    10.000
+;residue_X
+      1599         C      1599       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1600         C      1600       XXX       lxx         0      0.50    10.000
+;residue_X
+      1601         C      1601       XXX       lxx         0      1.00    10.000
+;residue_X
+      1602         C      1602       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1603         C      1603       XXX       lxx         0      0.50    10.000
+;residue_X
+      1604         C      1604       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1605         C      1605       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1606         C      1606       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1607         C      1607       XXX       lxx         0      1.00    10.000
+;residue_X
+      1608         C      1608       XXX       lxx         0      1.00    10.000
+;residue_X
+      1609         C      1609       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1610         C      1610       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1611         C      1611       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1612         C      1612       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1613         C      1613       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1614         C      1614       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1615         C      1615       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1616         C      1616       XXX       lxx         0      0.50    10.000
+;residue_X
+      1617         C      1617       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1618         C      1618       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1619         C      1619       XXX       lxx         0      0.50    10.000
+;residue_X
+      1620         C      1620       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1621         C      1621       XXX       lxx         0      0.50    10.000
+;residue_X
+      1622         C      1622       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1623         C      1623       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1624         C      1624       XXX       lxx         0      1.00    10.000
+;residue_X
+      1625         C      1625       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1626         C      1626       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1627         C      1627       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1628         C      1628       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1629         C      1629       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1630         C      1630       XXX       lxx         0      0.50    10.000
+;residue_X
+      1631         C      1631       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1632         C      1632       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1633         C      1633       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1634         C      1634       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1635         C      1635       XXX       lxx         0      0.50    10.000
+;residue_X
+      1636         C      1636       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1637         C      1637       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1638         C      1638       XXX       lxx         0      1.00    10.000
+;residue_X
+      1639         C      1639       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1640         C      1640       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1641         C      1641       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1642         C      1642       XXX       lxx         0      0.50    10.000
+;residue_X
+      1643         C      1643       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1644         C      1644       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1645         C      1645       XXX       lxx         0      0.50    10.000
+;residue_X
+      1646         C      1646       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1647         C      1647       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1648         C      1648       XXX       lxx         0      0.50    10.000
+;residue_X
+      1649         C      1649       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1650         C      1650       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1651         C      1651       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1652         C      1652       XXX       lxx         0      1.00    10.000
+;residue_X
+      1653         C      1653       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1654         C      1654       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1655         C      1655       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1656         C      1656       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1657         C      1657       XXX       lxx         0      0.50    10.000
+;residue_X
+      1658         C      1658       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1659         C      1659       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1660         C      1660       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1661         C      1661       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1662         C      1662       XXX       lxx         0      0.50    10.000
+;residue_X
+      1663         C      1663       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1664         C      1664       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1665         C      1665       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1666         C      1666       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1667         C      1667       XXX       lxx         0      1.00    10.000
+;residue_X
+      1668         C      1668       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1669         C      1669       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1670         C      1670       XXX       lxx         0      1.00    10.000
+;residue_X
+      1671         C      1671       XXX       lxx         0      1.00    10.000
+;residue_X
+      1672         C      1672       XXX       lxx         0      0.50    10.000
+;residue_X
+      1673         C      1673       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1674         C      1674       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1675         C      1675       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1676         C      1676       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1677         C      1677       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1678         C      1678       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1679         C      1679       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1680         C      1680       XXX       lxx         0      0.50    10.000
+;residue_X
+      1681         C      1681       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1682         C      1682       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1683         C      1683       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1684         C      1684       XXX       lxx         0      1.00    10.000
+;residue_X
+      1685         C      1685       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1686         C      1686       XXX       lxx         0      1.00    10.000
+;residue_X
+      1687         C      1687       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1688         C      1688       XXX       lxx         0      1.00    10.000
+;residue_X
+      1689         C      1689       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1690         C      1690       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1691         C      1691       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1692         C      1692       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1693         C      1693       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1694         C      1694       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1695         C      1695       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1696         C      1696       XXX       lxx         0      1.00    10.000
+;residue_X
+      1697         C      1697       XXX       lxx         0      0.50    10.000
+;residue_X
+      1698         C      1698       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1699         C      1699       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1700         C      1700       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1701         C      1701       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1702         C      1702       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1703         C      1703       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1704         C      1704       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1705         C      1705       XXX       lxx         0      1.00    10.000
+;residue_X
+      1706         C      1706       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1707         C      1707       XXX       lxx         0      0.50    10.000
+;residue_X
+      1708         C      1708       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1709         C      1709       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1710         C      1710       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1711         C      1711       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1712         C      1712       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1713         C      1713       XXX       lxx         0     -0.50    10.000
+;residue_X
+      1714         C      1714       XXX       lxx         0      0.50    10.000
+;residue_X
+      1715         C      1715       XXX       lxx         0      1.00    10.000
+;residue_X
+      1716         C      1716       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1717         C      1717       XXX       lxx         0      1.00    10.000
+;residue_X
+      1718         C      1718       XXX       lxx         0      1.00    10.000
+;residue_X
+      1719         C      1719       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1720         C      1720       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1721         C      1721       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1722         C      1722       XXX       lxx         0      0.50    10.000
+;residue_X
+      1723         C      1723       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1724         C      1724       XXX       lxx         0     -1.00    10.000
+;residue_X
+      1725         C      1725       XXX       lxx         0     -0.00    10.000
+;residue_X
+      1726         C      1726       XXX       lxx         0      0.50    10.000
+;residue_X
+      1727         C      1727       XXX       lxx         0      0.50    10.000
+;residue_X
+      1728         C      1728       XXX       lxx         0      1.00    10.000
+
+[ bonds ]
+;        ai        aj     funct        c0        c1        c2        c3
+
+[ pairs ]
+;        ai        aj     funct        c0        c1        c2        c3
+
+[ angles ]
+;        ai        aj        ak     funct        c0        c1        c2        c3
+
+[ dihedrals ]
+;        ai        aj        ak        al     funct        c0        c1        c2        c3        c4        c5
+
+[ dihedrals ]
+;        ai        aj        ak        al     funct        c0        c1        c2        c3
+

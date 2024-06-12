@@ -401,6 +401,11 @@ FodyWeavers.xsd
 
 # Lima files
 *.lff
+*/logs/*
+*.gro.bin
+*.top.bin
+*.itp.bin
+test
 
 # Gromacs files
 *#
