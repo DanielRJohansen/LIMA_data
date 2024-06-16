@@ -47,8 +47,8 @@
 #include "topol_Protein_chain_X.itp"
 #include "topol_Protein_chain_Y.itp"
 #include "topol_Protein_chain_Z.itp"
-#include "topol_Protein_chain_a.itp"
-#include "topol_Protein_chain_b.itp"
+#include "topol_Protein_chain_AA.itp"
+#include "topol_Protein_chain_BB.itp"
 
 ; Include water topology
 #include "charmm27.ff/spc.itp"

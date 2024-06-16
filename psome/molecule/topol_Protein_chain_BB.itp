@@ -19,7 +19,7 @@
 
 [ moleculetype ]
 ; Name            nrexcl
-Protein_chain_b     3
+Protein_chain_BB     3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
