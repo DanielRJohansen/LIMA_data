@@ -407,6 +407,8 @@ FodyWeavers.xsd
 *.itp.bin
 test
 
+*/out.gro*
+
 # Gromacs files
 *#
 *posre*.itp

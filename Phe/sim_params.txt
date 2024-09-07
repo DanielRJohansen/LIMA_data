@@ -1,2 +1,2 @@
-dt=1
-n_steps = 10000
+dt=0.2
+n_steps = 100

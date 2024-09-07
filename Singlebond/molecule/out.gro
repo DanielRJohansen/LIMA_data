@@ -1,0 +1,5 @@
+Two bonded carbons at the same coord, must be moved to the correct place by tests
+2
+1    XXX  C        1   1.001   0.100   0.500
+1    XXX  C        2   1.152   0.100   0.500
+2 2 2

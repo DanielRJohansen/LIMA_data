@@ -2,4 +2,5 @@ n_steps=1000
 dt=1 # [femto seconds]
 em=false # Is an energy-minimization sim
 boundarycondition=PBC # (PBC, NoBC)
-boxlen=7 # [nm]
+data_logging_interval=5 # [steps]
+enable_electrostatics=false
