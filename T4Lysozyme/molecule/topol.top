@@ -20,9 +20,8 @@
 ; Include forcefield parameters
 #include "charmm27.ff/forcefield.itp"
 
-[ moleculetype ]
-; Name            nrexcl
-Protein_chain_A     3
+#include "topol_Protein_chain_A.itp"
+
 
 ; Include water topology
 #include "charmm27.ff/spc.itp"

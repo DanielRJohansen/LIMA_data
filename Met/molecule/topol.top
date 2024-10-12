@@ -207,18 +207,12 @@
 #include "posre.itp"
 #endif
 
-; Include water topology
-#include "charmm27.ff/spc.itp"
-
 #ifdef POSRES_WATER
 ; Position restraint for each water oxygen
 [ position_restraints ]
 ;  i funct       fcx        fcy        fcz
    1    1       1000       1000       1000
 #endif
-
-; Include topology for ions
-#include "charmm27.ff/ions.itp"
 
 [ system ]
 ; Name
