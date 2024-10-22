@@ -1,3 +1,4 @@
+
 ;
 ;	File 'topol.top' was generated
 ;	By user: unknown (11042)
@@ -22,7 +23,7 @@
 
 [ moleculetype ]
 ; Name            nrexcl
-Protein_chain_A     3
+dih     3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
@@ -46,3 +47,10 @@ Protein_chain_A     3
 [ dihedrals ]
 ;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
      4     1     2     3     9 
+
+
+[ system ]
+dih
+
+[ molecules ]
+dih 1

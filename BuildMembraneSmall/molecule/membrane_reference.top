@@ -1,100 +1,21 @@
 
 
-#include "Slipids_2020.ff/forcefield.itp"
 
-#include "topol_POPC.itp"
-#include "topol_DDPC.itp"
-#include "topol_Cholesterol.itp"
-#include "topol_DMPC.itp"
-#include "topol_POPE.itp"
-#include "topol_DOPC.itp"
+#include "POPC.itp"
+#include "POPE.itp"
+#include "DMPC.itp"
+#include "Cholesterol.itp"
+#include "DDPC.itp"
+#include "DOPC.itp"
 
 [ system ]
 Membrane
+
 [ molecules ]
-;
-POPC 1
-POPC 1
-DDPC 1
-POPE 1
-POPC 1
-DMPC 1
-Cholesterol 1
-Cholesterol 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-Cholesterol 1
-POPC 1
-POPC 1
-Cholesterol 1
-DDPC 1
-DMPC 1
-POPC 1
-DDPC 1
-POPE 1
-POPC 1
-DOPC 1
-DOPC 1
-Cholesterol 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-DOPC 1
-POPC 1
-POPE 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-POPE 1
-POPE 1
-POPE 1
-DDPC 1
-DMPC 1
-DDPC 1
-Cholesterol 1
-POPC 1
-POPC 1
-DMPC 1
-POPC 1
-POPC 1
-DMPC 1
-POPC 1
-POPE 1
-POPC 1
-POPE 1
-POPC 1
-DDPC 1
-POPC 1
-POPE 1
-DDPC 1
-DDPC 1
-DOPC 1
-Cholesterol 1
-POPC 1
-POPC 1
-POPC 1
-POPC 1
-DOPC 1
-DMPC 1
-POPC 1
-DOPC 1
-POPC 1
-POPC 1
-DDPC 1
-POPE 1
-DMPC 1
-POPC 1
-DOPC 1
-Cholesterol 1
+POPC 84
+Cholesterol 17
+DMPC 16
+POPE 17
+DDPC 14
+DOPC 18
 

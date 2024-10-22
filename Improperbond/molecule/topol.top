@@ -22,7 +22,7 @@
 
 [ moleculetype ]
 ; Name            nrexcl
-Protein_chain_A     3
+Idih     3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
@@ -51,3 +51,9 @@ Protein_chain_A     3
 [ dihedrals ]
 ;  ai    aj    ak    al funct            c0            c1            c2            c3
    18     5    20    19     2 
+
+[ system ]
+Idih
+
+[ molecules ]
+Idih 1

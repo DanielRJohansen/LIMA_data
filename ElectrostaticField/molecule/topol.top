@@ -1,3481 +1,1342 @@
-ElectroStatic Field Test
+; ElectroStatic Field Test
 
 #include "lima_custom_forcefield.itp"
 
-
-[ atoms ]
-;        nr      type     resnr   residue      atom      cgnr    charge      mass
-;residue_X
-         2       lt2         1       XXX       lxx         0     -0.00    10.000
-;residue_X
-         3       lt2         2       XXX       lxx         0     -0.50    10.000
-;residue_X
-         4       lt2         3       XXX       lxx         0     -0.00    10.000
-;residue_X
-         5       lt2         4       XXX       lxx         0     -0.00    10.000
-;residue_X
-         6       lt2         5       XXX       lxx         0     -0.50    10.000
-;residue_X
-         7       lt2         6       XXX       lxx         0      0.50    10.000
-;residue_X
-         8       lt2         7       XXX       lxx         0      0.50    10.000
-;residue_X
-         9       lt2         8       XXX       lxx         0      1.00    10.000
-;residue_X
-        10       lt2         9       XXX       lxx         0     -0.00    10.000
-;residue_X
-        11       lt2        10       XXX       lxx         0     -0.00    10.000
-;residue_X
-        12       lt2        11       XXX       lxx         0     -0.50    10.000
-;residue_X
-        13       lt2        12       XXX       lxx         0     -0.00    10.000
-;residue_X
-        14       lt2        13       XXX       lxx         0     -0.50    10.000
-;residue_X
-        15       lt2        14       XXX       lxx         0     -0.50    10.000
-;residue_X
-        16       lt2        15       XXX       lxx         0     -1.00    10.000
-;residue_X
-        17       lt2        16       XXX       lxx         0     -1.00    10.000
-;residue_X
-        18       lt2        17       XXX       lxx         0     -0.50    10.000
-;residue_X
-        19       lt2        18       XXX       lxx         0      1.00    10.000
-;residue_X
-        20       lt2        19       XXX       lxx         0     -0.00    10.000
-;residue_X
-        21       lt2        20       XXX       lxx         0      0.50    10.000
-;residue_X
-        22       lt2        21       XXX       lxx         0     -0.00    10.000
-;residue_X
-        23       lt2        22       XXX       lxx         0     -0.00    10.000
-;residue_X
-        24       lt2        23       XXX       lxx         0      1.00    10.000
-;residue_X
-        25       lt2        24       XXX       lxx         0      1.00    10.000
-;residue_X
-        26       lt2        25       XXX       lxx         0      1.00    10.000
-;residue_X
-        27       lt2        26       XXX       lxx         0     -0.00    10.000
-;residue_X
-        28       lt2        27       XXX       lxx         0     -0.00    10.000
-;residue_X
-        29       lt2        28       XXX       lxx         0     -1.00    10.000
-;residue_X
-        30       lt2        29       XXX       lxx         0     -0.50    10.000
-;residue_X
-        31       lt2        30       XXX       lxx         0     -0.50    10.000
-;residue_X
-        32       lt2        31       XXX       lxx         0      1.00    10.000
-;residue_X
-        33       lt2        32       XXX       lxx         0     -1.00    10.000
-;residue_X
-        34       lt2        33       XXX       lxx         0     -0.00    10.000
-;residue_X
-        35       lt2        34       XXX       lxx         0     -1.00    10.000
-;residue_X
-        36       lt2        35       XXX       lxx         0     -0.00    10.000
-;residue_X
-        37       lt2        36       XXX       lxx         0     -0.50    10.000
-;residue_X
-        38       lt2        37       XXX       lxx         0     -0.00    10.000
-;residue_X
-        39       lt2        38       XXX       lxx         0     -0.00    10.000
-;residue_X
-        40       lt2        39       XXX       lxx         0     -0.00    10.000
-;residue_X
-        41       lt2        40       XXX       lxx         0     -0.00    10.000
-;residue_X
-        42       lt2        41       XXX       lxx         0     -1.00    10.000
-;residue_X
-        43       lt2        42       XXX       lxx         0     -0.50    10.000
-;residue_X
-        44       lt2        43       XXX       lxx         0      0.50    10.000
-;residue_X
-        45       lt2        44       XXX       lxx         0     -0.00    10.000
-;residue_X
-        46       lt2        45       XXX       lxx         0     -0.00    10.000
-;residue_X
-        47       lt2        46       XXX       lxx         0     -0.00    10.000
-;residue_X
-        48       lt2        47       XXX       lxx         0     -0.00    10.000
-;residue_X
-        49       lt2        48       XXX       lxx         0     -1.00    10.000
-;residue_X
-        50       lt2        49       XXX       lxx         0     -0.00    10.000
-;residue_X
-        51       lt2        50       XXX       lxx         0     -0.00    10.000
-;residue_X
-        52       lt2        51       XXX       lxx         0      1.00    10.000
-;residue_X
-        53       lt2        52       XXX       lxx         0      0.50    10.000
-;residue_X
-        54       lt2        53       XXX       lxx         0     -0.50    10.000
-;residue_X
-        55       lt2        54       XXX       lxx         0      0.50    10.000
-;residue_X
-        56       lt2        55       XXX       lxx         0     -1.00    10.000
-;residue_X
-        57       lt2        56       XXX       lxx         0      1.00    10.000
-;residue_X
-        58       lt2        57       XXX       lxx         0     -0.50    10.000
-;residue_X
-        59       lt2        58       XXX       lxx         0     -0.50    10.000
-;residue_X
-        60       lt2        59       XXX       lxx         0     -0.00    10.000
-;residue_X
-        61       lt2        60       XXX       lxx         0     -0.00    10.000
-;residue_X
-        62       lt2        61       XXX       lxx         0      0.50    10.000
-;residue_X
-        63       lt2        62       XXX       lxx         0     -0.50    10.000
-;residue_X
-        64       lt2        63       XXX       lxx         0      1.00    10.000
-;residue_X
-        65       lt2        64       XXX       lxx         0      1.00    10.000
-;residue_X
-        66       lt2        65       XXX       lxx         0      0.50    10.000
-;residue_X
-        67       lt2        66       XXX       lxx         0     -1.00    10.000
-;residue_X
-        68       lt2        67       XXX       lxx         0     -0.50    10.000
-;residue_X
-        69       lt2        68       XXX       lxx         0      0.50    10.000
-;residue_X
-        70       lt2        69       XXX       lxx         0     -0.00    10.000
-;residue_X
-        71       lt2        70       XXX       lxx         0      1.00    10.000
-;residue_X
-        72       lt2        71       XXX       lxx         0      1.00    10.000
-;residue_X
-        73       lt2        72       XXX       lxx         0      0.50    10.000
-;residue_X
-        74       lt2        73       XXX       lxx         0      1.00    10.000
-;residue_X
-        75       lt2        74       XXX       lxx         0     -0.00    10.000
-;residue_X
-        76       lt2        75       XXX       lxx         0      0.50    10.000
-;residue_X
-        77       lt2        76       XXX       lxx         0      0.50    10.000
-;residue_X
-        78       lt2        77       XXX       lxx         0     -1.00    10.000
-;residue_X
-        79       lt2        78       XXX       lxx         0     -0.00    10.000
-;residue_X
-        80       lt2        79       XXX       lxx         0     -1.00    10.000
-;residue_X
-        81       lt2        80       XXX       lxx         0      1.00    10.000
-;residue_X
-        82       lt2        81       XXX       lxx         0     -0.00    10.000
-;residue_X
-        83       lt2        82       XXX       lxx         0     -0.00    10.000
-;residue_X
-        84       lt2        83       XXX       lxx         0     -0.00    10.000
-;residue_X
-        85       lt2        84       XXX       lxx         0      1.00    10.000
-;residue_X
-        86       lt2        85       XXX       lxx         0      1.00    10.000
-;residue_X
-        87       lt2        86       XXX       lxx         0     -1.00    10.000
-;residue_X
-        88       lt2        87       XXX       lxx         0      1.00    10.000
-;residue_X
-        89       lt2        88       XXX       lxx         0      1.00    10.000
-;residue_X
-        90       lt2        89       XXX       lxx         0      0.50    10.000
-;residue_X
-        91       lt2        90       XXX       lxx         0     -0.00    10.000
-;residue_X
-        92       lt2        91       XXX       lxx         0     -0.00    10.000
-;residue_X
-        93       lt2        92       XXX       lxx         0     -0.50    10.000
-;residue_X
-        94       lt2        93       XXX       lxx         0     -0.50    10.000
-;residue_X
-        95       lt2        94       XXX       lxx         0     -1.00    10.000
-;residue_X
-        96       lt2        95       XXX       lxx         0     -0.00    10.000
-;residue_X
-        97       lt2        96       XXX       lxx         0     -1.00    10.000
-;residue_X
-        98       lt2        97       XXX       lxx         0     -0.50    10.000
-;residue_X
-        99       lt2        98       XXX       lxx         0     -1.00    10.000
-;residue_X
-       100       lt2        99       XXX       lxx         0     -0.00    10.000
-;residue_X
-       101       lt2       100       XXX       lxx         0      1.00    10.000
-;residue_X
-       102       lt2       101       XXX       lxx         0      0.50    10.000
-;residue_X
-       103       lt2       102       XXX       lxx         0     -0.00    10.000
-;residue_X
-       104       lt2       103       XXX       lxx         0      0.50    10.000
-;residue_X
-       105       lt2       104       XXX       lxx         0     -0.00    10.000
-;residue_X
-       106       lt2       105       XXX       lxx         0     -0.00    10.000
-;residue_X
-       107       lt2       106       XXX       lxx         0     -0.00    10.000
-;residue_X
-       108       lt2       107       XXX       lxx         0      0.50    10.000
-;residue_X
-       109       lt2       108       XXX       lxx         0     -0.00    10.000
-;residue_X
-       110       lt2       109       XXX       lxx         0     -0.00    10.000
-;residue_X
-       111       lt2       110       XXX       lxx         0     -0.00    10.000
-;residue_X
-       112       lt2       111       XXX       lxx         0     -0.00    10.000
-;residue_X
-       113       lt2       112       XXX       lxx         0     -0.50    10.000
-;residue_X
-       114       lt2       113       XXX       lxx         0      0.50    10.000
-;residue_X
-       115       lt2       114       XXX       lxx         0     -1.00    10.000
-;residue_X
-       116       lt2       115       XXX       lxx         0     -0.00    10.000
-;residue_X
-       117       lt2       116       XXX       lxx         0      1.00    10.000
-;residue_X
-       118       lt2       117       XXX       lxx         0      0.50    10.000
-;residue_X
-       119       lt2       118       XXX       lxx         0     -0.00    10.000
-;residue_X
-       120       lt2       119       XXX       lxx         0     -0.50    10.000
-;residue_X
-       121       lt2       120       XXX       lxx         0     -0.00    10.000
-;residue_X
-       122       lt2       121       XXX       lxx         0     -1.00    10.000
-;residue_X
-       123       lt2       122       XXX       lxx         0      1.00    10.000
-;residue_X
-       124       lt2       123       XXX       lxx         0      0.50    10.000
-;residue_X
-       125       lt2       124       XXX       lxx         0      1.00    10.000
-;residue_X
-       126       lt2       125       XXX       lxx         0      1.00    10.000
-;residue_X
-       127       lt2       126       XXX       lxx         0     -0.50    10.000
-;residue_X
-       128       lt2       127       XXX       lxx         0     -0.00    10.000
-;residue_X
-       129       lt2       128       XXX       lxx         0     -0.00    10.000
-;residue_X
-       130       lt2       129       XXX       lxx         0     -0.50    10.000
-;residue_X
-       131       lt2       130       XXX       lxx         0     -0.00    10.000
-;residue_X
-       132       lt2       131       XXX       lxx         0     -1.00    10.000
-;residue_X
-       133       lt2       132       XXX       lxx         0      1.00    10.000
-;residue_X
-       134       lt2       133       XXX       lxx         0     -1.00    10.000
-;residue_X
-       135       lt2       134       XXX       lxx         0     -0.00    10.000
-;residue_X
-       136       lt2       135       XXX       lxx         0     -0.00    10.000
-;residue_X
-       137       lt2       136       XXX       lxx         0     -0.50    10.000
-;residue_X
-       138       lt2       137       XXX       lxx         0     -0.50    10.000
-;residue_X
-       139       lt2       138       XXX       lxx         0     -0.00    10.000
-;residue_X
-       140       lt2       139       XXX       lxx         0     -1.00    10.000
-;residue_X
-       141       lt2       140       XXX       lxx         0     -0.00    10.000
-;residue_X
-       142       lt2       141       XXX       lxx         0     -0.50    10.000
-;residue_X
-       143       lt2       142       XXX       lxx         0     -0.00    10.000
-;residue_X
-       144       lt2       143       XXX       lxx         0     -0.00    10.000
-;residue_X
-       145       lt2       144       XXX       lxx         0      0.50    10.000
-;residue_X
-       146       lt2       145       XXX       lxx         0      0.50    10.000
-;residue_X
-       147       lt2       146       XXX       lxx         0      1.00    10.000
-;residue_X
-       148       lt2       147       XXX       lxx         0      0.50    10.000
-;residue_X
-       149       lt2       148       XXX       lxx         0     -0.00    10.000
-;residue_X
-       150       lt2       149       XXX       lxx         0      1.00    10.000
-;residue_X
-       151       lt2       150       XXX       lxx         0     -0.50    10.000
-;residue_X
-       152       lt2       151       XXX       lxx         0     -1.00    10.000
-;residue_X
-       153       lt2       152       XXX       lxx         0     -0.00    10.000
-;residue_X
-       154       lt2       153       XXX       lxx         0      0.50    10.000
-;residue_X
-       155       lt2       154       XXX       lxx         0     -0.00    10.000
-;residue_X
-       156       lt2       155       XXX       lxx         0     -0.00    10.000
-;residue_X
-       157       lt2       156       XXX       lxx         0     -1.00    10.000
-;residue_X
-       158       lt2       157       XXX       lxx         0     -0.00    10.000
-;residue_X
-       159       lt2       158       XXX       lxx         0     -0.00    10.000
-;residue_X
-       160       lt2       159       XXX       lxx         0     -0.00    10.000
-;residue_X
-       161       lt2       160       XXX       lxx         0      0.50    10.000
-;residue_X
-       162       lt2       161       XXX       lxx         0     -0.00    10.000
-;residue_X
-       163       lt2       162       XXX       lxx         0     -1.00    10.000
-;residue_X
-       164       lt2       163       XXX       lxx         0     -1.00    10.000
-;residue_X
-       165       lt2       164       XXX       lxx         0     -0.00    10.000
-;residue_X
-       166       lt2       165       XXX       lxx         0      0.50    10.000
-;residue_X
-       167       lt2       166       XXX       lxx         0     -0.50    10.000
-;residue_X
-       168       lt2       167       XXX       lxx         0     -0.00    10.000
-;residue_X
-       169       lt2       168       XXX       lxx         0      1.00    10.000
-;residue_X
-       170       lt2       169       XXX       lxx         0     -0.00    10.000
-;residue_X
-       171       lt2       170       XXX       lxx         0     -0.00    10.000
-;residue_X
-       172       lt2       171       XXX       lxx         0     -1.00    10.000
-;residue_X
-       173       lt2       172       XXX       lxx         0     -0.00    10.000
-;residue_X
-       174       lt2       173       XXX       lxx         0     -0.00    10.000
-;residue_X
-       175       lt2       174       XXX       lxx         0      1.00    10.000
-;residue_X
-       176       lt2       175       XXX       lxx         0     -0.00    10.000
-;residue_X
-       177       lt2       176       XXX       lxx         0     -0.00    10.000
-;residue_X
-       178       lt2       177       XXX       lxx         0     -0.00    10.000
-;residue_X
-       179       lt2       178       XXX       lxx         0     -0.00    10.000
-;residue_X
-       180       lt2       179       XXX       lxx         0      0.50    10.000
-;residue_X
-       181       lt2       180       XXX       lxx         0      0.50    10.000
-;residue_X
-       182       lt2       181       XXX       lxx         0     -1.00    10.000
-;residue_X
-       183       lt2       182       XXX       lxx         0      1.00    10.000
-;residue_X
-       184       lt2       183       XXX       lxx         0      0.50    10.000
-;residue_X
-       185       lt2       184       XXX       lxx         0     -0.00    10.000
-;residue_X
-       186       lt2       185       XXX       lxx         0     -0.50    10.000
-;residue_X
-       187       lt2       186       XXX       lxx         0     -0.00    10.000
-;residue_X
-       188       lt2       187       XXX       lxx         0     -0.00    10.000
-;residue_X
-       189       lt2       188       XXX       lxx         0     -0.00    10.000
-;residue_X
-       190       lt2       189       XXX       lxx         0     -0.00    10.000
-;residue_X
-       191       lt2       190       XXX       lxx         0     -1.00    10.000
-;residue_X
-       192       lt2       191       XXX       lxx         0      0.50    10.000
-;residue_X
-       193       lt2       192       XXX       lxx         0     -0.50    10.000
-;residue_X
-       194       lt2       193       XXX       lxx         0     -0.50    10.000
-;residue_X
-       195       lt2       194       XXX       lxx         0     -0.50    10.000
-;residue_X
-       196       lt2       195       XXX       lxx         0     -0.00    10.000
-;residue_X
-       197       lt2       196       XXX       lxx         0      1.00    10.000
-;residue_X
-       198       lt2       197       XXX       lxx         0      1.00    10.000
-;residue_X
-       199       lt2       198       XXX       lxx         0     -0.00    10.000
-;residue_X
-       200       lt2       199       XXX       lxx         0      1.00    10.000
-;residue_X
-       201       lt2       200       XXX       lxx         0     -1.00    10.000
-;residue_X
-       202       lt2       201       XXX       lxx         0     -1.00    10.000
-;residue_X
-       203       lt2       202       XXX       lxx         0     -0.50    10.000
-;residue_X
-       204       lt2       203       XXX       lxx         0     -0.50    10.000
-;residue_X
-       205       lt2       204       XXX       lxx         0      1.00    10.000
-;residue_X
-       206       lt2       205       XXX       lxx         0      1.00    10.000
-;residue_X
-       207       lt2       206       XXX       lxx         0     -0.00    10.000
-;residue_X
-       208       lt2       207       XXX       lxx         0     -0.00    10.000
-;residue_X
-       209       lt2       208       XXX       lxx         0     -1.00    10.000
-;residue_X
-       210       lt2       209       XXX       lxx         0      0.50    10.000
-;residue_X
-       211       lt2       210       XXX       lxx         0      0.50    10.000
-;residue_X
-       212       lt2       211       XXX       lxx         0      1.00    10.000
-;residue_X
-       213       lt2       212       XXX       lxx         0     -1.00    10.000
-;residue_X
-       214       lt2       213       XXX       lxx         0     -0.00    10.000
-;residue_X
-       215       lt2       214       XXX       lxx         0     -1.00    10.000
-;residue_X
-       216       lt2       215       XXX       lxx         0     -1.00    10.000
-;residue_X
-       217       lt2       216       XXX       lxx         0      1.00    10.000
-;residue_X
-       218       lt2       217       XXX       lxx         0      0.50    10.000
-;residue_X
-       219       lt2       218       XXX       lxx         0      1.00    10.000
-;residue_X
-       220       lt2       219       XXX       lxx         0     -0.00    10.000
-;residue_X
-       221       lt2       220       XXX       lxx         0      0.50    10.000
-;residue_X
-       222       lt2       221       XXX       lxx         0      1.00    10.000
-;residue_X
-       223       lt2       222       XXX       lxx         0     -0.00    10.000
-;residue_X
-       224       lt2       223       XXX       lxx         0     -1.00    10.000
-;residue_X
-       225       lt2       224       XXX       lxx         0     -0.50    10.000
-;residue_X
-       226       lt2       225       XXX       lxx         0     -1.00    10.000
-;residue_X
-       227       lt2       226       XXX       lxx         0     -0.00    10.000
-;residue_X
-       228       lt2       227       XXX       lxx         0     -0.00    10.000
-;residue_X
-       229       lt2       228       XXX       lxx         0      0.50    10.000
-;residue_X
-       230       lt2       229       XXX       lxx         0     -0.50    10.000
-;residue_X
-       231       lt2       230       XXX       lxx         0     -0.00    10.000
-;residue_X
-       232       lt2       231       XXX       lxx         0     -0.00    10.000
-;residue_X
-       233       lt2       232       XXX       lxx         0      1.00    10.000
-;residue_X
-       234       lt2       233       XXX       lxx         0     -0.50    10.000
-;residue_X
-       235       lt2       234       XXX       lxx         0      1.00    10.000
-;residue_X
-       236       lt2       235       XXX       lxx         0      0.50    10.000
-;residue_X
-       237       lt2       236       XXX       lxx         0     -0.00    10.000
-;residue_X
-       238       lt2       237       XXX       lxx         0     -0.00    10.000
-;residue_X
-       239       lt2       238       XXX       lxx         0      0.50    10.000
-;residue_X
-       240       lt2       239       XXX       lxx         0     -1.00    10.000
-;residue_X
-       241       lt2       240       XXX       lxx         0     -0.00    10.000
-;residue_X
-       242       lt2       241       XXX       lxx         0      1.00    10.000
-;residue_X
-       243       lt2       242       XXX       lxx         0     -0.00    10.000
-;residue_X
-       244       lt2       243       XXX       lxx         0     -1.00    10.000
-;residue_X
-       245       lt2       244       XXX       lxx         0      0.50    10.000
-;residue_X
-       246       lt2       245       XXX       lxx         0     -0.50    10.000
-;residue_X
-       247       lt2       246       XXX       lxx         0     -0.00    10.000
-;residue_X
-       248       lt2       247       XXX       lxx         0     -0.00    10.000
-;residue_X
-       249       lt2       248       XXX       lxx         0     -0.50    10.000
-;residue_X
-       250       lt2       249       XXX       lxx         0     -0.00    10.000
-;residue_X
-       251       lt2       250       XXX       lxx         0     -1.00    10.000
-;residue_X
-       252       lt2       251       XXX       lxx         0     -1.00    10.000
-;residue_X
-       253       lt2       252       XXX       lxx         0      1.00    10.000
-;residue_X
-       254       lt2       253       XXX       lxx         0     -1.00    10.000
-;residue_X
-       255       lt2       254       XXX       lxx         0      1.00    10.000
-;residue_X
-       256       lt2       255       XXX       lxx         0      1.00    10.000
-;residue_X
-       257       lt2       256       XXX       lxx         0     -0.00    10.000
-;residue_X
-       258       lt2       257       XXX       lxx         0     -0.00    10.000
-;residue_X
-       259       lt2       258       XXX       lxx         0     -0.00    10.000
-;residue_X
-       260       lt2       259       XXX       lxx         0     -0.00    10.000
-;residue_X
-       261       lt2       260       XXX       lxx         0      0.50    10.000
-;residue_X
-       262       lt2       261       XXX       lxx         0     -0.50    10.000
-;residue_X
-       263       lt2       262       XXX       lxx         0     -1.00    10.000
-;residue_X
-       264       lt2       263       XXX       lxx         0     -0.00    10.000
-;residue_X
-       265       lt2       264       XXX       lxx         0      1.00    10.000
-;residue_X
-       266       lt2       265       XXX       lxx         0     -0.50    10.000
-;residue_X
-       267       lt2       266       XXX       lxx         0      0.50    10.000
-;residue_X
-       268       lt2       267       XXX       lxx         0      0.50    10.000
-;residue_X
-       269       lt2       268       XXX       lxx         0     -0.00    10.000
-;residue_X
-       270       lt2       269       XXX       lxx         0     -0.00    10.000
-;residue_X
-       271       lt2       270       XXX       lxx         0     -0.50    10.000
-;residue_X
-       272       lt2       271       XXX       lxx         0      1.00    10.000
-;residue_X
-       273       lt2       272       XXX       lxx         0     -0.00    10.000
-;residue_X
-       274       lt2       273       XXX       lxx         0     -0.00    10.000
-;residue_X
-       275       lt2       274       XXX       lxx         0     -0.00    10.000
-;residue_X
-       276       lt2       275       XXX       lxx         0     -0.00    10.000
-;residue_X
-       277       lt2       276       XXX       lxx         0     -0.00    10.000
-;residue_X
-       278       lt2       277       XXX       lxx         0      1.00    10.000
-;residue_X
-       279       lt2       278       XXX       lxx         0     -0.00    10.000
-;residue_X
-       280       lt2       279       XXX       lxx         0     -1.00    10.000
-;residue_X
-       281       lt2       280       XXX       lxx         0     -0.00    10.000
-;residue_X
-       282       lt2       281       XXX       lxx         0      0.50    10.000
-;residue_X
-       283       lt2       282       XXX       lxx         0     -0.00    10.000
-;residue_X
-       284       lt2       283       XXX       lxx         0     -1.00    10.000
-;residue_X
-       285       lt2       284       XXX       lxx         0      0.50    10.000
-;residue_X
-       286       lt2       285       XXX       lxx         0     -0.00    10.000
-;residue_X
-       287       lt2       286       XXX       lxx         0     -0.00    10.000
-;residue_X
-       288       lt2       287       XXX       lxx         0     -0.00    10.000
-;residue_X
-       289       lt2       288       XXX       lxx         0     -1.00    10.000
-;residue_X
-       290       lt2       289       XXX       lxx         0     -0.50    10.000
-;residue_X
-       291       lt2       290       XXX       lxx         0     -0.00    10.000
-;residue_X
-       292       lt2       291       XXX       lxx         0     -0.00    10.000
-;residue_X
-       293       lt2       292       XXX       lxx         0     -0.00    10.000
-;residue_X
-       294       lt2       293       XXX       lxx         0     -0.00    10.000
-;residue_X
-       295       lt2       294       XXX       lxx         0     -1.00    10.000
-;residue_X
-       296       lt2       295       XXX       lxx         0     -0.00    10.000
-;residue_X
-       297       lt2       296       XXX       lxx         0      1.00    10.000
-;residue_X
-       298       lt2       297       XXX       lxx         0     -0.00    10.000
-;residue_X
-       299       lt2       298       XXX       lxx         0     -0.00    10.000
-;residue_X
-       300       lt2       299       XXX       lxx         0     -0.00    10.000
-;residue_X
-       301       lt2       300       XXX       lxx         0      0.50    10.000
-;residue_X
-       302       lt2       301       XXX       lxx         0     -0.00    10.000
-;residue_X
-       303       lt2       302       XXX       lxx         0     -0.50    10.000
-;residue_X
-       304       lt2       303       XXX       lxx         0      1.00    10.000
-;residue_X
-       305       lt2       304       XXX       lxx         0     -0.50    10.000
-;residue_X
-       306       lt2       305       XXX       lxx         0     -0.50    10.000
-;residue_X
-       307       lt2       306       XXX       lxx         0      1.00    10.000
-;residue_X
-       308       lt2       307       XXX       lxx         0     -1.00    10.000
-;residue_X
-       309       lt2       308       XXX       lxx         0     -1.00    10.000
-;residue_X
-       310       lt2       309       XXX       lxx         0     -0.50    10.000
-;residue_X
-       311       lt2       310       XXX       lxx         0     -1.00    10.000
-;residue_X
-       312       lt2       311       XXX       lxx         0     -0.00    10.000
-;residue_X
-       313       lt2       312       XXX       lxx         0      0.50    10.000
-;residue_X
-       314       lt2       313       XXX       lxx         0     -1.00    10.000
-;residue_X
-       315       lt2       314       XXX       lxx         0      1.00    10.000
-;residue_X
-       316       lt2       315       XXX       lxx         0      0.50    10.000
-;residue_X
-       317       lt2       316       XXX       lxx         0      0.50    10.000
-;residue_X
-       318       lt2       317       XXX       lxx         0     -0.00    10.000
-;residue_X
-       319       lt2       318       XXX       lxx         0     -0.50    10.000
-;residue_X
-       320       lt2       319       XXX       lxx         0      1.00    10.000
-;residue_X
-       321       lt2       320       XXX       lxx         0     -0.50    10.000
-;residue_X
-       322       lt2       321       XXX       lxx         0     -0.00    10.000
-;residue_X
-       323       lt2       322       XXX       lxx         0      0.50    10.000
-;residue_X
-       324       lt2       323       XXX       lxx         0     -1.00    10.000
-;residue_X
-       325       lt2       324       XXX       lxx         0     -1.00    10.000
-;residue_X
-       326       lt2       325       XXX       lxx         0     -0.50    10.000
-;residue_X
-       327       lt2       326       XXX       lxx         0      1.00    10.000
-;residue_X
-       328       lt2       327       XXX       lxx         0      1.00    10.000
-;residue_X
-       329       lt2       328       XXX       lxx         0     -0.00    10.000
-;residue_X
-       330       lt2       329       XXX       lxx         0     -0.50    10.000
-;residue_X
-       331       lt2       330       XXX       lxx         0     -1.00    10.000
-;residue_X
-       332       lt2       331       XXX       lxx         0     -0.50    10.000
-;residue_X
-       333       lt2       332       XXX       lxx         0     -0.00    10.000
-;residue_X
-       334       lt2       333       XXX       lxx         0     -0.00    10.000
-;residue_X
-       335       lt2       334       XXX       lxx         0     -0.00    10.000
-;residue_X
-       336       lt2       335       XXX       lxx         0      1.00    10.000
-;residue_X
-       337       lt2       336       XXX       lxx         0     -0.00    10.000
-;residue_X
-       338       lt2       337       XXX       lxx         0     -0.00    10.000
-;residue_X
-       339       lt2       338       XXX       lxx         0     -0.00    10.000
-;residue_X
-       340       lt2       339       XXX       lxx         0      1.00    10.000
-;residue_X
-       341       lt2       340       XXX       lxx         0     -0.00    10.000
-;residue_X
-       342       lt2       341       XXX       lxx         0     -0.00    10.000
-;residue_X
-       343       lt2       342       XXX       lxx         0     -1.00    10.000
-;residue_X
-       344       lt2       343       XXX       lxx         0     -0.00    10.000
-;residue_X
-       345       lt2       344       XXX       lxx         0     -0.50    10.000
-;residue_X
-       346       lt2       345       XXX       lxx         0     -0.50    10.000
-;residue_X
-       347       lt2       346       XXX       lxx         0      0.50    10.000
-;residue_X
-       348       lt2       347       XXX       lxx         0      1.00    10.000
-;residue_X
-       349       lt2       348       XXX       lxx         0     -0.50    10.000
-;residue_X
-       350       lt2       349       XXX       lxx         0     -1.00    10.000
-;residue_X
-       351       lt2       350       XXX       lxx         0     -0.00    10.000
-;residue_X
-       352       lt2       351       XXX       lxx         0     -0.00    10.000
-;residue_X
-       353       lt2       352       XXX       lxx         0      0.50    10.000
-;residue_X
-       354       lt2       353       XXX       lxx         0     -1.00    10.000
-;residue_X
-       355       lt2       354       XXX       lxx         0     -0.00    10.000
-;residue_X
-       356       lt2       355       XXX       lxx         0      1.00    10.000
-;residue_X
-       357       lt2       356       XXX       lxx         0     -0.00    10.000
-;residue_X
-       358       lt2       357       XXX       lxx         0     -0.00    10.000
-;residue_X
-       359       lt2       358       XXX       lxx         0     -1.00    10.000
-;residue_X
-       360       lt2       359       XXX       lxx         0     -0.50    10.000
-;residue_X
-       361       lt2       360       XXX       lxx         0     -1.00    10.000
-;residue_X
-       362       lt2       361       XXX       lxx         0     -0.00    10.000
-;residue_X
-       363       lt2       362       XXX       lxx         0     -0.00    10.000
-;residue_X
-       364       lt2       363       XXX       lxx         0      0.50    10.000
-;residue_X
-       365       lt2       364       XXX       lxx         0     -1.00    10.000
-;residue_X
-       366       lt2       365       XXX       lxx         0      0.50    10.000
-;residue_X
-       367       lt2       366       XXX       lxx         0     -0.00    10.000
-;residue_X
-       368       lt2       367       XXX       lxx         0     -0.50    10.000
-;residue_X
-       369       lt2       368       XXX       lxx         0      1.00    10.000
-;residue_X
-       370       lt2       369       XXX       lxx         0      0.50    10.000
-;residue_X
-       371       lt2       370       XXX       lxx         0     -0.50    10.000
-;residue_X
-       372       lt2       371       XXX       lxx         0      0.50    10.000
-;residue_X
-       373       lt2       372       XXX       lxx         0     -0.00    10.000
-;residue_X
-       374       lt2       373       XXX       lxx         0     -0.00    10.000
-;residue_X
-       375       lt2       374       XXX       lxx         0     -0.00    10.000
-;residue_X
-       376       lt2       375       XXX       lxx         0      0.50    10.000
-;residue_X
-       377       lt2       376       XXX       lxx         0     -0.00    10.000
-;residue_X
-       378       lt2       377       XXX       lxx         0     -0.00    10.000
-;residue_X
-       379       lt2       378       XXX       lxx         0      1.00    10.000
-;residue_X
-       380       lt2       379       XXX       lxx         0     -0.00    10.000
-;residue_X
-       381       lt2       380       XXX       lxx         0     -0.50    10.000
-;residue_X
-       382       lt2       381       XXX       lxx         0      1.00    10.000
-;residue_X
-       383       lt2       382       XXX       lxx         0     -0.00    10.000
-;residue_X
-       384       lt2       383       XXX       lxx         0     -0.00    10.000
-;residue_X
-       385       lt2       384       XXX       lxx         0      0.50    10.000
-;residue_X
-       386       lt2       385       XXX       lxx         0     -1.00    10.000
-;residue_X
-       387       lt2       386       XXX       lxx         0      0.50    10.000
-;residue_X
-       388       lt2       387       XXX       lxx         0     -0.00    10.000
-;residue_X
-       389       lt2       388       XXX       lxx         0     -0.00    10.000
-;residue_X
-       390       lt2       389       XXX       lxx         0     -1.00    10.000
-;residue_X
-       391       lt2       390       XXX       lxx         0     -0.00    10.000
-;residue_X
-       392       lt2       391       XXX       lxx         0     -1.00    10.000
-;residue_X
-       393       lt2       392       XXX       lxx         0     -0.00    10.000
-;residue_X
-       394       lt2       393       XXX       lxx         0      0.50    10.000
-;residue_X
-       395       lt2       394       XXX       lxx         0     -1.00    10.000
-;residue_X
-       396       lt2       395       XXX       lxx         0     -0.00    10.000
-;residue_X
-       397       lt2       396       XXX       lxx         0     -0.50    10.000
-;residue_X
-       398       lt2       397       XXX       lxx         0      1.00    10.000
-;residue_X
-       399       lt2       398       XXX       lxx         0     -0.00    10.000
-;residue_X
-       400       lt2       399       XXX       lxx         0     -0.50    10.000
-;residue_X
-       401       lt2       400       XXX       lxx         0      0.50    10.000
-;residue_X
-       402       lt2       401       XXX       lxx         0     -0.50    10.000
-;residue_X
-       403       lt2       402       XXX       lxx         0      1.00    10.000
-;residue_X
-       404       lt2       403       XXX       lxx         0      0.50    10.000
-;residue_X
-       405       lt2       404       XXX       lxx         0     -1.00    10.000
-;residue_X
-       406       lt2       405       XXX       lxx         0     -0.50    10.000
-;residue_X
-       407       lt2       406       XXX       lxx         0     -0.00    10.000
-;residue_X
-       408       lt2       407       XXX       lxx         0     -1.00    10.000
-;residue_X
-       409       lt2       408       XXX       lxx         0     -0.00    10.000
-;residue_X
-       410       lt2       409       XXX       lxx         0     -0.50    10.000
-;residue_X
-       411       lt2       410       XXX       lxx         0     -1.00    10.000
-;residue_X
-       412       lt2       411       XXX       lxx         0      1.00    10.000
-;residue_X
-       413       lt2       412       XXX       lxx         0     -0.00    10.000
-;residue_X
-       414       lt2       413       XXX       lxx         0     -0.00    10.000
-;residue_X
-       415       lt2       414       XXX       lxx         0     -0.00    10.000
-;residue_X
-       416       lt2       415       XXX       lxx         0     -0.50    10.000
-;residue_X
-       417       lt2       416       XXX       lxx         0     -0.00    10.000
-;residue_X
-       418       lt2       417       XXX       lxx         0     -0.50    10.000
-;residue_X
-       419       lt2       418       XXX       lxx         0     -0.00    10.000
-;residue_X
-       420       lt2       419       XXX       lxx         0      0.50    10.000
-;residue_X
-       421       lt2       420       XXX       lxx         0     -0.50    10.000
-;residue_X
-       422       lt2       421       XXX       lxx         0      0.50    10.000
-;residue_X
-       423       lt2       422       XXX       lxx         0     -0.00    10.000
-;residue_X
-       424       lt2       423       XXX       lxx         0     -0.00    10.000
-;residue_X
-       425       lt2       424       XXX       lxx         0     -1.00    10.000
-;residue_X
-       426       lt2       425       XXX       lxx         0     -0.00    10.000
-;residue_X
-       427       lt2       426       XXX       lxx         0      1.00    10.000
-;residue_X
-       428       lt2       427       XXX       lxx         0      0.50    10.000
-;residue_X
-       429       lt2       428       XXX       lxx         0      1.00    10.000
-;residue_X
-       430       lt2       429       XXX       lxx         0     -0.50    10.000
-;residue_X
-       431       lt2       430       XXX       lxx         0     -1.00    10.000
-;residue_X
-       432       lt2       431       XXX       lxx         0      0.50    10.000
-;residue_X
-       433       lt2       432       XXX       lxx         0     -1.00    10.000
-;residue_X
-       434       lt2       433       XXX       lxx         0     -0.00    10.000
-;residue_X
-       435       lt2       434       XXX       lxx         0     -0.00    10.000
-;residue_X
-       436       lt2       435       XXX       lxx         0     -1.00    10.000
-;residue_X
-       437       lt2       436       XXX       lxx         0     -0.50    10.000
-;residue_X
-       438       lt2       437       XXX       lxx         0      1.00    10.000
-;residue_X
-       439       lt2       438       XXX       lxx         0     -1.00    10.000
-;residue_X
-       440       lt2       439       XXX       lxx         0     -0.50    10.000
-;residue_X
-       441       lt2       440       XXX       lxx         0     -0.00    10.000
-;residue_X
-       442       lt2       441       XXX       lxx         0     -0.00    10.000
-;residue_X
-       443       lt2       442       XXX       lxx         0      1.00    10.000
-;residue_X
-       444       lt2       443       XXX       lxx         0      1.00    10.000
-;residue_X
-       445       lt2       444       XXX       lxx         0     -1.00    10.000
-;residue_X
-       446       lt2       445       XXX       lxx         0     -1.00    10.000
-;residue_X
-       447       lt2       446       XXX       lxx         0     -0.00    10.000
-;residue_X
-       448       lt2       447       XXX       lxx         0     -0.00    10.000
-;residue_X
-       449       lt2       448       XXX       lxx         0     -0.00    10.000
-;residue_X
-       450       lt2       449       XXX       lxx         0      0.50    10.000
-;residue_X
-       451       lt2       450       XXX       lxx         0     -0.50    10.000
-;residue_X
-       452       lt2       451       XXX       lxx         0     -1.00    10.000
-;residue_X
-       453       lt2       452       XXX       lxx         0      1.00    10.000
-;residue_X
-       454       lt2       453       XXX       lxx         0     -0.50    10.000
-;residue_X
-       455       lt2       454       XXX       lxx         0     -0.00    10.000
-;residue_X
-       456       lt2       455       XXX       lxx         0     -0.00    10.000
-;residue_X
-       457       lt2       456       XXX       lxx         0     -0.50    10.000
-;residue_X
-       458       lt2       457       XXX       lxx         0      1.00    10.000
-;residue_X
-       459       lt2       458       XXX       lxx         0     -0.00    10.000
-;residue_X
-       460       lt2       459       XXX       lxx         0      0.50    10.000
-;residue_X
-       461       lt2       460       XXX       lxx         0     -0.50    10.000
-;residue_X
-       462       lt2       461       XXX       lxx         0     -0.00    10.000
-;residue_X
-       463       lt2       462       XXX       lxx         0     -0.00    10.000
-;residue_X
-       464       lt2       463       XXX       lxx         0     -0.00    10.000
-;residue_X
-       465       lt2       464       XXX       lxx         0      0.50    10.000
-;residue_X
-       466       lt2       465       XXX       lxx         0     -1.00    10.000
-;residue_X
-       467       lt2       466       XXX       lxx         0     -0.50    10.000
-;residue_X
-       468       lt2       467       XXX       lxx         0     -0.00    10.000
-;residue_X
-       469       lt2       468       XXX       lxx         0     -0.00    10.000
-;residue_X
-       470       lt2       469       XXX       lxx         0      1.00    10.000
-;residue_X
-       471       lt2       470       XXX       lxx         0     -0.50    10.000
-;residue_X
-       472       lt2       471       XXX       lxx         0      1.00    10.000
-;residue_X
-       473       lt2       472       XXX       lxx         0      1.00    10.000
-;residue_X
-       474       lt2       473       XXX       lxx         0     -0.00    10.000
-;residue_X
-       475       lt2       474       XXX       lxx         0     -0.00    10.000
-;residue_X
-       476       lt2       475       XXX       lxx         0     -0.00    10.000
-;residue_X
-       477       lt2       476       XXX       lxx         0     -1.00    10.000
-;residue_X
-       478       lt2       477       XXX       lxx         0      0.50    10.000
-;residue_X
-       479       lt2       478       XXX       lxx         0     -1.00    10.000
-;residue_X
-       480       lt2       479       XXX       lxx         0      1.00    10.000
-;residue_X
-       481       lt2       480       XXX       lxx         0     -0.00    10.000
-;residue_X
-       482       lt2       481       XXX       lxx         0     -0.00    10.000
-;residue_X
-       483       lt2       482       XXX       lxx         0     -0.00    10.000
-;residue_X
-       484       lt2       483       XXX       lxx         0      0.50    10.000
-;residue_X
-       485       lt2       484       XXX       lxx         0      0.50    10.000
-;residue_X
-       486       lt2       485       XXX       lxx         0      0.50    10.000
-;residue_X
-       487       lt2       486       XXX       lxx         0      1.00    10.000
-;residue_X
-       488       lt2       487       XXX       lxx         0      0.50    10.000
-;residue_X
-       489       lt2       488       XXX       lxx         0      0.50    10.000
-;residue_X
-       490       lt2       489       XXX       lxx         0     -0.00    10.000
-;residue_X
-       491       lt2       490       XXX       lxx         0     -0.00    10.000
-;residue_X
-       492       lt2       491       XXX       lxx         0     -0.00    10.000
-;residue_X
-       493       lt2       492       XXX       lxx         0      1.00    10.000
-;residue_X
-       494       lt2       493       XXX       lxx         0     -1.00    10.000
-;residue_X
-       495       lt2       494       XXX       lxx         0     -0.00    10.000
-;residue_X
-       496       lt2       495       XXX       lxx         0     -0.00    10.000
-;residue_X
-       497       lt2       496       XXX       lxx         0     -1.00    10.000
-;residue_X
-       498       lt2       497       XXX       lxx         0      0.50    10.000
-;residue_X
-       499       lt2       498       XXX       lxx         0     -0.00    10.000
-;residue_X
-       500       lt2       499       XXX       lxx         0      1.00    10.000
-;residue_X
-       501       lt2       500       XXX       lxx         0     -0.00    10.000
-;residue_X
-       502       lt2       501       XXX       lxx         0     -0.50    10.000
-;residue_X
-       503       lt2       502       XXX       lxx         0     -0.50    10.000
-;residue_X
-       504       lt2       503       XXX       lxx         0     -0.00    10.000
-;residue_X
-       505       lt2       504       XXX       lxx         0     -0.00    10.000
-;residue_X
-       506       lt2       505       XXX       lxx         0     -0.00    10.000
-;residue_X
-       507       lt2       506       XXX       lxx         0      0.50    10.000
-;residue_X
-       508       lt2       507       XXX       lxx         0     -0.00    10.000
-;residue_X
-       509       lt2       508       XXX       lxx         0      0.50    10.000
-;residue_X
-       510       lt2       509       XXX       lxx         0      0.50    10.000
-;residue_X
-       511       lt2       510       XXX       lxx         0     -0.50    10.000
-;residue_X
-       512       lt2       511       XXX       lxx         0     -0.00    10.000
-;residue_X
-       513       lt2       512       XXX       lxx         0     -0.50    10.000
-;residue_X
-       514       lt2       513       XXX       lxx         0     -1.00    10.000
-;residue_X
-       515       lt2       514       XXX       lxx         0      1.00    10.000
-;residue_X
-       516       lt2       515       XXX       lxx         0     -1.00    10.000
-;residue_X
-       517       lt2       516       XXX       lxx         0     -0.00    10.000
-;residue_X
-       518       lt2       517       XXX       lxx         0     -0.00    10.000
-;residue_X
-       519       lt2       518       XXX       lxx         0      1.00    10.000
-;residue_X
-       520       lt2       519       XXX       lxx         0      0.50    10.000
-;residue_X
-       521       lt2       520       XXX       lxx         0     -0.00    10.000
-;residue_X
-       522       lt2       521       XXX       lxx         0     -0.00    10.000
-;residue_X
-       523       lt2       522       XXX       lxx         0     -0.50    10.000
-;residue_X
-       524       lt2       523       XXX       lxx         0     -0.00    10.000
-;residue_X
-       525       lt2       524       XXX       lxx         0     -0.00    10.000
-;residue_X
-       526       lt2       525       XXX       lxx         0     -0.00    10.000
-;residue_X
-       527       lt2       526       XXX       lxx         0     -0.50    10.000
-;residue_X
-       528       lt2       527       XXX       lxx         0     -1.00    10.000
-;residue_X
-       529       lt2       528       XXX       lxx         0     -1.00    10.000
-;residue_X
-       530       lt2       529       XXX       lxx         0     -0.00    10.000
-;residue_X
-       531       lt2       530       XXX       lxx         0     -0.00    10.000
-;residue_X
-       532       lt2       531       XXX       lxx         0     -0.00    10.000
-;residue_X
-       533       lt2       532       XXX       lxx         0      1.00    10.000
-;residue_X
-       534       lt2       533       XXX       lxx         0     -0.50    10.000
-;residue_X
-       535       lt2       534       XXX       lxx         0     -0.00    10.000
-;residue_X
-       536       lt2       535       XXX       lxx         0      1.00    10.000
-;residue_X
-       537       lt2       536       XXX       lxx         0     -0.00    10.000
-;residue_X
-       538       lt2       537       XXX       lxx         0     -0.00    10.000
-;residue_X
-       539       lt2       538       XXX       lxx         0     -1.00    10.000
-;residue_X
-       540       lt2       539       XXX       lxx         0     -0.50    10.000
-;residue_X
-       541       lt2       540       XXX       lxx         0     -0.50    10.000
-;residue_X
-       542       lt2       541       XXX       lxx         0     -0.00    10.000
-;residue_X
-       543       lt2       542       XXX       lxx         0     -0.00    10.000
-;residue_X
-       544       lt2       543       XXX       lxx         0     -0.00    10.000
-;residue_X
-       545       lt2       544       XXX       lxx         0     -1.00    10.000
-;residue_X
-       546       lt2       545       XXX       lxx         0     -1.00    10.000
-;residue_X
-       547       lt2       546       XXX       lxx         0      1.00    10.000
-;residue_X
-       548       lt2       547       XXX       lxx         0      0.50    10.000
-;residue_X
-       549       lt2       548       XXX       lxx         0     -0.00    10.000
-;residue_X
-       550       lt2       549       XXX       lxx         0     -1.00    10.000
-;residue_X
-       551       lt2       550       XXX       lxx         0     -0.50    10.000
-;residue_X
-       552       lt2       551       XXX       lxx         0     -0.50    10.000
-;residue_X
-       553       lt2       552       XXX       lxx         0     -0.50    10.000
-;residue_X
-       554       lt2       553       XXX       lxx         0     -0.00    10.000
-;residue_X
-       555       lt2       554       XXX       lxx         0     -1.00    10.000
-;residue_X
-       556       lt2       555       XXX       lxx         0     -1.00    10.000
-;residue_X
-       557       lt2       556       XXX       lxx         0      1.00    10.000
-;residue_X
-       558       lt2       557       XXX       lxx         0     -0.00    10.000
-;residue_X
-       559       lt2       558       XXX       lxx         0      0.50    10.000
-;residue_X
-       560       lt2       559       XXX       lxx         0      0.50    10.000
-;residue_X
-       561       lt2       560       XXX       lxx         0     -0.00    10.000
-;residue_X
-       562       lt2       561       XXX       lxx         0     -1.00    10.000
-;residue_X
-       563       lt2       562       XXX       lxx         0     -0.00    10.000
-;residue_X
-       564       lt2       563       XXX       lxx         0      1.00    10.000
-;residue_X
-       565       lt2       564       XXX       lxx         0      0.50    10.000
-;residue_X
-       566       lt2       565       XXX       lxx         0      0.50    10.000
-;residue_X
-       567       lt2       566       XXX       lxx         0     -0.00    10.000
-;residue_X
-       568       lt2       567       XXX       lxx         0      0.50    10.000
-;residue_X
-       569       lt2       568       XXX       lxx         0     -0.50    10.000
-;residue_X
-       570       lt2       569       XXX       lxx         0     -0.00    10.000
-;residue_X
-       571       lt2       570       XXX       lxx         0     -0.00    10.000
-;residue_X
-       572       lt2       571       XXX       lxx         0      1.00    10.000
-;residue_X
-       573       lt2       572       XXX       lxx         0      1.00    10.000
-;residue_X
-       574       lt2       573       XXX       lxx         0      1.00    10.000
-;residue_X
-       575       lt2       574       XXX       lxx         0     -1.00    10.000
-;residue_X
-       576       lt2       575       XXX       lxx         0      1.00    10.000
-;residue_X
-       577       lt2       576       XXX       lxx         0     -0.50    10.000
-;residue_X
-       578       lt2       577       XXX       lxx         0     -0.00    10.000
-;residue_X
-       579       lt2       578       XXX       lxx         0     -1.00    10.000
-;residue_X
-       580       lt2       579       XXX       lxx         0     -0.00    10.000
-;residue_X
-       581       lt2       580       XXX       lxx         0     -0.00    10.000
-;residue_X
-       582       lt2       581       XXX       lxx         0      1.00    10.000
-;residue_X
-       583       lt2       582       XXX       lxx         0      0.50    10.000
-;residue_X
-       584       lt2       583       XXX       lxx         0      1.00    10.000
-;residue_X
-       585       lt2       584       XXX       lxx         0      1.00    10.000
-;residue_X
-       586       lt2       585       XXX       lxx         0     -0.00    10.000
-;residue_X
-       587       lt2       586       XXX       lxx         0     -1.00    10.000
-;residue_X
-       588       lt2       587       XXX       lxx         0      0.50    10.000
-;residue_X
-       589       lt2       588       XXX       lxx         0     -1.00    10.000
-;residue_X
-       590       lt2       589       XXX       lxx         0     -1.00    10.000
-;residue_X
-       591       lt2       590       XXX       lxx         0     -0.00    10.000
-;residue_X
-       592       lt2       591       XXX       lxx         0      0.50    10.000
-;residue_X
-       593       lt2       592       XXX       lxx         0      1.00    10.000
-;residue_X
-       594       lt2       593       XXX       lxx         0     -0.50    10.000
-;residue_X
-       595       lt2       594       XXX       lxx         0     -1.00    10.000
-;residue_X
-       596       lt2       595       XXX       lxx         0      1.00    10.000
-;residue_X
-       597       lt2       596       XXX       lxx         0      1.00    10.000
-;residue_X
-       598       lt2       597       XXX       lxx         0      0.50    10.000
-;residue_X
-       599       lt2       598       XXX       lxx         0      0.50    10.000
-;residue_X
-       600       lt2       599       XXX       lxx         0     -0.00    10.000
-;residue_X
-       601       lt2       600       XXX       lxx         0      1.00    10.000
-;residue_X
-       602       lt2       601       XXX       lxx         0      0.50    10.000
-;residue_X
-       603       lt2       602       XXX       lxx         0     -0.50    10.000
-;residue_X
-       604       lt2       603       XXX       lxx         0      1.00    10.000
-;residue_X
-       605       lt2       604       XXX       lxx         0     -0.00    10.000
-;residue_X
-       606       lt2       605       XXX       lxx         0     -0.00    10.000
-;residue_X
-       607       lt2       606       XXX       lxx         0      1.00    10.000
-;residue_X
-       608       lt2       607       XXX       lxx         0     -0.50    10.000
-;residue_X
-       609       lt2       608       XXX       lxx         0     -1.00    10.000
-;residue_X
-       610       lt2       609       XXX       lxx         0     -0.00    10.000
-;residue_X
-       611       lt2       610       XXX       lxx         0      0.50    10.000
-;residue_X
-       612       lt2       611       XXX       lxx         0     -0.50    10.000
-;residue_X
-       613       lt2       612       XXX       lxx         0     -1.00    10.000
-;residue_X
-       614       lt2       613       XXX       lxx         0      1.00    10.000
-;residue_X
-       615       lt2       614       XXX       lxx         0     -0.00    10.000
-;residue_X
-       616       lt2       615       XXX       lxx         0     -0.00    10.000
-;residue_X
-       617       lt2       616       XXX       lxx         0     -0.00    10.000
-;residue_X
-       618       lt2       617       XXX       lxx         0     -0.00    10.000
-;residue_X
-       619       lt2       618       XXX       lxx         0      0.50    10.000
-;residue_X
-       620       lt2       619       XXX       lxx         0      0.50    10.000
-;residue_X
-       621       lt2       620       XXX       lxx         0     -0.00    10.000
-;residue_X
-       622       lt2       621       XXX       lxx         0     -0.00    10.000
-;residue_X
-       623       lt2       622       XXX       lxx         0     -1.00    10.000
-;residue_X
-       624       lt2       623       XXX       lxx         0      1.00    10.000
-;residue_X
-       625       lt2       624       XXX       lxx         0     -0.00    10.000
-;residue_X
-       626       lt2       625       XXX       lxx         0      1.00    10.000
-;residue_X
-       627       lt2       626       XXX       lxx         0     -1.00    10.000
-;residue_X
-       628       lt2       627       XXX       lxx         0     -0.00    10.000
-;residue_X
-       629       lt2       628       XXX       lxx         0      0.50    10.000
-;residue_X
-       630       lt2       629       XXX       lxx         0     -0.00    10.000
-;residue_X
-       631       lt2       630       XXX       lxx         0     -0.00    10.000
-;residue_X
-       632       lt2       631       XXX       lxx         0     -0.50    10.000
-;residue_X
-       633       lt2       632       XXX       lxx         0     -0.50    10.000
-;residue_X
-       634       lt2       633       XXX       lxx         0     -0.00    10.000
-;residue_X
-       635       lt2       634       XXX       lxx         0     -0.00    10.000
-;residue_X
-       636       lt2       635       XXX       lxx         0      0.50    10.000
-;residue_X
-       637       lt2       636       XXX       lxx         0     -0.00    10.000
-;residue_X
-       638       lt2       637       XXX       lxx         0     -1.00    10.000
-;residue_X
-       639       lt2       638       XXX       lxx         0     -0.00    10.000
-;residue_X
-       640       lt2       639       XXX       lxx         0     -0.00    10.000
-;residue_X
-       641       lt2       640       XXX       lxx         0     -0.50    10.000
-;residue_X
-       642       lt2       641       XXX       lxx         0      0.50    10.000
-;residue_X
-       643       lt2       642       XXX       lxx         0     -0.00    10.000
-;residue_X
-       644       lt2       643       XXX       lxx         0      1.00    10.000
-;residue_X
-       645       lt2       644       XXX       lxx         0     -0.00    10.000
-;residue_X
-       646       lt2       645       XXX       lxx         0     -0.00    10.000
-;residue_X
-       647       lt2       646       XXX       lxx         0     -0.00    10.000
-;residue_X
-       648       lt2       647       XXX       lxx         0     -0.50    10.000
-;residue_X
-       649       lt2       648       XXX       lxx         0     -0.50    10.000
-;residue_X
-       650       lt2       649       XXX       lxx         0     -0.00    10.000
-;residue_X
-       651       lt2       650       XXX       lxx         0     -0.00    10.000
-;residue_X
-       652       lt2       651       XXX       lxx         0     -0.50    10.000
-;residue_X
-       653       lt2       652       XXX       lxx         0     -0.00    10.000
-;residue_X
-       654       lt2       653       XXX       lxx         0     -0.50    10.000
-;residue_X
-       655       lt2       654       XXX       lxx         0     -1.00    10.000
-;residue_X
-       656       lt2       655       XXX       lxx         0     -0.00    10.000
-;residue_X
-       657       lt2       656       XXX       lxx         0     -0.00    10.000
-;residue_X
-       658       lt2       657       XXX       lxx         0     -0.00    10.000
-;residue_X
-       659       lt2       658       XXX       lxx         0      1.00    10.000
-;residue_X
-       660       lt2       659       XXX       lxx         0      0.50    10.000
-;residue_X
-       661       lt2       660       XXX       lxx         0     -0.50    10.000
-;residue_X
-       662       lt2       661       XXX       lxx         0     -0.00    10.000
-;residue_X
-       663       lt2       662       XXX       lxx         0     -0.00    10.000
-;residue_X
-       664       lt2       663       XXX       lxx         0     -0.50    10.000
-;residue_X
-       665       lt2       664       XXX       lxx         0     -0.00    10.000
-;residue_X
-       666       lt2       665       XXX       lxx         0     -1.00    10.000
-;residue_X
-       667       lt2       666       XXX       lxx         0      0.50    10.000
-;residue_X
-       668       lt2       667       XXX       lxx         0     -1.00    10.000
-;residue_X
-       669       lt2       668       XXX       lxx         0     -0.00    10.000
-;residue_X
-       670       lt2       669       XXX       lxx         0     -0.00    10.000
-;residue_X
-       671       lt2       670       XXX       lxx         0     -0.00    10.000
-;residue_X
-       672       lt2       671       XXX       lxx         0      0.50    10.000
-;residue_X
-       673       lt2       672       XXX       lxx         0     -1.00    10.000
-;residue_X
-       674       lt2       673       XXX       lxx         0      1.00    10.000
-;residue_X
-       675       lt2       674       XXX       lxx         0      0.50    10.000
-;residue_X
-       676       lt2       675       XXX       lxx         0     -0.50    10.000
-;residue_X
-       677       lt2       676       XXX       lxx         0     -0.00    10.000
-;residue_X
-       678       lt2       677       XXX       lxx         0     -0.00    10.000
-;residue_X
-       679       lt2       678       XXX       lxx         0      0.50    10.000
-;residue_X
-       680       lt2       679       XXX       lxx         0      0.50    10.000
-;residue_X
-       681       lt2       680       XXX       lxx         0     -0.00    10.000
-;residue_X
-       682       lt2       681       XXX       lxx         0      1.00    10.000
-;residue_X
-       683       lt2       682       XXX       lxx         0     -0.00    10.000
-;residue_X
-       684       lt2       683       XXX       lxx         0      1.00    10.000
-;residue_X
-       685       lt2       684       XXX       lxx         0      0.50    10.000
-;residue_X
-       686       lt2       685       XXX       lxx         0     -0.00    10.000
-;residue_X
-       687       lt2       686       XXX       lxx         0     -1.00    10.000
-;residue_X
-       688       lt2       687       XXX       lxx         0      1.00    10.000
-;residue_X
-       689       lt2       688       XXX       lxx         0     -0.00    10.000
-;residue_X
-       690       lt2       689       XXX       lxx         0     -1.00    10.000
-;residue_X
-       691       lt2       690       XXX       lxx         0      1.00    10.000
-;residue_X
-       692       lt2       691       XXX       lxx         0     -0.50    10.000
-;residue_X
-       693       lt2       692       XXX       lxx         0     -0.00    10.000
-;residue_X
-       694       lt2       693       XXX       lxx         0     -1.00    10.000
-;residue_X
-       695       lt2       694       XXX       lxx         0     -1.00    10.000
-;residue_X
-       696       lt2       695       XXX       lxx         0     -0.00    10.000
-;residue_X
-       697       lt2       696       XXX       lxx         0     -0.00    10.000
-;residue_X
-       698       lt2       697       XXX       lxx         0      1.00    10.000
-;residue_X
-       699       lt2       698       XXX       lxx         0     -0.50    10.000
-;residue_X
-       700       lt2       699       XXX       lxx         0      1.00    10.000
-;residue_X
-       701       lt2       700       XXX       lxx         0      0.50    10.000
-;residue_X
-       702       lt2       701       XXX       lxx         0     -0.00    10.000
-;residue_X
-       703       lt2       702       XXX       lxx         0      0.50    10.000
-;residue_X
-       704       lt2       703       XXX       lxx         0      0.50    10.000
-;residue_X
-       705       lt2       704       XXX       lxx         0     -0.50    10.000
-;residue_X
-       706       lt2       705       XXX       lxx         0      0.50    10.000
-;residue_X
-       707       lt2       706       XXX       lxx         0     -0.50    10.000
-;residue_X
-       708       lt2       707       XXX       lxx         0     -0.00    10.000
-;residue_X
-       709       lt2       708       XXX       lxx         0      1.00    10.000
-;residue_X
-       710       lt2       709       XXX       lxx         0     -0.00    10.000
-;residue_X
-       711       lt2       710       XXX       lxx         0      0.50    10.000
-;residue_X
-       712       lt2       711       XXX       lxx         0      0.50    10.000
-;residue_X
-       713       lt2       712       XXX       lxx         0      0.50    10.000
-;residue_X
-       714       lt2       713       XXX       lxx         0      1.00    10.000
-;residue_X
-       715       lt2       714       XXX       lxx         0     -0.00    10.000
-;residue_X
-       716       lt2       715       XXX       lxx         0      1.00    10.000
-;residue_X
-       717       lt2       716       XXX       lxx         0     -0.00    10.000
-;residue_X
-       718       lt2       717       XXX       lxx         0      1.00    10.000
-;residue_X
-       719       lt2       718       XXX       lxx         0      1.00    10.000
-;residue_X
-       720       lt2       719       XXX       lxx         0     -1.00    10.000
-;residue_X
-       721       lt2       720       XXX       lxx         0     -0.00    10.000
-;residue_X
-       722       lt2       721       XXX       lxx         0      1.00    10.000
-;residue_X
-       723       lt2       722       XXX       lxx         0     -0.00    10.000
-;residue_X
-       724       lt2       723       XXX       lxx         0     -0.00    10.000
-;residue_X
-       725       lt2       724       XXX       lxx         0     -1.00    10.000
-;residue_X
-       726       lt2       725       XXX       lxx         0     -1.00    10.000
-;residue_X
-       727       lt2       726       XXX       lxx         0     -0.00    10.000
-;residue_X
-       728       lt2       727       XXX       lxx         0     -0.00    10.000
-;residue_X
-       729       lt2       728       XXX       lxx         0     -1.00    10.000
-;residue_X
-       730       lt2       729       XXX       lxx         0     -1.00    10.000
-;residue_X
-       731       lt2       730       XXX       lxx         0     -0.00    10.000
-;residue_X
-       732       lt2       731       XXX       lxx         0     -1.00    10.000
-;residue_X
-       733       lt2       732       XXX       lxx         0     -1.00    10.000
-;residue_X
-       734       lt2       733       XXX       lxx         0     -0.50    10.000
-;residue_X
-       735       lt2       734       XXX       lxx         0      0.50    10.000
-;residue_X
-       736       lt2       735       XXX       lxx         0     -0.50    10.000
-;residue_X
-       737       lt2       736       XXX       lxx         0      0.50    10.000
-;residue_X
-       738       lt2       737       XXX       lxx         0      1.00    10.000
-;residue_X
-       739       lt2       738       XXX       lxx         0     -0.50    10.000
-;residue_X
-       740       lt2       739       XXX       lxx         0     -0.50    10.000
-;residue_X
-       741       lt2       740       XXX       lxx         0      1.00    10.000
-;residue_X
-       742       lt2       741       XXX       lxx         0     -0.00    10.000
-;residue_X
-       743       lt2       742       XXX       lxx         0     -0.00    10.000
-;residue_X
-       744       lt2       743       XXX       lxx         0     -0.00    10.000
-;residue_X
-       745       lt2       744       XXX       lxx         0     -0.00    10.000
-;residue_X
-       746       lt2       745       XXX       lxx         0     -0.50    10.000
-;residue_X
-       747       lt2       746       XXX       lxx         0     -0.00    10.000
-;residue_X
-       748       lt2       747       XXX       lxx         0     -0.00    10.000
-;residue_X
-       749       lt2       748       XXX       lxx         0     -1.00    10.000
-;residue_X
-       750       lt2       749       XXX       lxx         0      0.50    10.000
-;residue_X
-       751       lt2       750       XXX       lxx         0     -0.00    10.000
-;residue_X
-       752       lt2       751       XXX       lxx         0     -0.50    10.000
-;residue_X
-       753       lt2       752       XXX       lxx         0      0.50    10.000
-;residue_X
-       754       lt2       753       XXX       lxx         0     -0.00    10.000
-;residue_X
-       755       lt2       754       XXX       lxx         0     -1.00    10.000
-;residue_X
-       756       lt2       755       XXX       lxx         0     -0.00    10.000
-;residue_X
-       757       lt2       756       XXX       lxx         0      1.00    10.000
-;residue_X
-       758       lt2       757       XXX       lxx         0     -0.00    10.000
-;residue_X
-       759       lt2       758       XXX       lxx         0     -0.50    10.000
-;residue_X
-       760       lt2       759       XXX       lxx         0     -1.00    10.000
-;residue_X
-       761       lt2       760       XXX       lxx         0     -0.00    10.000
-;residue_X
-       762       lt2       761       XXX       lxx         0      1.00    10.000
-;residue_X
-       763       lt2       762       XXX       lxx         0     -1.00    10.000
-;residue_X
-       764       lt2       763       XXX       lxx         0     -0.00    10.000
-;residue_X
-       765       lt2       764       XXX       lxx         0     -0.50    10.000
-;residue_X
-       766       lt2       765       XXX       lxx         0     -0.00    10.000
-;residue_X
-       767       lt2       766       XXX       lxx         0     -0.50    10.000
-;residue_X
-       768       lt2       767       XXX       lxx         0      1.00    10.000
-;residue_X
-       769       lt2       768       XXX       lxx         0     -0.00    10.000
-;residue_X
-       770       lt2       769       XXX       lxx         0     -0.00    10.000
-;residue_X
-       771       lt2       770       XXX       lxx         0     -0.50    10.000
-;residue_X
-       772       lt2       771       XXX       lxx         0      0.50    10.000
-;residue_X
-       773       lt2       772       XXX       lxx         0      0.50    10.000
-;residue_X
-       774       lt2       773       XXX       lxx         0     -1.00    10.000
-;residue_X
-       775       lt2       774       XXX       lxx         0     -1.00    10.000
-;residue_X
-       776       lt2       775       XXX       lxx         0     -0.00    10.000
-;residue_X
-       777       lt2       776       XXX       lxx         0     -1.00    10.000
-;residue_X
-       778       lt2       777       XXX       lxx         0     -0.00    10.000
-;residue_X
-       779       lt2       778       XXX       lxx         0     -0.00    10.000
-;residue_X
-       780       lt2       779       XXX       lxx         0     -0.00    10.000
-;residue_X
-       781       lt2       780       XXX       lxx         0     -1.00    10.000
-;residue_X
-       782       lt2       781       XXX       lxx         0      0.50    10.000
-;residue_X
-       783       lt2       782       XXX       lxx         0      0.50    10.000
-;residue_X
-       784       lt2       783       XXX       lxx         0      1.00    10.000
-;residue_X
-       785       lt2       784       XXX       lxx         0     -0.50    10.000
-;residue_X
-       786       lt2       785       XXX       lxx         0     -1.00    10.000
-;residue_X
-       787       lt2       786       XXX       lxx         0      0.50    10.000
-;residue_X
-       788       lt2       787       XXX       lxx         0     -0.00    10.000
-;residue_X
-       789       lt2       788       XXX       lxx         0      0.50    10.000
-;residue_X
-       790       lt2       789       XXX       lxx         0      1.00    10.000
-;residue_X
-       791       lt2       790       XXX       lxx         0     -0.00    10.000
-;residue_X
-       792       lt2       791       XXX       lxx         0     -0.00    10.000
-;residue_X
-       793       lt2       792       XXX       lxx         0     -0.00    10.000
-;residue_X
-       794       lt2       793       XXX       lxx         0      1.00    10.000
-;residue_X
-       795       lt2       794       XXX       lxx         0     -0.50    10.000
-;residue_X
-       796       lt2       795       XXX       lxx         0     -0.00    10.000
-;residue_X
-       797       lt2       796       XXX       lxx         0      1.00    10.000
-;residue_X
-       798       lt2       797       XXX       lxx         0     -0.00    10.000
-;residue_X
-       799       lt2       798       XXX       lxx         0      1.00    10.000
-;residue_X
-       800       lt2       799       XXX       lxx         0      0.50    10.000
-;residue_X
-       801       lt2       800       XXX       lxx         0      0.50    10.000
-;residue_X
-       802       lt2       801       XXX       lxx         0     -0.00    10.000
-;residue_X
-       803       lt2       802       XXX       lxx         0      1.00    10.000
-;residue_X
-       804       lt2       803       XXX       lxx         0     -0.00    10.000
-;residue_X
-       805       lt2       804       XXX       lxx         0     -0.50    10.000
-;residue_X
-       806       lt2       805       XXX       lxx         0      0.50    10.000
-;residue_X
-       807       lt2       806       XXX       lxx         0     -0.00    10.000
-;residue_X
-       808       lt2       807       XXX       lxx         0     -0.00    10.000
-;residue_X
-       809       lt2       808       XXX       lxx         0     -0.00    10.000
-;residue_X
-       810       lt2       809       XXX       lxx         0     -0.00    10.000
-;residue_X
-       811       lt2       810       XXX       lxx         0      1.00    10.000
-;residue_X
-       812       lt2       811       XXX       lxx         0      1.00    10.000
-;residue_X
-       813       lt2       812       XXX       lxx         0      1.00    10.000
-;residue_X
-       814       lt2       813       XXX       lxx         0     -0.00    10.000
-;residue_X
-       815       lt2       814       XXX       lxx         0     -0.50    10.000
-;residue_X
-       816       lt2       815       XXX       lxx         0     -0.00    10.000
-;residue_X
-       817       lt2       816       XXX       lxx         0      0.50    10.000
-;residue_X
-       818       lt2       817       XXX       lxx         0     -0.50    10.000
-;residue_X
-       819       lt2       818       XXX       lxx         0     -1.00    10.000
-;residue_X
-       820       lt2       819       XXX       lxx         0      0.50    10.000
-;residue_X
-       821       lt2       820       XXX       lxx         0      1.00    10.000
-;residue_X
-       822       lt2       821       XXX       lxx         0     -0.00    10.000
-;residue_X
-       823       lt2       822       XXX       lxx         0      1.00    10.000
-;residue_X
-       824       lt2       823       XXX       lxx         0     -0.00    10.000
-;residue_X
-       825       lt2       824       XXX       lxx         0     -0.00    10.000
-;residue_X
-       826       lt2       825       XXX       lxx         0     -0.50    10.000
-;residue_X
-       827       lt2       826       XXX       lxx         0     -0.00    10.000
-;residue_X
-       828       lt2       827       XXX       lxx         0     -0.00    10.000
-;residue_X
-       829       lt2       828       XXX       lxx         0     -0.00    10.000
-;residue_X
-       830       lt2       829       XXX       lxx         0     -0.00    10.000
-;residue_X
-       831       lt2       830       XXX       lxx         0     -0.50    10.000
-;residue_X
-       832       lt2       831       XXX       lxx         0      1.00    10.000
-;residue_X
-       833       lt2       832       XXX       lxx         0     -0.50    10.000
-;residue_X
-       834       lt2       833       XXX       lxx         0     -0.00    10.000
-;residue_X
-       835       lt2       834       XXX       lxx         0     -1.00    10.000
-;residue_X
-       836       lt2       835       XXX       lxx         0      0.50    10.000
-;residue_X
-       837       lt2       836       XXX       lxx         0     -1.00    10.000
-;residue_X
-       838       lt2       837       XXX       lxx         0     -0.50    10.000
-;residue_X
-       839       lt2       838       XXX       lxx         0     -0.50    10.000
-;residue_X
-       840       lt2       839       XXX       lxx         0     -0.00    10.000
-;residue_X
-       841       lt2       840       XXX       lxx         0     -0.00    10.000
-;residue_X
-       842       lt2       841       XXX       lxx         0     -0.00    10.000
-;residue_X
-       843       lt2       842       XXX       lxx         0     -1.00    10.000
-;residue_X
-       844       lt2       843       XXX       lxx         0     -1.00    10.000
-;residue_X
-       845       lt2       844       XXX       lxx         0      0.50    10.000
-;residue_X
-       846       lt2       845       XXX       lxx         0      1.00    10.000
-;residue_X
-       847       lt2       846       XXX       lxx         0     -0.00    10.000
-;residue_X
-       848       lt2       847       XXX       lxx         0      0.50    10.000
-;residue_X
-       849       lt2       848       XXX       lxx         0     -0.00    10.000
-;residue_X
-       850       lt2       849       XXX       lxx         0      1.00    10.000
-;residue_X
-       851       lt2       850       XXX       lxx         0     -0.00    10.000
-;residue_X
-       852       lt2       851       XXX       lxx         0      0.50    10.000
-;residue_X
-       853       lt2       852       XXX       lxx         0     -0.00    10.000
-;residue_X
-       854       lt2       853       XXX       lxx         0     -0.00    10.000
-;residue_X
-       855       lt2       854       XXX       lxx         0      1.00    10.000
-;residue_X
-       856       lt2       855       XXX       lxx         0      1.00    10.000
-;residue_X
-       857       lt2       856       XXX       lxx         0     -0.50    10.000
-;residue_X
-       858       lt2       857       XXX       lxx         0      1.00    10.000
-;residue_X
-       859       lt2       858       XXX       lxx         0     -0.00    10.000
-;residue_X
-       860       lt2       859       XXX       lxx         0     -0.00    10.000
-;residue_X
-       861       lt2       860       XXX       lxx         0     -0.50    10.000
-;residue_X
-       862       lt2       861       XXX       lxx         0      0.50    10.000
-;residue_X
-       863       lt2       862       XXX       lxx         0     -0.50    10.000
-;residue_X
-       864       lt2       863       XXX       lxx         0      0.50    10.000
-;residue_X
-       865       lt2       864       XXX       lxx         0     -0.50    10.000
-;residue_X
-       866       lt2       865       XXX       lxx         0     -0.50    10.000
-;residue_X
-       867       lt2       866       XXX       lxx         0     -1.00    10.000
-;residue_X
-       868       lt2       867       XXX       lxx         0     -0.00    10.000
-;residue_X
-       869       lt2       868       XXX       lxx         0     -1.00    10.000
-;residue_X
-       870       lt2       869       XXX       lxx         0     -1.00    10.000
-;residue_X
-       871       lt2       870       XXX       lxx         0     -0.50    10.000
-;residue_X
-       872       lt2       871       XXX       lxx         0      1.00    10.000
-;residue_X
-       873       lt2       872       XXX       lxx         0     -0.00    10.000
-;residue_X
-       874       lt2       873       XXX       lxx         0      0.50    10.000
-;residue_X
-       875       lt2       874       XXX       lxx         0     -1.00    10.000
-;residue_X
-       876       lt2       875       XXX       lxx         0      1.00    10.000
-;residue_X
-       877       lt2       876       XXX       lxx         0      0.50    10.000
-;residue_X
-       878       lt2       877       XXX       lxx         0     -0.00    10.000
-;residue_X
-       879       lt2       878       XXX       lxx         0     -0.00    10.000
-;residue_X
-       880       lt2       879       XXX       lxx         0     -1.00    10.000
-;residue_X
-       881       lt2       880       XXX       lxx         0      1.00    10.000
-;residue_X
-       882       lt2       881       XXX       lxx         0     -0.00    10.000
-;residue_X
-       883       lt2       882       XXX       lxx         0     -0.00    10.000
-;residue_X
-       884       lt2       883       XXX       lxx         0     -0.00    10.000
-;residue_X
-       885       lt2       884       XXX       lxx         0     -0.00    10.000
-;residue_X
-       886       lt2       885       XXX       lxx         0      0.50    10.000
-;residue_X
-       887       lt2       886       XXX       lxx         0     -0.00    10.000
-;residue_X
-       888       lt2       887       XXX       lxx         0     -0.00    10.000
-;residue_X
-       889       lt2       888       XXX       lxx         0     -0.00    10.000
-;residue_X
-       890       lt2       889       XXX       lxx         0      1.00    10.000
-;residue_X
-       891       lt2       890       XXX       lxx         0     -1.00    10.000
-;residue_X
-       892       lt2       891       XXX       lxx         0     -0.00    10.000
-;residue_X
-       893       lt2       892       XXX       lxx         0     -1.00    10.000
-;residue_X
-       894       lt2       893       XXX       lxx         0      0.50    10.000
-;residue_X
-       895       lt2       894       XXX       lxx         0      0.50    10.000
-;residue_X
-       896       lt2       895       XXX       lxx         0     -1.00    10.000
-;residue_X
-       897       lt2       896       XXX       lxx         0     -0.00    10.000
-;residue_X
-       898       lt2       897       XXX       lxx         0     -0.50    10.000
-;residue_X
-       899       lt2       898       XXX       lxx         0     -0.00    10.000
-;residue_X
-       900       lt2       899       XXX       lxx         0      1.00    10.000
-;residue_X
-       901       lt2       900       XXX       lxx         0     -0.00    10.000
-;residue_X
-       902       lt2       901       XXX       lxx         0     -0.00    10.000
-;residue_X
-       903       lt2       902       XXX       lxx         0      0.50    10.000
-;residue_X
-       904       lt2       903       XXX       lxx         0      0.50    10.000
-;residue_X
-       905       lt2       904       XXX       lxx         0     -0.00    10.000
-;residue_X
-       906       lt2       905       XXX       lxx         0     -0.00    10.000
-;residue_X
-       907       lt2       906       XXX       lxx         0     -0.00    10.000
-;residue_X
-       908       lt2       907       XXX       lxx         0      0.50    10.000
-;residue_X
-       909       lt2       908       XXX       lxx         0     -0.00    10.000
-;residue_X
-       910       lt2       909       XXX       lxx         0      1.00    10.000
-;residue_X
-       911       lt2       910       XXX       lxx         0     -0.50    10.000
-;residue_X
-       912       lt2       911       XXX       lxx         0      0.50    10.000
-;residue_X
-       913       lt2       912       XXX       lxx         0     -0.00    10.000
-;residue_X
-       914       lt2       913       XXX       lxx         0      0.50    10.000
-;residue_X
-       915       lt2       914       XXX       lxx         0     -1.00    10.000
-;residue_X
-       916       lt2       915       XXX       lxx         0     -0.00    10.000
-;residue_X
-       917       lt2       916       XXX       lxx         0     -0.00    10.000
-;residue_X
-       918       lt2       917       XXX       lxx         0     -0.00    10.000
-;residue_X
-       919       lt2       918       XXX       lxx         0      1.00    10.000
-;residue_X
-       920       lt2       919       XXX       lxx         0     -0.00    10.000
-;residue_X
-       921       lt2       920       XXX       lxx         0     -0.00    10.000
-;residue_X
-       922       lt2       921       XXX       lxx         0      1.00    10.000
-;residue_X
-       923       lt2       922       XXX       lxx         0     -0.50    10.000
-;residue_X
-       924       lt2       923       XXX       lxx         0     -0.00    10.000
-;residue_X
-       925       lt2       924       XXX       lxx         0      1.00    10.000
-;residue_X
-       926       lt2       925       XXX       lxx         0     -0.00    10.000
-;residue_X
-       927       lt2       926       XXX       lxx         0     -1.00    10.000
-;residue_X
-       928       lt2       927       XXX       lxx         0      0.50    10.000
-;residue_X
-       929       lt2       928       XXX       lxx         0     -0.50    10.000
-;residue_X
-       930       lt2       929       XXX       lxx         0     -0.00    10.000
-;residue_X
-       931       lt2       930       XXX       lxx         0     -1.00    10.000
-;residue_X
-       932       lt2       931       XXX       lxx         0     -0.00    10.000
-;residue_X
-       933       lt2       932       XXX       lxx         0     -1.00    10.000
-;residue_X
-       934       lt2       933       XXX       lxx         0      0.50    10.000
-;residue_X
-       935       lt2       934       XXX       lxx         0     -0.50    10.000
-;residue_X
-       936       lt2       935       XXX       lxx         0     -0.00    10.000
-;residue_X
-       937       lt2       936       XXX       lxx         0     -0.00    10.000
-;residue_X
-       938       lt2       937       XXX       lxx         0     -0.00    10.000
-;residue_X
-       939       lt2       938       XXX       lxx         0     -0.50    10.000
-;residue_X
-       940       lt2       939       XXX       lxx         0      0.50    10.000
-;residue_X
-       941       lt2       940       XXX       lxx         0     -0.00    10.000
-;residue_X
-       942       lt2       941       XXX       lxx         0      0.50    10.000
-;residue_X
-       943       lt2       942       XXX       lxx         0     -0.00    10.000
-;residue_X
-       944       lt2       943       XXX       lxx         0     -1.00    10.000
-;residue_X
-       945       lt2       944       XXX       lxx         0      1.00    10.000
-;residue_X
-       946       lt2       945       XXX       lxx         0     -0.00    10.000
-;residue_X
-       947       lt2       946       XXX       lxx         0     -0.00    10.000
-;residue_X
-       948       lt2       947       XXX       lxx         0      1.00    10.000
-;residue_X
-       949       lt2       948       XXX       lxx         0      0.50    10.000
-;residue_X
-       950       lt2       949       XXX       lxx         0      1.00    10.000
-;residue_X
-       951       lt2       950       XXX       lxx         0     -1.00    10.000
-;residue_X
-       952       lt2       951       XXX       lxx         0     -0.50    10.000
-;residue_X
-       953       lt2       952       XXX       lxx         0     -0.00    10.000
-;residue_X
-       954       lt2       953       XXX       lxx         0     -0.50    10.000
-;residue_X
-       955       lt2       954       XXX       lxx         0     -0.50    10.000
-;residue_X
-       956       lt2       955       XXX       lxx         0     -0.00    10.000
-;residue_X
-       957       lt2       956       XXX       lxx         0     -1.00    10.000
-;residue_X
-       958       lt2       957       XXX       lxx         0      1.00    10.000
-;residue_X
-       959       lt2       958       XXX       lxx         0     -0.00    10.000
-;residue_X
-       960       lt2       959       XXX       lxx         0     -1.00    10.000
-;residue_X
-       961       lt2       960       XXX       lxx         0     -0.00    10.000
-;residue_X
-       962       lt2       961       XXX       lxx         0     -0.00    10.000
-;residue_X
-       963       lt2       962       XXX       lxx         0     -1.00    10.000
-;residue_X
-       964       lt2       963       XXX       lxx         0     -0.00    10.000
-;residue_X
-       965       lt2       964       XXX       lxx         0      1.00    10.000
-;residue_X
-       966       lt2       965       XXX       lxx         0     -1.00    10.000
-;residue_X
-       967       lt2       966       XXX       lxx         0     -0.50    10.000
-;residue_X
-       968       lt2       967       XXX       lxx         0     -1.00    10.000
-;residue_X
-       969       lt2       968       XXX       lxx         0     -1.00    10.000
-;residue_X
-       970       lt2       969       XXX       lxx         0     -0.00    10.000
-;residue_X
-       971       lt2       970       XXX       lxx         0     -0.50    10.000
-;residue_X
-       972       lt2       971       XXX       lxx         0      1.00    10.000
-;residue_X
-       973       lt2       972       XXX       lxx         0     -0.00    10.000
-;residue_X
-       974       lt2       973       XXX       lxx         0     -0.50    10.000
-;residue_X
-       975       lt2       974       XXX       lxx         0     -0.00    10.000
-;residue_X
-       976       lt2       975       XXX       lxx         0     -0.50    10.000
-;residue_X
-       977       lt2       976       XXX       lxx         0     -0.50    10.000
-;residue_X
-       978       lt2       977       XXX       lxx         0     -0.50    10.000
-;residue_X
-       979       lt2       978       XXX       lxx         0      0.50    10.000
-;residue_X
-       980       lt2       979       XXX       lxx         0     -0.00    10.000
-;residue_X
-       981       lt2       980       XXX       lxx         0     -0.00    10.000
-;residue_X
-       982       lt2       981       XXX       lxx         0      1.00    10.000
-;residue_X
-       983       lt2       982       XXX       lxx         0     -0.00    10.000
-;residue_X
-       984       lt2       983       XXX       lxx         0      0.50    10.000
-;residue_X
-       985       lt2       984       XXX       lxx         0      0.50    10.000
-;residue_X
-       986       lt2       985       XXX       lxx         0     -0.00    10.000
-;residue_X
-       987       lt2       986       XXX       lxx         0     -1.00    10.000
-;residue_X
-       988       lt2       987       XXX       lxx         0     -0.00    10.000
-;residue_X
-       989       lt2       988       XXX       lxx         0      1.00    10.000
-;residue_X
-       990       lt2       989       XXX       lxx         0     -0.00    10.000
-;residue_X
-       991       lt2       990       XXX       lxx         0     -0.50    10.000
-;residue_X
-       992       lt2       991       XXX       lxx         0      1.00    10.000
-;residue_X
-       993       lt2       992       XXX       lxx         0     -1.00    10.000
-;residue_X
-       994       lt2       993       XXX       lxx         0     -0.00    10.000
-;residue_X
-       995       lt2       994       XXX       lxx         0     -1.00    10.000
-;residue_X
-       996       lt2       995       XXX       lxx         0      1.00    10.000
-;residue_X
-       997       lt2       996       XXX       lxx         0      0.50    10.000
-;residue_X
-       998       lt2       997       XXX       lxx         0     -0.50    10.000
-;residue_X
-       999       lt2       998       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1000       lt2       999       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1001       lt2      1000       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1002       lt2      1001       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1003       lt2      1002       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1004       lt2      1003       XXX       lxx         0      0.50    10.000
-;residue_X
-      1005       lt2      1004       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1006       lt2      1005       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1007       lt2      1006       XXX       lxx         0      1.00    10.000
-;residue_X
-      1008       lt2      1007       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1009       lt2      1008       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1010       lt2      1009       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1011       lt2      1010       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1012       lt2      1011       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1013       lt2      1012       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1014       lt2      1013       XXX       lxx         0      0.50    10.000
-;residue_X
-      1015       lt2      1014       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1016       lt2      1015       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1017       lt2      1016       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1018       lt2      1017       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1019       lt2      1018       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1020       lt2      1019       XXX       lxx         0      0.50    10.000
-;residue_X
-      1021       lt2      1020       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1022       lt2      1021       XXX       lxx         0      1.00    10.000
-;residue_X
-      1023       lt2      1022       XXX       lxx         0      0.50    10.000
-;residue_X
-      1024       lt2      1023       XXX       lxx         0      0.50    10.000
-;residue_X
-      1025       lt2      1024       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1026       lt2      1025       XXX       lxx         0      1.00    10.000
-;residue_X
-      1027       lt2      1026       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1028       lt2      1027       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1029       lt2      1028       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1030       lt2      1029       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1031       lt2      1030       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1032       lt2      1031       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1033       lt2      1032       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1034       lt2      1033       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1035       lt2      1034       XXX       lxx         0      1.00    10.000
-;residue_X
-      1036       lt2      1035       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1037       lt2      1036       XXX       lxx         0      0.50    10.000
-;residue_X
-      1038       lt2      1037       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1039       lt2      1038       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1040       lt2      1039       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1041       lt2      1040       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1042       lt2      1041       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1043       lt2      1042       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1044       lt2      1043       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1045       lt2      1044       XXX       lxx         0      1.00    10.000
-;residue_X
-      1046       lt2      1045       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1047       lt2      1046       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1048       lt2      1047       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1049       lt2      1048       XXX       lxx         0      0.50    10.000
-;residue_X
-      1050       lt2      1049       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1051       lt2      1050       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1052       lt2      1051       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1053       lt2      1052       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1054       lt2      1053       XXX       lxx         0      0.50    10.000
-;residue_X
-      1055       lt2      1054       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1056       lt2      1055       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1057       lt2      1056       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1058       lt2      1057       XXX       lxx         0      1.00    10.000
-;residue_X
-      1059       lt2      1058       XXX       lxx         0      0.50    10.000
-;residue_X
-      1060       lt2      1059       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1061       lt2      1060       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1062       lt2      1061       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1063       lt2      1062       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1064       lt2      1063       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1065       lt2      1064       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1066       lt2      1065       XXX       lxx         0      0.50    10.000
-;residue_X
-      1067       lt2      1066       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1068       lt2      1067       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1069       lt2      1068       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1070       lt2      1069       XXX       lxx         0      1.00    10.000
-;residue_X
-      1071       lt2      1070       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1072       lt2      1071       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1073       lt2      1072       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1074       lt2      1073       XXX       lxx         0      0.50    10.000
-;residue_X
-      1075       lt2      1074       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1076       lt2      1075       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1077       lt2      1076       XXX       lxx         0      1.00    10.000
-;residue_X
-      1078       lt2      1077       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1079       lt2      1078       XXX       lxx         0      0.50    10.000
-;residue_X
-      1080       lt2      1079       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1081       lt2      1080       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1082       lt2      1081       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1083       lt2      1082       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1084       lt2      1083       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1085       lt2      1084       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1086       lt2      1085       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1087       lt2      1086       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1088       lt2      1087       XXX       lxx         0      1.00    10.000
-;residue_X
-      1089       lt2      1088       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1090       lt2      1089       XXX       lxx         0      1.00    10.000
-;residue_X
-      1091       lt2      1090       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1092       lt2      1091       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1093       lt2      1092       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1094       lt2      1093       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1095       lt2      1094       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1096       lt2      1095       XXX       lxx         0      1.00    10.000
-;residue_X
-      1097       lt2      1096       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1098       lt2      1097       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1099       lt2      1098       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1100       lt2      1099       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1101       lt2      1100       XXX       lxx         0      1.00    10.000
-;residue_X
-      1102       lt2      1101       XXX       lxx         0      1.00    10.000
-;residue_X
-      1103       lt2      1102       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1104       lt2      1103       XXX       lxx         0      1.00    10.000
-;residue_X
-      1105       lt2      1104       XXX       lxx         0      0.50    10.000
-;residue_X
-      1106       lt2      1105       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1107       lt2      1106       XXX       lxx         0      1.00    10.000
-;residue_X
-      1108       lt2      1107       XXX       lxx         0      0.50    10.000
-;residue_X
-      1109       lt2      1108       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1110       lt2      1109       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1111       lt2      1110       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1112       lt2      1111       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1113       lt2      1112       XXX       lxx         0      1.00    10.000
-;residue_X
-      1114       lt2      1113       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1115       lt2      1114       XXX       lxx         0      0.50    10.000
-;residue_X
-      1116       lt2      1115       XXX       lxx         0      0.50    10.000
-;residue_X
-      1117       lt2      1116       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1118       lt2      1117       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1119       lt2      1118       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1120       lt2      1119       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1121       lt2      1120       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1122       lt2      1121       XXX       lxx         0      0.50    10.000
-;residue_X
-      1123       lt2      1122       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1124       lt2      1123       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1125       lt2      1124       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1126       lt2      1125       XXX       lxx         0      1.00    10.000
-;residue_X
-      1127       lt2      1126       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1128       lt2      1127       XXX       lxx         0      0.50    10.000
-;residue_X
-      1129       lt2      1128       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1130       lt2      1129       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1131       lt2      1130       XXX       lxx         0      1.00    10.000
-;residue_X
-      1132       lt2      1131       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1133       lt2      1132       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1134       lt2      1133       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1135       lt2      1134       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1136       lt2      1135       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1137       lt2      1136       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1138       lt2      1137       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1139       lt2      1138       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1140       lt2      1139       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1141       lt2      1140       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1142       lt2      1141       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1143       lt2      1142       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1144       lt2      1143       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1145       lt2      1144       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1146       lt2      1145       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1147       lt2      1146       XXX       lxx         0      1.00    10.000
-;residue_X
-      1148       lt2      1147       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1149       lt2      1148       XXX       lxx         0      0.50    10.000
-;residue_X
-      1150       lt2      1149       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1151       lt2      1150       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1152       lt2      1151       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1153       lt2      1152       XXX       lxx         0      1.00    10.000
-;residue_X
-      1154       lt2      1153       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1155       lt2      1154       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1156       lt2      1155       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1157       lt2      1156       XXX       lxx         0      1.00    10.000
-;residue_X
-      1158       lt2      1157       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1159       lt2      1158       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1160       lt2      1159       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1161       lt2      1160       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1162       lt2      1161       XXX       lxx         0      1.00    10.000
-;residue_X
-      1163       lt2      1162       XXX       lxx         0      0.50    10.000
-;residue_X
-      1164       lt2      1163       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1165       lt2      1164       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1166       lt2      1165       XXX       lxx         0      0.50    10.000
-;residue_X
-      1167       lt2      1166       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1168       lt2      1167       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1169       lt2      1168       XXX       lxx         0      0.50    10.000
-;residue_X
-      1170       lt2      1169       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1171       lt2      1170       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1172       lt2      1171       XXX       lxx         0      0.50    10.000
-;residue_X
-      1173       lt2      1172       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1174       lt2      1173       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1175       lt2      1174       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1176       lt2      1175       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1177       lt2      1176       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1178       lt2      1177       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1179       lt2      1178       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1180       lt2      1179       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1181       lt2      1180       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1182       lt2      1181       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1183       lt2      1182       XXX       lxx         0      1.00    10.000
-;residue_X
-      1184       lt2      1183       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1185       lt2      1184       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1186       lt2      1185       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1187       lt2      1186       XXX       lxx         0      1.00    10.000
-;residue_X
-      1188       lt2      1187       XXX       lxx         0      0.50    10.000
-;residue_X
-      1189       lt2      1188       XXX       lxx         0      0.50    10.000
-;residue_X
-      1190       lt2      1189       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1191       lt2      1190       XXX       lxx         0      0.50    10.000
-;residue_X
-      1192       lt2      1191       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1193       lt2      1192       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1194       lt2      1193       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1195       lt2      1194       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1196       lt2      1195       XXX       lxx         0      1.00    10.000
-;residue_X
-      1197       lt2      1196       XXX       lxx         0      1.00    10.000
-;residue_X
-      1198       lt2      1197       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1199       lt2      1198       XXX       lxx         0      0.50    10.000
-;residue_X
-      1200       lt2      1199       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1201       lt2      1200       XXX       lxx         0      0.50    10.000
-;residue_X
-      1202       lt2      1201       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1203       lt2      1202       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1204       lt2      1203       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1205       lt2      1204       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1206       lt2      1205       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1207       lt2      1206       XXX       lxx         0      1.00    10.000
-;residue_X
-      1208       lt2      1207       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1209       lt2      1208       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1210       lt2      1209       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1211       lt2      1210       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1212       lt2      1211       XXX       lxx         0      0.50    10.000
-;residue_X
-      1213       lt2      1212       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1214       lt2      1213       XXX       lxx         0      0.50    10.000
-;residue_X
-      1215       lt2      1214       XXX       lxx         0      0.50    10.000
-;residue_X
-      1216       lt2      1215       XXX       lxx         0      1.00    10.000
-;residue_X
-      1217       lt2      1216       XXX       lxx         0      0.50    10.000
-;residue_X
-      1218       lt2      1217       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1219       lt2      1218       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1220       lt2      1219       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1221       lt2      1220       XXX       lxx         0      1.00    10.000
-;residue_X
-      1222       lt2      1221       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1223       lt2      1222       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1224       lt2      1223       XXX       lxx         0      1.00    10.000
-;residue_X
-      1225       lt2      1224       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1226       lt2      1225       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1227       lt2      1226       XXX       lxx         0      1.00    10.000
-;residue_X
-      1228       lt2      1227       XXX       lxx         0      1.00    10.000
-;residue_X
-      1229       lt2      1228       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1230       lt2      1229       XXX       lxx         0      1.00    10.000
-;residue_X
-      1231       lt2      1230       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1232       lt2      1231       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1233       lt2      1232       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1234       lt2      1233       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1235       lt2      1234       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1236       lt2      1235       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1237       lt2      1236       XXX       lxx         0      0.50    10.000
-;residue_X
-      1238       lt2      1237       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1239       lt2      1238       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1240       lt2      1239       XXX       lxx         0      1.00    10.000
-;residue_X
-      1241       lt2      1240       XXX       lxx         0      0.50    10.000
-;residue_X
-      1242       lt2      1241       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1243       lt2      1242       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1244       lt2      1243       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1245       lt2      1244       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1246       lt2      1245       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1247       lt2      1246       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1248       lt2      1247       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1249       lt2      1248       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1250       lt2      1249       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1251       lt2      1250       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1252       lt2      1251       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1253       lt2      1252       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1254       lt2      1253       XXX       lxx         0      1.00    10.000
-;residue_X
-      1255       lt2      1254       XXX       lxx         0      0.50    10.000
-;residue_X
-      1256       lt2      1255       XXX       lxx         0      1.00    10.000
-;residue_X
-      1257       lt2      1256       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1258       lt2      1257       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1259       lt2      1258       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1260       lt2      1259       XXX       lxx         0      0.50    10.000
-;residue_X
-      1261       lt2      1260       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1262       lt2      1261       XXX       lxx         0      0.50    10.000
-;residue_X
-      1263       lt2      1262       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1264       lt2      1263       XXX       lxx         0      0.50    10.000
-;residue_X
-      1265       lt2      1264       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1266       lt2      1265       XXX       lxx         0      0.50    10.000
-;residue_X
-      1267       lt2      1266       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1268       lt2      1267       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1269       lt2      1268       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1270       lt2      1269       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1271       lt2      1270       XXX       lxx         0      0.50    10.000
-;residue_X
-      1272       lt2      1271       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1273       lt2      1272       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1274       lt2      1273       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1275       lt2      1274       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1276       lt2      1275       XXX       lxx         0      1.00    10.000
-;residue_X
-      1277       lt2      1276       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1278       lt2      1277       XXX       lxx         0      0.50    10.000
-;residue_X
-      1279       lt2      1278       XXX       lxx         0      0.50    10.000
-;residue_X
-      1280       lt2      1279       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1281       lt2      1280       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1282       lt2      1281       XXX       lxx         0      1.00    10.000
-;residue_X
-      1283       lt2      1282       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1284       lt2      1283       XXX       lxx         0      1.00    10.000
-;residue_X
-      1285       lt2      1284       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1286       lt2      1285       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1287       lt2      1286       XXX       lxx         0      0.50    10.000
-;residue_X
-      1288       lt2      1287       XXX       lxx         0      1.00    10.000
-;residue_X
-      1289       lt2      1288       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1290       lt2      1289       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1291       lt2      1290       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1292       lt2      1291       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1293       lt2      1292       XXX       lxx         0      1.00    10.000
-;residue_X
-      1294       lt2      1293       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1295       lt2      1294       XXX       lxx         0      0.50    10.000
-;residue_X
-      1296       lt2      1295       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1297       lt2      1296       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1298       lt2      1297       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1299       lt2      1298       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1300       lt2      1299       XXX       lxx         0      1.00    10.000
-;residue_X
-      1301       lt2      1300       XXX       lxx         0      1.00    10.000
-;residue_X
-      1302       lt2      1301       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1303       lt2      1302       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1304       lt2      1303       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1305       lt2      1304       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1306       lt2      1305       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1307       lt2      1306       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1308       lt2      1307       XXX       lxx         0      0.50    10.000
-;residue_X
-      1309       lt2      1308       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1310       lt2      1309       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1311       lt2      1310       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1312       lt2      1311       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1313       lt2      1312       XXX       lxx         0      0.50    10.000
-;residue_X
-      1314       lt2      1313       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1315       lt2      1314       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1316       lt2      1315       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1317       lt2      1316       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1318       lt2      1317       XXX       lxx         0      0.50    10.000
-;residue_X
-      1319       lt2      1318       XXX       lxx         0      0.50    10.000
-;residue_X
-      1320       lt2      1319       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1321       lt2      1320       XXX       lxx         0      1.00    10.000
-;residue_X
-      1322       lt2      1321       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1323       lt2      1322       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1324       lt2      1323       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1325       lt2      1324       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1326       lt2      1325       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1327       lt2      1326       XXX       lxx         0      0.50    10.000
-;residue_X
-      1328       lt2      1327       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1329       lt2      1328       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1330       lt2      1329       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1331       lt2      1330       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1332       lt2      1331       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1333       lt2      1332       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1334       lt2      1333       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1335       lt2      1334       XXX       lxx         0      1.00    10.000
-;residue_X
-      1336       lt2      1335       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1337       lt2      1336       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1338       lt2      1337       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1339       lt2      1338       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1340       lt2      1339       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1341       lt2      1340       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1342       lt2      1341       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1343       lt2      1342       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1344       lt2      1343       XXX       lxx         0      0.50    10.000
-;residue_X
-      1345       lt2      1344       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1346       lt2      1345       XXX       lxx         0      1.00    10.000
-;residue_X
-      1347       lt2      1346       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1348       lt2      1347       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1349       lt2      1348       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1350       lt2      1349       XXX       lxx         0      1.00    10.000
-;residue_X
-      1351       lt2      1350       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1352       lt2      1351       XXX       lxx         0      1.00    10.000
-;residue_X
-      1353       lt2      1352       XXX       lxx         0      1.00    10.000
-;residue_X
-      1354       lt2      1353       XXX       lxx         0      1.00    10.000
-;residue_X
-      1355       lt2      1354       XXX       lxx         0      0.50    10.000
-;residue_X
-      1356       lt2      1355       XXX       lxx         0      1.00    10.000
-;residue_X
-      1357       lt2      1356       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1358       lt2      1357       XXX       lxx         0      1.00    10.000
-;residue_X
-      1359       lt2      1358       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1360       lt2      1359       XXX       lxx         0      0.50    10.000
-;residue_X
-      1361       lt2      1360       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1362       lt2      1361       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1363       lt2      1362       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1364       lt2      1363       XXX       lxx         0      0.50    10.000
-;residue_X
-      1365       lt2      1364       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1366       lt2      1365       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1367       lt2      1366       XXX       lxx         0      1.00    10.000
-;residue_X
-      1368       lt2      1367       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1369       lt2      1368       XXX       lxx         0      0.50    10.000
-;residue_X
-      1370       lt2      1369       XXX       lxx         0      1.00    10.000
-;residue_X
-      1371       lt2      1370       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1372       lt2      1371       XXX       lxx         0      0.50    10.000
-;residue_X
-      1373       lt2      1372       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1374       lt2      1373       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1375       lt2      1374       XXX       lxx         0      1.00    10.000
-;residue_X
-      1376       lt2      1375       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1377       lt2      1376       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1378       lt2      1377       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1379       lt2      1378       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1380       lt2      1379       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1381       lt2      1380       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1382       lt2      1381       XXX       lxx         0      0.50    10.000
-;residue_X
-      1383       lt2      1382       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1384       lt2      1383       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1385       lt2      1384       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1386       lt2      1385       XXX       lxx         0      0.50    10.000
-;residue_X
-      1387       lt2      1386       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1388       lt2      1387       XXX       lxx         0      0.50    10.000
-;residue_X
-      1389       lt2      1388       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1390       lt2      1389       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1391       lt2      1390       XXX       lxx         0      1.00    10.000
-;residue_X
-      1392       lt2      1391       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1393       lt2      1392       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1394       lt2      1393       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1395       lt2      1394       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1396       lt2      1395       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1397       lt2      1396       XXX       lxx         0      0.50    10.000
-;residue_X
-      1398       lt2      1397       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1399       lt2      1398       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1400       lt2      1399       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1401       lt2      1400       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1402       lt2      1401       XXX       lxx         0      0.50    10.000
-;residue_X
-      1403       lt2      1402       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1404       lt2      1403       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1405       lt2      1404       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1406       lt2      1405       XXX       lxx         0      0.50    10.000
-;residue_X
-      1407       lt2      1406       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1408       lt2      1407       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1409       lt2      1408       XXX       lxx         0      0.50    10.000
-;residue_X
-      1410       lt2      1409       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1411       lt2      1410       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1412       lt2      1411       XXX       lxx         0      0.50    10.000
-;residue_X
-      1413       lt2      1412       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1414       lt2      1413       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1415       lt2      1414       XXX       lxx         0      1.00    10.000
-;residue_X
-      1416       lt2      1415       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1417       lt2      1416       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1418       lt2      1417       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1419       lt2      1418       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1420       lt2      1419       XXX       lxx         0      0.50    10.000
-;residue_X
-      1421       lt2      1420       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1422       lt2      1421       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1423       lt2      1422       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1424       lt2      1423       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1425       lt2      1424       XXX       lxx         0      0.50    10.000
-;residue_X
-      1426       lt2      1425       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1427       lt2      1426       XXX       lxx         0      1.00    10.000
-;residue_X
-      1428       lt2      1427       XXX       lxx         0      1.00    10.000
-;residue_X
-      1429       lt2      1428       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1430       lt2      1429       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1431       lt2      1430       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1432       lt2      1431       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1433       lt2      1432       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1434       lt2      1433       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1435       lt2      1434       XXX       lxx         0      0.50    10.000
-;residue_X
-      1436       lt2      1435       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1437       lt2      1436       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1438       lt2      1437       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1439       lt2      1438       XXX       lxx         0      1.00    10.000
-;residue_X
-      1440       lt2      1439       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1441       lt2      1440       XXX       lxx         0      1.00    10.000
-;residue_X
-      1442       lt2      1441       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1443       lt2      1442       XXX       lxx         0      1.00    10.000
-;residue_X
-      1444       lt2      1443       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1445       lt2      1444       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1446       lt2      1445       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1447       lt2      1446       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1448       lt2      1447       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1449       lt2      1448       XXX       lxx         0      1.00    10.000
-;residue_X
-      1450       lt2      1449       XXX       lxx         0      0.50    10.000
-;residue_X
-      1451       lt2      1450       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1452       lt2      1451       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1453       lt2      1452       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1454       lt2      1453       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1455       lt2      1454       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1456       lt2      1455       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1457       lt2      1456       XXX       lxx         0      1.00    10.000
-;residue_X
-      1458       lt2      1457       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1459       lt2      1458       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1460       lt2      1459       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1461       lt2      1460       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1462       lt2      1461       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1463       lt2      1462       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1464       lt2      1463       XXX       lxx         0      0.50    10.000
-;residue_X
-      1465       lt2      1464       XXX       lxx         0      1.00    10.000
-;residue_X
-      1466       lt2      1465       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1467       lt2      1466       XXX       lxx         0      1.00    10.000
-;residue_X
-      1468       lt2      1467       XXX       lxx         0      1.00    10.000
-;residue_X
-      1469       lt2      1468       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1470       lt2      1469       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1471       lt2      1470       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1472       lt2      1471       XXX       lxx         0      0.50    10.000
-;residue_X
-      1473       lt2      1472       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1474       lt2      1473       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1475       lt2      1474       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1476       lt2      1475       XXX       lxx         0      0.50    10.000
-;residue_X
-      1477       lt2      1476       XXX       lxx         0      0.50    10.000
-;residue_X
-      1478       lt2      1477       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1479       lt2      1478       XXX       lxx         0      0.50    10.000
-;residue_X
-      1480       lt2      1479       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1481       lt2      1480       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1482       lt2      1481       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1483       lt2      1482       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1484       lt2      1483       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1485       lt2      1484       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1486       lt2      1485       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1487       lt2      1486       XXX       lxx         0      1.00    10.000
-;residue_X
-      1488       lt2      1487       XXX       lxx         0      0.50    10.000
-;residue_X
-      1489       lt2      1488       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1490       lt2      1489       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1491       lt2      1490       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1492       lt2      1491       XXX       lxx         0      0.50    10.000
-;residue_X
-      1493       lt2      1492       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1494       lt2      1493       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1495       lt2      1494       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1496       lt2      1495       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1497       lt2      1496       XXX       lxx         0      1.00    10.000
-;residue_X
-      1498       lt2      1497       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1499       lt2      1498       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1500       lt2      1499       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1501       lt2      1500       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1502       lt2      1501       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1503       lt2      1502       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1504       lt2      1503       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1505       lt2      1504       XXX       lxx         0      1.00    10.000
-;residue_X
-      1506       lt2      1505       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1507       lt2      1506       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1508       lt2      1507       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1509       lt2      1508       XXX       lxx         0      0.50    10.000
-;residue_X
-      1510       lt2      1509       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1511       lt2      1510       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1512       lt2      1511       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1513       lt2      1512       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1514       lt2      1513       XXX       lxx         0      1.00    10.000
-;residue_X
-      1515       lt2      1514       XXX       lxx         0      0.50    10.000
-;residue_X
-      1516       lt2      1515       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1517       lt2      1516       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1518       lt2      1517       XXX       lxx         0      0.50    10.000
-;residue_X
-      1519       lt2      1518       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1520       lt2      1519       XXX       lxx         0      1.00    10.000
-;residue_X
-      1521       lt2      1520       XXX       lxx         0      1.00    10.000
-;residue_X
-      1522       lt2      1521       XXX       lxx         0      0.50    10.000
-;residue_X
-      1523       lt2      1522       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1524       lt2      1523       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1525       lt2      1524       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1526       lt2      1525       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1527       lt2      1526       XXX       lxx         0      1.00    10.000
-;residue_X
-      1528       lt2      1527       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1529       lt2      1528       XXX       lxx         0      0.50    10.000
-;residue_X
-      1530       lt2      1529       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1531       lt2      1530       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1532       lt2      1531       XXX       lxx         0      1.00    10.000
-;residue_X
-      1533       lt2      1532       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1534       lt2      1533       XXX       lxx         0      1.00    10.000
-;residue_X
-      1535       lt2      1534       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1536       lt2      1535       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1537       lt2      1536       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1538       lt2      1537       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1539       lt2      1538       XXX       lxx         0      1.00    10.000
-;residue_X
-      1540       lt2      1539       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1541       lt2      1540       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1542       lt2      1541       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1543       lt2      1542       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1544       lt2      1543       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1545       lt2      1544       XXX       lxx         0      1.00    10.000
-;residue_X
-      1546       lt2      1545       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1547       lt2      1546       XXX       lxx         0      0.50    10.000
-;residue_X
-      1548       lt2      1547       XXX       lxx         0      0.50    10.000
-;residue_X
-      1549       lt2      1548       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1550       lt2      1549       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1551       lt2      1550       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1552       lt2      1551       XXX       lxx         0      0.50    10.000
-;residue_X
-      1553       lt2      1552       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1554       lt2      1553       XXX       lxx         0      0.50    10.000
-;residue_X
-      1555       lt2      1554       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1556       lt2      1555       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1557       lt2      1556       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1558       lt2      1557       XXX       lxx         0      0.50    10.000
-;residue_X
-      1559       lt2      1558       XXX       lxx         0      0.50    10.000
-;residue_X
-      1560       lt2      1559       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1561       lt2      1560       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1562       lt2      1561       XXX       lxx         0      0.50    10.000
-;residue_X
-      1563       lt2      1562       XXX       lxx         0      0.50    10.000
-;residue_X
-      1564       lt2      1563       XXX       lxx         0      0.50    10.000
-;residue_X
-      1565       lt2      1564       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1566       lt2      1565       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1567       lt2      1566       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1568       lt2      1567       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1569       lt2      1568       XXX       lxx         0      0.50    10.000
-;residue_X
-      1570       lt2      1569       XXX       lxx         0      1.00    10.000
-;residue_X
-      1571       lt2      1570       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1572       lt2      1571       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1573       lt2      1572       XXX       lxx         0      1.00    10.000
-;residue_X
-      1574       lt2      1573       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1575       lt2      1574       XXX       lxx         0      0.50    10.000
-;residue_X
-      1576       lt2      1575       XXX       lxx         0      0.50    10.000
-;residue_X
-      1577       lt2      1576       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1578       lt2      1577       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1579       lt2      1578       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1580       lt2      1579       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1581       lt2      1580       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1582       lt2      1581       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1583       lt2      1582       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1584       lt2      1583       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1585       lt2      1584       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1586       lt2      1585       XXX       lxx         0      1.00    10.000
-;residue_X
-      1587       lt2      1586       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1588       lt2      1587       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1589       lt2      1588       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1590       lt2      1589       XXX       lxx         0      0.50    10.000
-;residue_X
-      1591       lt2      1590       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1592       lt2      1591       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1593       lt2      1592       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1594       lt2      1593       XXX       lxx         0      1.00    10.000
-;residue_X
-      1595       lt2      1594       XXX       lxx         0      0.50    10.000
-;residue_X
-      1596       lt2      1595       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1597       lt2      1596       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1598       lt2      1597       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1599       lt2      1598       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1600       lt2      1599       XXX       lxx         0      1.00    10.000
-;residue_X
-      1601       lt2      1600       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1602       lt2      1601       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1603       lt2      1602       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1604       lt2      1603       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1605       lt2      1604       XXX       lxx         0      1.00    10.000
-;residue_X
-      1606       lt2      1605       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1607       lt2      1606       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1608       lt2      1607       XXX       lxx         0      1.00    10.000
-;residue_X
-      1609       lt2      1608       XXX       lxx         0      1.00    10.000
-;residue_X
-      1610       lt2      1609       XXX       lxx         0      1.00    10.000
-;residue_X
-      1611       lt2      1610       XXX       lxx         0      0.50    10.000
-;residue_X
-      1612       lt2      1611       XXX       lxx         0      1.00    10.000
-;residue_X
-      1613       lt2      1612       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1614       lt2      1613       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1615       lt2      1614       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1616       lt2      1615       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1617       lt2      1616       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1618       lt2      1617       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1619       lt2      1618       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1620       lt2      1619       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1621       lt2      1620       XXX       lxx         0      1.00    10.000
-;residue_X
-      1622       lt2      1621       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1623       lt2      1622       XXX       lxx         0      0.50    10.000
-;residue_X
-      1624       lt2      1623       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1625       lt2      1624       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1626       lt2      1625       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1627       lt2      1626       XXX       lxx         0      0.50    10.000
-;residue_X
-      1628       lt2      1627       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1629       lt2      1628       XXX       lxx         0      0.50    10.000
-;residue_X
-      1630       lt2      1629       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1631       lt2      1630       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1632       lt2      1631       XXX       lxx         0      1.00    10.000
-;residue_X
-      1633       lt2      1632       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1634       lt2      1633       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1635       lt2      1634       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1636       lt2      1635       XXX       lxx         0      1.00    10.000
-;residue_X
-      1637       lt2      1636       XXX       lxx         0      0.50    10.000
-;residue_X
-      1638       lt2      1637       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1639       lt2      1638       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1640       lt2      1639       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1641       lt2      1640       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1642       lt2      1641       XXX       lxx         0      0.50    10.000
-;residue_X
-      1643       lt2      1642       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1644       lt2      1643       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1645       lt2      1644       XXX       lxx         0      0.50    10.000
-;residue_X
-      1646       lt2      1645       XXX       lxx         0      1.00    10.000
-;residue_X
-      1647       lt2      1646       XXX       lxx         0      1.00    10.000
-;residue_X
-      1648       lt2      1647       XXX       lxx         0      0.50    10.000
-;residue_X
-      1649       lt2      1648       XXX       lxx         0      1.00    10.000
-;residue_X
-      1650       lt2      1649       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1651       lt2      1650       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1652       lt2      1651       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1653       lt2      1652       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1654       lt2      1653       XXX       lxx         0      1.00    10.000
-;residue_X
-      1655       lt2      1654       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1656       lt2      1655       XXX       lxx         0      1.00    10.000
-;residue_X
-      1657       lt2      1656       XXX       lxx         0      1.00    10.000
-;residue_X
-      1658       lt2      1657       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1659       lt2      1658       XXX       lxx         0      0.50    10.000
-;residue_X
-      1660       lt2      1659       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1661       lt2      1660       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1662       lt2      1661       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1663       lt2      1662       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1664       lt2      1663       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1665       lt2      1664       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1666       lt2      1665       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1667       lt2      1666       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1668       lt2      1667       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1669       lt2      1668       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1670       lt2      1669       XXX       lxx         0      0.50    10.000
-;residue_X
-      1671       lt2      1670       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1672       lt2      1671       XXX       lxx         0      0.50    10.000
-;residue_X
-      1673       lt2      1672       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1674       lt2      1673       XXX       lxx         0      1.00    10.000
-;residue_X
-      1675       lt2      1674       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1676       lt2      1675       XXX       lxx         0      1.00    10.000
-;residue_X
-      1677       lt2      1676       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1678       lt2      1677       XXX       lxx         0      0.50    10.000
-;residue_X
-      1679       lt2      1678       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1680       lt2      1679       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1681       lt2      1680       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1682       lt2      1681       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1683       lt2      1682       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1684       lt2      1683       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1685       lt2      1684       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1686       lt2      1685       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1687       lt2      1686       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1688       lt2      1687       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1689       lt2      1688       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1690       lt2      1689       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1691       lt2      1690       XXX       lxx         0      1.00    10.000
-;residue_X
-      1692       lt2      1691       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1693       lt2      1692       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1694       lt2      1693       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1695       lt2      1694       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1696       lt2      1695       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1697       lt2      1696       XXX       lxx         0      0.50    10.000
-;residue_X
-      1698       lt2      1697       XXX       lxx         0      0.50    10.000
-;residue_X
-      1699       lt2      1698       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1700       lt2      1699       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1701       lt2      1700       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1702       lt2      1701       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1703       lt2      1702       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1704       lt2      1703       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1705       lt2      1704       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1706       lt2      1705       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1707       lt2      1706       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1708       lt2      1707       XXX       lxx         0      0.50    10.000
-;residue_X
-      1709       lt2      1708       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1710       lt2      1709       XXX       lxx         0      0.50    10.000
-;residue_X
-      1711       lt2      1710       XXX       lxx         0      0.50    10.000
-;residue_X
-      1712       lt2      1711       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1713       lt2      1712       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1714       lt2      1713       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1715       lt2      1714       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1716       lt2      1715       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1717       lt2      1716       XXX       lxx         0      0.50    10.000
-;residue_X
-      1718       lt2      1717       XXX       lxx         0      1.00    10.000
-;residue_X
-      1719       lt2      1718       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1720       lt2      1719       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1721       lt2      1720       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1722       lt2      1721       XXX       lxx         0     -0.00    10.000
-;residue_X
-      1723       lt2      1722       XXX       lxx         0      1.00    10.000
-;residue_X
-      1724       lt2      1723       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1725       lt2      1724       XXX       lxx         0      0.50    10.000
-;residue_X
-      1726       lt2      1725       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1727       lt2      1726       XXX       lxx         0     -0.50    10.000
-;residue_X
-      1728       lt2      1727       XXX       lxx         0     -1.00    10.000
-;residue_X
-      1729       lt2      1728       XXX       lxx         0      0.50    10.000
-
-[ bonds ]
-;        ai        aj     funct        c0        c1        c2        c3
-
-[ pairs ]
-;        ai        aj     funct        c0        c1        c2        c3
-
-[ angles ]
-;        ai        aj        ak     funct        c0        c1        c2        c3
-
-[ dihedrals ]
-;        ai        aj        ak        al     funct        c0        c1        c2        c3        c4        c5
-
-[ dihedrals ]
-;        ai        aj        ak        al     funct        c0        c1        c2        c3
+#include "lx1.itp"
+#include "lx2.itp"
+#include "lx3.itp"
+#include "lx4.itp"
+#include "lx5.itp"
 
 [ system ]
-noname
+ElectroStatic Field Test
+
+[ molecules ]
+lx3 1
+lx2 1
+lx3 2
+lx2 1
+lx4 2
+lx5 1
+lx3 2
+lx2 1
+lx3 1
+lx2 2
+lx1 2
+lx2 1
+lx5 1
+lx3 1
+lx4 1
+lx3 2
+lx5 3
+lx3 2
+lx1 1
+lx2 2
+lx5 1
+lx1 1
+lx3 1
+lx1 1
+lx3 1
+lx2 1
+lx3 4
+lx1 1
+lx2 1
+lx4 1
+lx3 4
+lx1 1
+lx3 2
+lx5 1
+lx4 1
+lx2 1
+lx4 1
+lx1 1
+lx5 1
+lx2 2
+lx3 2
+lx4 1
+lx2 1
+lx5 2
+lx4 1
+lx1 1
+lx2 1
+lx4 1
+lx3 1
+lx5 2
+lx4 1
+lx5 1
+lx3 1
+lx4 2
+lx1 1
+lx3 1
+lx1 1
+lx5 1
+lx3 3
+lx5 2
+lx1 1
+lx5 2
+lx4 1
+lx3 2
+lx2 2
+lx1 1
+lx3 1
+lx1 1
+lx2 1
+lx1 1
+lx3 1
+lx5 1
+lx4 1
+lx3 1
+lx4 1
+lx3 3
+lx4 1
+lx3 4
+lx2 1
+lx4 1
+lx1 1
+lx3 1
+lx5 1
+lx4 1
+lx3 1
+lx2 1
+lx3 1
+lx1 1
+lx5 1
+lx4 1
+lx5 2
+lx2 1
+lx3 2
+lx2 1
+lx3 1
+lx1 1
+lx5 1
+lx1 1
+lx3 2
+lx2 2
+lx3 1
+lx1 1
+lx3 1
+lx2 1
+lx3 2
+lx4 2
+lx5 1
+lx4 1
+lx3 1
+lx5 1
+lx2 1
+lx1 1
+lx3 1
+lx4 1
+lx3 2
+lx1 1
+lx3 3
+lx4 1
+lx3 1
+lx1 2
+lx3 1
+lx4 1
+lx2 1
+lx3 1
+lx5 1
+lx3 2
+lx1 1
+lx3 2
+lx5 1
+lx3 4
+lx4 2
+lx1 1
+lx5 1
+lx4 1
+lx3 1
+lx2 1
+lx3 4
+lx1 1
+lx4 1
+lx2 3
+lx3 1
+lx5 2
+lx3 1
+lx5 1
+lx1 2
+lx2 2
+lx5 2
+lx3 2
+lx1 1
+lx4 2
+lx5 1
+lx1 1
+lx3 1
+lx1 2
+lx5 1
+lx4 1
+lx5 1
+lx3 1
+lx4 1
+lx5 1
+lx3 1
+lx1 1
+lx2 1
+lx1 1
+lx3 2
+lx4 1
+lx2 1
+lx3 2
+lx5 1
+lx2 1
+lx5 1
+lx4 1
+lx3 2
+lx4 1
+lx1 1
+lx3 1
+lx5 1
+lx3 1
+lx1 1
+lx4 1
+lx2 1
+lx3 2
+lx2 1
+lx3 1
+lx1 2
+lx5 1
+lx1 1
+lx5 2
+lx3 4
+lx4 1
+lx2 1
+lx1 1
+lx3 1
+lx5 1
+lx2 1
+lx4 2
+lx3 2
+lx2 1
+lx5 1
+lx3 5
+lx5 1
+lx3 1
+lx1 1
+lx3 1
+lx4 1
+lx3 1
+lx1 1
+lx4 1
+lx3 3
+lx1 1
+lx2 1
+lx3 4
+lx1 1
+lx3 1
+lx5 1
+lx3 3
+lx4 1
+lx3 1
+lx2 1
+lx5 1
+lx2 2
+lx5 1
+lx1 2
+lx2 1
+lx1 1
+lx3 1
+lx4 1
+lx1 1
+lx5 1
+lx4 2
+lx3 1
+lx2 1
+lx5 1
+lx2 1
+lx3 1
+lx4 1
+lx1 2
+lx2 1
+lx5 2
+lx3 1
+lx2 1
+lx1 1
+lx2 1
+lx3 3
+lx5 1
+lx3 3
+lx5 1
+lx3 2
+lx1 1
+lx3 1
+lx2 2
+lx4 1
+lx5 1
+lx2 1
+lx1 1
+lx3 2
+lx4 1
+lx1 1
+lx3 1
+lx5 1
+lx3 2
+lx1 1
+lx2 1
+lx1 1
+lx3 2
+lx4 1
+lx1 1
+lx4 1
+lx3 1
+lx2 1
+lx5 1
+lx4 1
+lx2 1
+lx4 1
+lx3 3
+lx4 1
+lx3 2
+lx5 1
+lx3 1
+lx2 1
+lx5 1
+lx3 2
+lx4 1
+lx1 1
+lx4 1
+lx3 2
+lx1 1
+lx3 1
+lx1 1
+lx3 1
+lx4 1
+lx1 1
+lx3 1
+lx2 1
+lx5 1
+lx3 1
+lx2 1
+lx4 1
+lx2 1
+lx5 1
+lx4 1
+lx1 1
+lx2 1
+lx3 1
+lx1 1
+lx3 1
+lx2 1
+lx1 1
+lx5 1
+lx3 3
+lx2 1
+lx3 1
+lx2 1
+lx3 1
+lx4 1
+lx2 1
+lx4 1
+lx3 2
+lx1 1
+lx3 1
+lx5 1
+lx4 1
+lx5 1
+lx2 1
+lx1 1
+lx4 1
+lx1 1
+lx3 2
+lx1 1
+lx2 1
+lx5 1
+lx1 1
+lx2 1
+lx3 2
+lx5 2
+lx1 2
+lx3 3
+lx4 1
+lx2 1
+lx1 1
+lx5 1
+lx2 1
+lx3 2
+lx2 1
+lx5 1
+lx3 1
+lx4 1
+lx2 1
+lx3 3
+lx4 1
+lx1 1
+lx2 1
+lx3 2
+lx5 1
+lx2 1
+lx5 2
+lx3 3
+lx1 1
+lx4 1
+lx1 1
+lx5 1
+lx3 3
+lx4 3
+lx5 1
+lx4 2
+lx3 3
+lx5 1
+lx1 1
+lx3 2
+lx1 1
+lx4 1
+lx3 1
+lx5 1
+lx3 1
+lx2 2
+lx3 3
+lx4 1
+lx3 1
+lx4 2
+lx2 1
+lx3 1
+lx2 1
+lx1 1
+lx5 1
+lx1 1
+lx3 2
+lx5 1
+lx4 1
+lx3 2
+lx2 1
+lx3 3
+lx2 1
+lx1 2
+lx3 3
+lx5 1
+lx2 1
+lx3 1
+lx5 1
+lx3 2
+lx1 1
+lx2 2
+lx3 3
+lx1 2
+lx5 1
+lx4 1
+lx3 1
+lx1 1
+lx2 3
+lx3 1
+lx1 2
+lx5 1
+lx3 1
+lx4 2
+lx3 1
+lx1 1
+lx3 1
+lx5 1
+lx4 2
+lx3 1
+lx4 1
+lx2 1
+lx3 2
+lx5 3
+lx1 1
+lx5 1
+lx2 1
+lx3 1
+lx1 1
+lx3 2
+lx5 1
+lx4 1
+lx5 2
+lx3 1
+lx1 1
+lx4 1
+lx1 2
+lx3 1
+lx4 1
+lx5 1
+lx2 1
+lx1 1
+lx5 2
+lx4 2
+lx3 1
+lx5 1
+lx4 1
+lx2 1
+lx5 1
+lx3 2
+lx5 1
+lx2 1
+lx1 1
+lx3 1
+lx4 1
+lx2 1
+lx1 1
+lx5 1
+lx3 4
+lx4 2
+lx3 2
+lx1 1
+lx5 1
+lx3 1
+lx5 1
+lx1 1
+lx3 1
+lx4 1
+lx3 2
+lx2 2
+lx3 2
+lx4 1
+lx3 1
+lx1 1
+lx3 2
+lx2 1
+lx4 1
+lx3 1
+lx5 1
+lx3 3
+lx2 2
+lx3 2
+lx2 1
+lx3 1
+lx2 1
+lx1 1
+lx3 3
+lx5 1
+lx4 1
+lx2 1
+lx3 2
+lx2 1
+lx3 1
+lx1 1
+lx4 1
+lx1 1
+lx3 3
+lx4 1
+lx1 1
+lx5 1
+lx4 1
+lx2 1
+lx3 2
+lx4 2
+lx3 1
+lx5 1
+lx3 1
+lx5 1
+lx4 1
+lx3 1
+lx1 1
+lx5 1
+lx3 1
+lx1 1
+lx5 1
+lx2 1
+lx3 1
+lx1 2
+lx3 2
+lx5 1
+lx2 1
+lx5 1
+lx4 1
+lx3 1
+lx4 2
+lx2 1
+lx4 1
+lx2 1
+lx3 1
+lx5 1
+lx3 1
+lx4 3
+lx5 1
+lx3 1
+lx5 1
+lx3 1
+lx5 2
+lx1 1
+lx3 1
+lx5 1
+lx3 2
+lx1 2
+lx3 2
+lx1 2
+lx3 1
+lx1 2
+lx2 1
+lx4 1
+lx2 1
+lx4 1
+lx5 1
+lx2 2
+lx5 1
+lx3 4
+lx2 1
+lx3 2
+lx1 1
+lx4 1
+lx3 1
+lx2 1
+lx4 1
+lx3 1
+lx1 1
+lx3 1
+lx5 1
+lx3 1
+lx2 1
+lx1 1
+lx3 1
+lx5 1
+lx1 1
+lx3 1
+lx2 1
+lx3 1
+lx2 1
+lx5 1
+lx3 2
+lx2 1
+lx4 2
+lx1 2
+lx3 1
+lx1 1
+lx3 3
+lx1 1
+lx4 2
+lx5 1
+lx2 1
+lx1 1
+lx4 1
+lx3 1
+lx4 1
+lx5 1
+lx3 3
+lx5 1
+lx2 1
+lx3 1
+lx5 1
+lx3 1
+lx5 1
+lx4 2
+lx3 1
+lx5 1
+lx3 1
+lx2 1
+lx4 1
+lx3 4
+lx5 3
+lx3 1
+lx2 1
+lx3 1
+lx4 1
+lx2 1
+lx1 1
+lx4 1
+lx5 1
+lx3 1
+lx5 1
+lx3 2
+lx2 1
+lx3 4
+lx2 1
+lx5 1
+lx2 1
+lx3 1
+lx1 1
+lx4 1
+lx1 1
+lx2 2
+lx3 3
+lx1 2
+lx4 1
+lx5 1
+lx3 1
+lx4 1
+lx3 1
+lx5 1
+lx3 1
+lx4 1
+lx3 2
+lx5 2
+lx2 1
+lx5 1
+lx3 2
+lx2 1
+lx4 1
+lx2 1
+lx4 1
+lx2 2
+lx1 1
+lx3 1
+lx1 2
+lx2 1
+lx5 1
+lx3 1
+lx4 1
+lx1 1
+lx5 1
+lx4 1
+lx3 2
+lx1 1
+lx5 1
+lx3 4
+lx4 1
+lx3 3
+lx5 1
+lx1 1
+lx3 1
+lx1 1
+lx4 2
+lx1 1
+lx3 1
+lx2 1
+lx3 1
+lx5 1
+lx3 2
+lx4 2
+lx3 3
+lx4 1
+lx3 1
+lx5 1
+lx2 1
+lx4 1
+lx3 1
+lx4 1
+lx1 1
+lx3 3
+lx5 1
+lx3 2
+lx5 1
+lx2 1
+lx3 1
+lx5 1
+lx3 1
+lx1 1
+lx4 1
+lx2 1
+lx3 1
+lx1 1
+lx3 1
+lx1 1
+lx4 1
+lx2 1
+lx3 3
+lx2 1
+lx4 1
+lx3 1
+lx4 1
+lx3 1
+lx1 1
+lx5 1
+lx3 2
+lx5 1
+lx4 1
+lx5 1
+lx1 1
+lx2 1
+lx3 1
+lx2 2
+lx3 1
+lx1 1
+lx5 1
+lx3 1
+lx1 1
+lx3 2
+lx1 1
+lx3 1
+lx5 1
+lx1 1
+lx2 1
+lx1 2
+lx3 1
+lx2 1
+lx5 1
+lx3 1
+lx2 1
+lx3 1
+lx2 3
+lx4 1
+lx3 2
+lx5 1
+lx3 1
+lx4 2
+lx3 1
+lx1 1
+lx3 1
+lx5 1
+lx3 1
+lx2 1
+lx5 1
+lx1 1
+lx3 1
+lx1 1
+lx5 1
+lx4 1
+lx2 1
+lx3 2
+lx1 1
+lx3 2
+lx4 1
+lx3 2
+lx5 1
+lx2 1
+lx1 1
+lx3 1
+lx1 1
+lx3 2
+lx4 1
+lx3 2
+lx2 1
+lx3 1
+lx1 1
+lx4 1
+lx2 1
+lx5 1
+lx4 2
+lx2 1
+lx5 1
+lx3 1
+lx1 1
+lx3 4
+lx1 2
+lx5 1
+lx1 1
+lx4 1
+lx3 3
+lx2 1
+lx3 1
+lx1 1
+lx3 1
+lx5 1
+lx2 2
+lx3 1
+lx4 1
+lx2 1
+lx3 3
+lx4 1
+lx1 2
+lx3 1
+lx5 1
+lx4 1
+lx3 1
+lx2 1
+lx3 2
+lx1 2
+lx4 1
+lx1 1
+lx3 1
+lx2 1
+lx5 1
+lx1 1
+lx3 1
+lx1 1
+lx4 1
+lx3 1
+lx2 1
+lx5 1
+lx3 1
+lx4 1
+lx3 1
+lx2 1
+lx1 1
+lx2 1
+lx3 2
+lx2 1
+lx3 1
+lx5 1
+lx3 1
+lx5 1
+lx3 1
+lx1 1
+lx3 1
+lx2 1
+lx3 1
+lx5 1
+lx3 3
+lx1 1
+lx5 2
+lx3 1
+lx5 1
+lx4 1
+lx1 1
+lx5 1
+lx4 1
+lx3 2
+lx2 1
+lx1 1
+lx5 1
+lx3 1
+lx4 2
+lx3 1
+lx1 1
+lx3 1
+lx1 1
+lx3 1
+lx4 1
+lx2 1
+lx3 1
+lx2 1
+lx5 1
+lx1 1
+lx4 1
+lx3 2
+lx5 1
+lx1 1
+lx2 2
+lx3 1
+lx2 2
+lx3 2
+lx2 1
+lx3 6
+lx5 1
+lx1 1
+lx4 1
+lx2 2
+lx1 1
+lx5 1
+lx2 1
+lx1 1
+lx2 1
+lx5 1
+lx3 2
+lx2 1
+lx3 1
+lx5 1
+lx4 1
+lx3 2
+lx4 1
+lx3 2
+lx4 1
+lx3 2
+lx4 1
+lx3 1
+lx1 1
+lx2 1
+lx3 4
+lx2 1
+lx3 1
+lx1 1
+lx5 1
+lx3 1
+lx2 1
+lx3 1
+lx5 1
+lx4 2
+lx3 1
+lx4 1
+lx1 1
+lx3 1
+lx2 1
+lx3 1
+lx5 2
+lx3 1
+lx4 1
+lx3 1
+lx4 1
+lx2 2
+lx1 2
+lx3 1
+lx5 1
+lx2 1
+lx3 3
+lx4 1
+lx3 1
+lx4 2
+lx5 1
+lx4 1
+lx3 2
+lx1 1
+lx5 1
+lx2 1
+lx1 1
+lx5 1
+lx1 1
+lx3 1
+lx5 2
+lx3 1
+lx5 1
+lx3 1
+lx2 1
+lx1 2
+lx2 1
+lx1 1
+lx4 1
+lx2 2
+lx5 1
+lx4 1
+lx1 1
+lx3 1
+lx2 1
+lx3 1
+lx2 1
+lx1 1
+lx3 3
+lx2 1
+lx1 1
+lx3 1
+lx5 1
+lx4 1
+lx5 1
+lx3 1
+lx1 1
+lx3 1
+lx4 1
+lx1 1
+lx4 1
+lx3 1
+lx4 1
+lx3 1
+lx4 1
+lx1 1
+lx3 3
+lx4 1
+lx2 2
+lx1 1
+lx3 1
+lx5 1
+lx3 1
+lx4 2
+lx3 2
+lx5 1
+lx1 1
+lx5 1
+lx2 2
+lx4 1
+lx5 1
+lx3 1
+lx2 1
+lx1 1
+lx3 1
+lx5 1
+lx3 1
+lx4 1
+lx3 4
+lx5 2
+lx3 4
+lx2 1
+lx3 1
+lx4 1
+lx3 2
+lx2 1
+lx3 1
+lx4 1
+lx3 1
+lx2 1
+lx3 1
+lx1 1
+lx4 2
+lx3 1
+lx5 1
+lx1 2
+lx3 1
+lx2 1
+lx3 1
+lx4 1
+lx3 1
+lx1 1
+lx2 2
+lx3 3
+lx5 1
+lx1 1
+lx3 1
+lx1 1
+lx3 3
+lx1 1
+lx2 1
+lx4 1
+lx2 1
+lx5 1
+lx3 2
+lx1 1
+lx5 1
+lx3 1
+lx5 3
+lx4 1
+lx5 1
+lx3 1
+lx5 1
+lx3 1
+lx4 1
+lx1 1
+lx3 2
+lx4 1
+lx3 2
+lx5 1
+lx1 1
+lx4 1
+lx5 1
+lx1 1
+lx4 1
+lx3 1
+lx1 1
+lx5 1
+lx2 1
+lx3 4
+lx1 1
+lx4 1
+lx3 1
+lx2 1
+lx3 1
+lx4 1
+lx2 1
+lx4 1
+lx2 2
+lx5 1
+lx3 1
+lx1 1
+lx3 1
+lx2 1
+lx3 1
+lx4 1
+lx3 2
+lx2 1
+lx3 1
+lx4 1
+lx3 2
+lx2 1
+lx4 1
+lx1 1
+lx3 1
+lx4 1
+lx1 1
+lx3 1
+lx4 1
+lx3 1
+lx2 1
+lx5 1
+lx3 1
+lx1 2
+lx3 1
+lx4 1
+lx3 2
+lx1 1
+lx3 1
+lx4 1
+lx3 1
+lx5 2
+lx1 1
+lx3 2
+lx2 3
+lx4 1
+lx3 2
+lx1 1
+lx5 1
+lx2 1
+lx5 1
+lx3 1
+lx5 1
+lx3 1
+lx1 2
+lx3 1
+lx2 1
+lx5 1
+lx4 1
+lx2 2
+lx3 4
+lx5 1
+lx1 1
+lx3 4
+lx2 1
+lx4 1
+lx5 1
+lx3 1
+lx5 2
+lx3 3
+lx4 1
+lx3 1
+lx1 1
+lx3 1
+lx4 2
+lx2 1
+lx4 1
+lx3 1
+lx1 1
+lx2 1
+lx3 4
+lx5 1
+lx4 1
+lx3 1
+lx2 1
+lx1 1
+lx4 1
+lx3 1
+lx2 2
+lx3 1
+lx5 1
+lx3 1
+lx1 1
+lx3 4
+lx2 1
+lx5 1
+lx3 1
+lx2 1
+lx3 1
+lx4 1
+lx3 2
+lx1 2
+lx5 1
+lx4 1
+lx1 1
+lx3 1
+lx4 1
+lx3 1
+lx5 2
+lx4 1
+lx3 1
+lx1 1
+lx3 1
+lx2 1
+lx5 1
+lx3 1
+lx4 1
+lx1 1
+lx3 1
+lx5 1
+lx2 1
+lx5 1
+lx2 1
+lx3 1
+lx1 1
+lx3 1
+lx5 1
+lx2 1
+lx3 2
+lx1 1
+lx2 1
+lx5 1
+lx3 1
+lx4 2
+lx2 1
+lx3 2
+lx4 1
+lx3 1
+lx4 1
+lx3 1
+lx2 1
+lx1 1
+lx4 2
+lx3 2
+lx4 3
+lx2 1
+lx3 3
+lx4 1
+lx5 1
+lx3 1
+lx2 1
+lx5 1
+lx2 1
+lx4 2
+lx3 4
+lx1 1
+lx3 2
+lx1 1
+lx2 1
+lx5 1
+lx1 2
+lx2 1
+lx4 1
+lx2 1
+lx3 1
+lx1 1
+lx5 1
+lx4 1
+lx3 2
+lx2 1
+lx3 1
+lx5 1
+lx3 1
+lx1 2
+lx3 1
+lx5 1
+lx3 1
+lx2 1
+lx5 3
+lx4 1
+lx5 1
+lx3 1
+lx1 1
+lx2 1
+lx3 1
+lx1 1
+lx3 2
+lx1 1
+lx5 1
+lx2 1
+lx4 1
+lx1 1
+lx3 2
+lx4 1
+lx3 1
+lx4 1
+lx1 1
+lx3 1
+lx5 1
+lx3 3
+lx5 1
+lx4 1
+lx3 1
+lx1 3
+lx4 1
+lx3 1
+lx2 1
+lx4 1
+lx5 2
+lx4 1
+lx5 1
+lx3 1
+lx2 2
+lx3 1
+lx5 1
+lx3 1
+lx5 2
+lx3 1
+lx4 1
+lx2 1
+lx3 1
+lx1 1
+lx3 3
+lx2 1
+lx3 3
+lx4 1
+lx3 1
+lx4 1
+lx3 1
+lx5 1
+lx3 1
+lx5 1
+lx2 1
+lx4 1
+lx3 1
+lx1 1
+lx3 2
+lx1 1
+lx3 1
+lx2 3
+lx3 2
+lx2 1
+lx5 1
+lx3 1
+lx1 2
+lx3 2
+lx4 2
+lx3 2
+lx1 1
+lx3 1
+lx1 1
+lx3 2
+lx2 1
+lx3 1
+lx4 1
+lx3 1
+lx4 2
+lx3 1
+lx1 1
+lx3 1
+lx1 1
+lx2 1
+lx4 1
+lx5 1
+lx1 1
+lx2 1
+lx1 1
+lx3 1
+lx5 1
+lx1 1
+lx4 1
+lx2 2
+lx1 1
+lx4 1
+

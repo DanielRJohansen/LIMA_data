@@ -22,7 +22,7 @@
 
 [ moleculetype ]
 ; Name            nrexcl
-; Protein_chain_A     3
+Protein_chain_A     3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
@@ -21934,5 +21934,5 @@ T4 LYSOZYME in water
 
 [ molecules ]
 ; Compound        #mols
-; Protein_chain_A     1
+Protein_chain_A     1
 SOL             10421
