@@ -24533,7 +24533,7 @@ Protein_chain_A     3
 #endif
 
 ; Include water topology
-#include "charmm27.ff/spc.itp"
+;#include "charmm27.ff/spc.itp"
 
 #ifdef POSRES_WATER
 ; Position restraint for each water oxygen
@@ -24543,7 +24543,7 @@ Protein_chain_A     3
 #endif
 
 ; Include topology for ions
-#include "charmm27.ff/ions.itp"
+;#include "charmm27.ff/ions.itp"
 
 [ system ]
 ; Name

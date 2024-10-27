@@ -1,0 +1,12 @@
+; 
+
+#include "charmm27.ff/forcefield.itp"
+
+#include "Protein_chain_A.itp"
+
+[ system ]
+Many T4
+
+[ molecules ]
+Protein_chain_A 200
+
