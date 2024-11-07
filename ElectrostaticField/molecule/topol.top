@@ -1,6 +1,6 @@
 ; ElectroStatic Field Test
 
-#include "lima_custom_forcefield.itp"
+#include "forcefield.itp"
 
 #include "lx1.itp"
 #include "lx2.itp"

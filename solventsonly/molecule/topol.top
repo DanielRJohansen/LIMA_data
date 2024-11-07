@@ -20,12 +20,6 @@
 ; Include forcefield parameters
 #include "charmm27.ff/forcefield.itp"
 
-[ moleculetype ]
-; Name            nrexcl
-; Protein_chain_A     3
-
-[ atoms ]
-
 ; Include water topology
 #include "charmm27.ff/spc.itp"
 
@@ -42,6 +36,4 @@ Water in water
 
 [ molecules ]
 ; Compound        #mols
-; Protein_chain_A     1
-
 SOL             11225

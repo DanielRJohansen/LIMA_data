@@ -1,6 +1,6 @@
 ; 
 
-#include "Slipids_2020.ff/forcefield.itp"
+#include "forcefield.itp"
 
 #include "POPC.itp"
 #include "POPE.itp"

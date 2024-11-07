@@ -7,7 +7,7 @@ lx3
 [ atoms ]
 ;        nr      type     resnr   residue      atom      cgnr    charge      mass
 ;residue_X
-         1       lt2         0       XXX       lx3         0     -0.00    10.000
+         1       lt2         0       lxx       lx3         0     -0.00    10.000
 
 [ bonds ]
 ;        ai        aj     funct        c0        c1        c2        c3
