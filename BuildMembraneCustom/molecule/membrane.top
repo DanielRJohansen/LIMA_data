@@ -2,13 +2,13 @@
 
 #include "forcefield.itp"
 
-#include "POPC.itp"
 #include "CUST.itp"
+#include "POPC.itp"
 
 [ system ]
 Membrane
 
 [ molecules ]
-POPC 115
-CUST 51
+CUST 50
+POPC 116
 
