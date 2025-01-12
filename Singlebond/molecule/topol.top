@@ -8,8 +8,8 @@ single 3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
 ; residue   1 MET rtp MET  q +1.0
-     1          C      1    lxx      C      1       -0.3     12.011
-     2          C      1    lxx      C      2       0.33     12.011
+     1          C      1    lxx      C      1       -0.0     12.011
+     2          C      1    lxx      C      2        0.0     12.011
 
 [ bonds ]
 ;  ai    aj funct            c0            c1            c2            c3

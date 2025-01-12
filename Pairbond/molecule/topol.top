@@ -39,15 +39,15 @@ dih     3
     1     4     1 
     2     3     1 
 
+[ pairs ]
+4 3 1
+
 [ angles ]
 ;  ai    aj    ak funct            c0            c1            c2            c3
-    2     1     4     5 
-    1     2     3     5 
 
 [ dihedrals ]
 ;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
-     4     1     2     3     9 
-
+4 1 2 3 1
 
 [ system ]
 dih
