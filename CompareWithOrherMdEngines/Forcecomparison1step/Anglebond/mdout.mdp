@@ -2,14 +2,14 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: lima (1000)
 ;	On host: limalaptop
-;	At date: Fri Dec 13 13:17:43 2024
+;	At date: Wed Jan 29 13:36:31 2025
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2024.4 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/lima/gitrepo/LIMA_data/forcecomparison/Pool
+;	Working dir:  /home/lima/gitrepo/LIMA_data/CompareWithOrherMdEngines/Forcecomparison1step/Anglebond
 ;	Command line:
 ;	  gmx grompp -f ../sim.mdp -c conf.gro -p topol.top -o md.tpr
 
@@ -137,7 +137,7 @@ implicit-solvent         = no
 ensemble-temperature-setting = auto
 ensemble-temperature     = -1
 ; Temperature coupling  
-tcoupl                   = No
+tcoupl                   = no
 nsttcouple               = -1
 nh-chain-length          = 10
 print-nose-hoover-chain-variables = no
@@ -147,13 +147,13 @@ tc-grps                  =
 tau-t                    = 
 ref-t                    = 
 ; pressure coupling     
-pcoupl                   = Parrinello-Rahman
+pcoupl                   = no
 pcoupltype               = Isotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
-tau-p                    = 2.0
-compressibility          = 4.5e-5
-ref-p                    = 1.0
+tau-p                    = 5
+compressibility          = 
+ref-p                    = 
 ; Scaling of reference coordinates, No, All or COM
 refcoord-scaling         = No
 
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -285790235
+gen-seed                 = -1149370883
 
 ; OPTIONS FOR BONDS    
 constraints              = none

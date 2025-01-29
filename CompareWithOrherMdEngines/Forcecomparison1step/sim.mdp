@@ -16,6 +16,7 @@ constraints              = none
 constraint-algorithm     = lincs
 
 cutoff-scheme            = Verlet
+nstlist			 = 10
 
 coulombtype              = CUT-OFF
 rcoulomb                 = 1.2
@@ -25,7 +26,5 @@ rvdw                     = 1.2
 DispCorr                 = EnerPres
 
 
-pcoupl                   = Parrinello-Rahman
-tau-p                    = 2.0
-compressibility          = 4.5e-5
-ref-p                    = 1.0
+pcoupl                   = no
+tcoupl			 = no
