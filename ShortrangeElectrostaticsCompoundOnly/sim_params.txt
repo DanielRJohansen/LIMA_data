@@ -4,6 +4,7 @@ n_steps=1000
 dt=2 # [fs]
 em=false # Is an energy-minimization sim
 em_force_tolerance=1000 # [kJ/mol/nm] - only relevant if em=true
+stepsPerNlistupdate=5 # [steps]
 
 // Physics params
 boundarycondition=PBC # (PBC, NoBC)
@@ -12,7 +13,6 @@ cutoff_nm=1.2 # [nm]
 
 // Output params
 data_logging_interval=5 # [steps]
-save_trajectory=false
 save_energy=false # (Save kinetic and potential energy to file)
 
 // Temperature params
