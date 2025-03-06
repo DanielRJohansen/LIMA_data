@@ -19,3 +19,6 @@ save_energy=false # (Save kinetic and potential energy to file)
 steps_per_temperature_measurement=200 # [steps]
 apply_thermostat=false # will speed up or slow down particles to achieve the desired temperature
 # desired_temperature - not currently available forced to be 300 [k]
+
+// Debug params
+stepwise=false # Wait for user to input key 'N' before each step

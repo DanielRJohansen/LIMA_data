@@ -13,7 +13,7 @@ nstfout = 10            ; Write forces to the .trr file every step
 
 continuation             = yes
 constraints              = none
-constraint-algorithm     = lincs
+constraint-algorithm     = yes
 
 cutoff-scheme            = Verlet
 
@@ -25,7 +25,6 @@ rvdw                     = 1.2
 DispCorr                 = EnerPres
 
 
-pcoupl                   = Parrinello-Rahman
-tau-p                    = 2.0
-compressibility          = 4.5e-5
-ref-p                    = 1.0
+pcoupl                   = no
+
+gen-velocities           = no
