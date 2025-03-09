@@ -6,6 +6,13 @@ def get_subdirectories(base_dir):
     """Retrieve a list of subdirectories within the specified base directory."""
     return [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
 
+def clean_backup_files(directory):
+    """Remove unwanted backup files from the directory."""
+    for file in os.listdir(directory):
+        if file.startswith("#") and file.endswith("#"):
+            os.remove(os.path.join(directory, file))
+
+
 def run_gromacs_simulation(directory):
     """Run a single GROMACS simulation step in the specified directory."""
     grompp_cmd = [
@@ -53,6 +60,7 @@ def process_directories(base_dir):
         try:
             run_gromacs_simulation(sub_dir)
             extract_forces(sub_dir)
+            clean_backup_files(sub_dir)
         except subprocess.CalledProcessError as e:
             print(f"Error processing directory {sub_dir}: {e}")
 
