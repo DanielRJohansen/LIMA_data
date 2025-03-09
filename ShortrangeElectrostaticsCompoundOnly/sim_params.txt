@@ -11,14 +11,19 @@ boundarycondition=PBC # (PBC, NoBC)
 enable_electrostatics=true
 cutoff_nm=1.2 # [nm]
 
+// Thermostat params
+steps_per_temperature_measurement=200 # [steps]
+apply_thermostat=false # Thermostat on/off
+
+// Integration params
+
+// Constraints
+
+// Electrostatics / PME params
+
 // Output params
 data_logging_interval=5 # [steps]
-save_energy=false # (Save kinetic and potential energy to file)
+save_energy=false # Save kinetic and potential energy to file
 
-// Temperature params
-steps_per_temperature_measurement=200 # [steps]
-apply_thermostat=false # will speed up or slow down particles to achieve the desired temperature
-# desired_temperature - not currently available forced to be 300 [k]
-
-// Debug params
+// Debug params (for developers)
 stepwise=false # Wait for user to input key 'N' before each step
