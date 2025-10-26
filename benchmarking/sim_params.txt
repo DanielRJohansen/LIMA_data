@@ -1,6 +1,6 @@
 // Main params
-n_steps=20000
-dt=2 # [fs]
+n_steps=5000
+dt=1 # [fs]
 em=false # Is an energy-minimization sim
 em_force_tolerance=1000 # [kJ/mol/nm]
 

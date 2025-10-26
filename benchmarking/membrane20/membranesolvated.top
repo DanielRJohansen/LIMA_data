@@ -1,0 +1,23 @@
+; 
+
+#include "Slipids_2020.ff/forcefield.itp"
+
+#include "DPPE.itp"
+#include "DMPG.itp"
+#include "Cholesterol.itp"
+#include "SM18.itp"
+#include "charmm27.ff/spce.itp"
+
+[ system ]
+Membrane
+
+[ molecules ]
+DPPE 412
+DMPG 535
+Cholesterol 138
+SM18 269
+DPPE 412
+DMPG 535
+Cholesterol 138
+SM18 269
+SOL             169510

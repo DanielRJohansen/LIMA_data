@@ -6,7 +6,6 @@ DMPC
 
 [ atoms ]
 ;        nr      type     resnr   residue      atom      cgnr    charge      mass
-;lipid_section
          1      CTL3         1      DMPC      C314       115     -0.08    12.011
          2      HAL3         1      DMPC      H14X       116      0.02     1.008
          3      HAL3         1      DMPC      H14Y       117      0.02     1.008
@@ -35,7 +34,6 @@ DMPC
         26      CTL2         1      DMPC       C36        91      0.00    12.011
         27      HAL2         1      DMPC       H6X        92      0.00     1.008
         28      HAL2         1      DMPC       H6Y        93      0.00     1.008
-;lipid_section
         29      CTL2         1      DMPC       C35        88      0.00    12.011
         30      HAL2         1      DMPC       H5X        89      0.00     1.008
         31      HAL2         1      DMPC       H5Y        90      0.00     1.008
@@ -100,7 +98,6 @@ DMPC
         90      HAL2         1      DMPC       H5S        53      0.00     1.008
         91      CTL2         1      DMPC       C26        54      0.00    12.011
         92      HAL2         1      DMPC       H6R        55      0.00     1.008
-;lipid_section
         93      HAL2         1      DMPC       H6S        56      0.00     1.008
         94      CTL2         1      DMPC       C27        57      0.00    12.011
         95      HAL2         1      DMPC       H7R        58      0.00     1.008

@@ -2,10 +2,10 @@
 
 #include "forcefield.itp"
 
+#include "DDPC.itp"
+#include "Cholesterol.itp"
 #include "POPE.itp"
 #include "DMPC.itp"
-#include "Cholesterol.itp"
-#include "DDPC.itp"
 #include "DOPC.itp"
 #include "POPC.itp"
 
@@ -13,10 +13,10 @@
 Membrane
 
 [ molecules ]
-Cholesterol 23
 DDPC 9
 DMPC 13
 DOPC 14
 POPC 93
 POPE 14
+Cholesterol 23
 

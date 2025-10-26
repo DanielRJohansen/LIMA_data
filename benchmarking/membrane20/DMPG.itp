@@ -6,7 +6,6 @@ DMPG
 
 [ atoms ]
 ;        nr      type     resnr   residue      atom      cgnr    charge      mass
-;lipid_section
          1      CTL3         1      DMPG      C314       108     -0.08    12.011
          2      HAL3         1      DMPG      H14X       109      0.02     1.008
          3      HAL3         1      DMPG      H14Y       110      0.02     1.008
@@ -33,7 +32,6 @@ DMPG
         24      HAL2         1      DMPG       H7X        88      0.00     1.008
         25      HAL2         1      DMPG       H7Y        89      0.00     1.008
         26      CTL2         1      DMPG       C36        84      0.00    12.011
-;lipid_section
         27      HAL2         1      DMPG       H6X        85      0.00     1.008
         28      HAL2         1      DMPG       H6Y        86      0.00     1.008
         29      CTL2         1      DMPG       C35        81      0.00    12.011
@@ -92,7 +90,6 @@ DMPG
         82      HAL2         1      DMPG       H5R        45      0.00     1.008
         83      HAL2         1      DMPG       H5S        46      0.00     1.008
         84      CTL2         1      DMPG       C26        47      0.00    12.011
-;lipid_section
         85      HAL2         1      DMPG       H6R        48      0.00     1.008
         86      HAL2         1      DMPG       H6S        49      0.00     1.008
         87      CTL2         1      DMPG       C27        50      0.00    12.011

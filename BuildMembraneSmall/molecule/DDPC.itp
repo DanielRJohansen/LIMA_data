@@ -6,7 +6,6 @@ DDPC
 
 [ atoms ]
 ;        nr      type     resnr   residue      atom      cgnr    charge      mass
-;lipid_section
          1      CTL3         1      DDPC       C23        23     -0.27    12.011
          2      HAL3         1      DDPC      H23X        76      0.05     1.008
          3      HAL3         1      DDPC      H23Y        77      0.05     1.008
@@ -37,7 +36,6 @@ DDPC
         28      HAL2         1      DDPC      H33Y        92      0.00     1.008
         29      CEL1         1      DDPC       C34        34     -0.28    12.011
         30      HEL1         1      DDPC      H34X        93      0.14     1.008
-;lipid_section
         31      CEL1         1      DDPC       C35        35     -0.28    12.011
         32      HEL1         1      DDPC      H35X        94      0.14     1.008
         33      CTL2         1      DDPC       C36        36      0.28    12.011
@@ -98,7 +96,6 @@ DDPC
         88       OSL         1      DDPC      O22S       107     -0.47    15.999
         89        CL         1      DDPC       C22        22      0.79    12.011
         90       OBL         1      DDPC      O22B       108     -0.65    15.999
-;lipid_section
         91      CTL2         1      DDPC       C21        21     -0.06    12.011
         92      HAL2         1      DDPC      H21X        74      0.03     1.008
         93      HAL2         1      DDPC      H21Y        75      0.03     1.008
@@ -125,7 +122,6 @@ DDPC
        114      HEL1         1      DDPC      H12X        62      0.14     1.008
        115      CTL2         1      DDPC       C11        11      0.28    12.011
        116      HAL2         1      DDPC      H11X        60      0.00     1.008
-;lipid_section
        117      HAL2         1      DDPC      H11Y        61      0.00     1.008
        118      CEL1         1      DDPC       C10        10     -0.28    12.011
        119      HEL1         1      DDPC      H10X        59      0.14     1.008
@@ -148,7 +144,6 @@ DDPC
        136      CTL2         1      DDPC        C2         2      0.26    12.011
        137      HAL2         1      DDPC       H2X        48      0.00     1.008
        138      HAL2         1      DDPC       H2Y        49      0.00     1.008
-; residue   1 DDPC rtp DDPC q  0.0
        139      CTL3         1      DDPC        C1         1     -0.27    12.011
        140      HAL3         1      DDPC       H1X        45      0.05     1.008
        141      HAL3         1      DDPC       H1Y        46      0.05     1.008

@@ -6,7 +6,6 @@ Cholesterol         3
 
 [ atoms ]
 ;        nr      type     resnr   residue      atom      cgnr    charge      mass
-;lipid_section
          1      CTL3         1      CHL1       C26        67     -0.23    12.011
          2      HAL3         1      CHL1      H26A        68      0.05     1.008
          3      HAL3         1      CHL1      H26B        69      0.05     1.008
@@ -33,7 +32,6 @@ Cholesterol         3
         24      HAL3         1      CHL1      H21B        54      0.05     1.008
         25      HAL3         1      CHL1      H21C        55      0.05     1.008
         26      CTL1         1      CHL1       C17        24      0.04    12.011
-;lipid_section
         27      HAL1         1      CHL1       H17        25      0.01     1.008
         28      CTL1         1      CHL1       C13        26      0.09    12.011
         29      CTL3         1      CHL1       C18        27     -0.09    12.011
@@ -58,7 +56,6 @@ Cholesterol         3
         48      CTL2         1      CHL1       C12        31     -0.05    12.011
         49      HAL2         1      CHL1      H12A        32      0.00     1.008
         50      HAL2         1      CHL1      H12B        33      0.00     1.008
-;lipid_section
         51      CTL1         1      CHL1       C10        39      0.05    12.011
         52      CTL3         1      CHL1       C19        40     -0.05    12.011
         53      HAL3         1      CHL1      H19A        41      0.02     1.008

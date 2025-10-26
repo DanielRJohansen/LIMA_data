@@ -142,7 +142,6 @@ CUST
        130      CTL2         1      SITS        C2         2      0.26    12.011
        131      HAL2         1      SITS       H2Y        27      0.00     1.008
        132      HAL2         1      SITS       H2X        26      0.00     1.008
-; residue   1 SITS rtp SITS q  0.0
        133      CTL3         1      SITS        C1         1     -0.27    12.011
        134      HAL3         1      SITS       H1Y        24      0.05     1.008
        135      HAL3         1      SITS       H1X        23      0.05     1.008

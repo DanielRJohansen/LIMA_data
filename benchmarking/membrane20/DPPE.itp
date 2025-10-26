@@ -6,7 +6,6 @@ DPPE
 
 [ atoms ]
 ;        nr      type     resnr   residue      atom      cgnr    charge      mass
-;lipid_section
          1      CTL3         1      DPPE      C316       118     -0.08    12.011
          2      HAL3         1      DPPE      H16X       119      0.02     1.008
          3      HAL3         1      DPPE      H16Y       120      0.02     1.008
@@ -34,7 +33,6 @@ DPPE
         25      HAL2         1      DPPE       H9Y        99      0.00     1.008
         26      CTL2         1      DPPE       C38        94      0.00    12.011
         27      HAL2         1      DPPE       H8X        95      0.00     1.008
-;lipid_section
         28      HAL2         1      DPPE       H8Y        96      0.00     1.008
         29      CTL2         1      DPPE       C37        91      0.00    12.011
         30      HAL2         1      DPPE       H7X        92      0.00     1.008
@@ -98,7 +96,6 @@ DPPE
         88      CTL2         1      DPPE       C26        45      0.00    12.011
         89      HAL2         1      DPPE       H6R        46      0.00     1.008
         90      HAL2         1      DPPE       H6S        47      0.00     1.008
-;lipid_section
         91      CTL2         1      DPPE       C27        48      0.00    12.011
         92      HAL2         1      DPPE       H7R        49      0.00     1.008
         93      HAL2         1      DPPE       H7S        50      0.00     1.008

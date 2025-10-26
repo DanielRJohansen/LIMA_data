@@ -1,0 +1,5 @@
+n_steps=10000
+dt=1 # [femto seconds]
+em=false # Is an energy-minimization sim
+boundarycondition=PBC # (PBC, NoBC)
+boxlen=23 # [nm]

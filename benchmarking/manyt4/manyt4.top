@@ -1,0 +1,12 @@
+; 
+
+#include "forcefield.itp"
+
+#include "Protein_chain_A.itp"
+
+[ system ]
+T4 LYSOZYME 20
+
+[ molecules ]
+Protein_chain_A 20
+
