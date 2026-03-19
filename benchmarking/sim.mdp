@@ -19,11 +19,6 @@ vdwtype                  = Cut-off
 rvdw                     = 1.0
 DispCorr                 = EnerPres
 
-tcoupl                   = V-rescale
-tc-grps                  = Protein  SOL
-tau-t                    = 0.1      0.1
-ref-t                    = 300      300
-
 pcoupl                   = Parrinello-Rahman
 tau-p                    = 2.0
 compressibility          = 4.5e-5
