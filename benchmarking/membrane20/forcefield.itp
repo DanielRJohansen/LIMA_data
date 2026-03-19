@@ -1,4 +1,6 @@
 [ defaults ]
+; nbfunc  comb-rule  gen-pairs  fudgeLJ  fudgeQQ
+1         2          yes        1.0      1.0
 [ atomtypes ]
 HAL1	1	1.008000	0.09	A	0.235197261589	0.092048 
 HL	1	1.008000	0.25	A	0.150000000000	0.063612 
